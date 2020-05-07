@@ -19,3 +19,4 @@ If you want to use Compass as your personal landing page you can deploy your sit
 If you are planning on using a custom domain to direct to your site, modify the CNAME file as described [here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/).
 
 Check the [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/) for more information.
+![favicon.ico]

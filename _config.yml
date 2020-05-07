@@ -1,15 +1,27 @@
 # general configuration
-url: http://excentris.net
+url: http://afrouzi.com 
 baseurl: ''
 
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+  logo: "/images/afrouzi.jpg"
   # author will appear under the avatar (optional)
-  author: "Compass"
+  # author: "Hassan Afrouzi"
   # tagline will appear under the title (optional)
-  tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
+  tagline: "
+  <strong>Current Affiliations:</strong> </br>
+  Assistant Professor, Columbia </br>
+  Research Network Affiliate, CESifo</br></br>
+  <strong>Links:</strong> </br>
+  <a href='http://cognition.econ.columbia.edu'>Cognition and Decision Lab</a> </br>
+  <a href='http://github.com/afrouzi/DRIPs.jl'>DRIPs</a> </br> 
+  <a href='http://afrouzi.com/cv.pdf'>Curriculum Vitae</a> </br>
+  <a href='https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en'>Google Scholar</a> </br></br>
+  <strong>Contact:</strong> </br>
+  <a href='mailto:ha2475@columbia.edu'>ha2475@columbia.edu</a> </br>
+  "
+  
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
@@ -18,7 +30,7 @@ compass:
   # Tracking Code to that file.
   include_analytics: false
   # Twitter @username (as defined by the Twitter Card specs)
-  twitter: "compass"
+  twitter: "hafrouzi"
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
