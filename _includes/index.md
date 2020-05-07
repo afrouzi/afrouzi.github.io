@@ -6,7 +6,7 @@
 	[Replication of Sims (2011)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2011/ex4_Sims_2011/)<br />
 * **April 10, 2020:** New working paper on "[A Model of Costly Recall](/files/akm_memory.pdf)".  <br />
 * **April 8, 2020:** An interactive set of Jupyter notebooks for solving  LQG Dynamic Rational Inattention Problems in Julia. 
-	* [Launch Binder](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples).
+	* [Launch binder](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples)
 
 ## Publications
 
@@ -27,7 +27,7 @@
 
 * "**[A Model of Costly Recall](/files/akm_memory.pdf)**"  (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369) and [Yueran Ma](https://voices.uchicago.edu/yueranma/)). This version: **April 2020**. <br />
 * "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/files/strategic_inattention.pdf)**" This version: **March 2020**.<br />
-	* in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions).<br />
+	* in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 * "**[Dynamic Rational Inattention and the Phillips Curve](/files/dynamic_inattention.pdf)**" (with [Choongryul Yang](https://choongryulyang.github.io/)). This version: **November 2019**. <br />
 	* [Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)](http://github.com/afrouzi/DRIPs.jl) <br />
 	* [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />

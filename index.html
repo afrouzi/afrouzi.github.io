@@ -18,11 +18,9 @@ layout: base
         {% endif %}
     </header>
     <main>
-      {% if site.compass.include_content %}
       <div class="content">
         {% capture my_include %}{% include index.md %}{% endcapture %}
         {{ my_include | markdownify }}
       </div>
-      {% endif %}
     </main>
 </div>

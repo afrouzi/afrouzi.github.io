@@ -16,9 +16,11 @@ compass:
   <strong>Links:</strong> </br>
   <a href='http://cognition.econ.columbia.edu'>Cognition and Decision Lab</a> </br>
   <a href='http://github.com/afrouzi/DRIPs.jl'>DRIPs</a> </br> 
-  <a href='http://afrouzi.com/cv.pdf'>Curriculum Vitae</a> </br>
+  <a href='http://afrouzi.com/files/cv.pdf'>Curriculum Vitae</a> </br>
   <a href='https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en'>Google Scholar</a> </br></br>
+
   <strong>Contact:</strong> </br>
+  <span class='fa fa-envelope fa-lg main-list-item-icon'></span>
   <a href='mailto:ha2475@columbia.edu'>ha2475@columbia.edu</a> </br>
   "
   
