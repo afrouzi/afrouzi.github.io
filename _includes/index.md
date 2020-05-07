@@ -15,12 +15,12 @@
 	* [PDF](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6NjI3MTAwMDgzYjViNzY3ZA),
 	  [NBER](http://www.nber.org/papers/w21814),
 	  [Data and Replication Files](/files/KACG_replication_files.zip),
-	* in media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations)
-				[Financial Times](http://www.ft.com/fastft/390171/inflation-targeting)
-				[Washington Post](http://www.washingtonpost.com/news/wonkblog/wp/2015/09/10/people-like-puppies-and-its-a-big-problem-for-the-economy/)
-				[Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves)
-				[New Zealand Herald](http://m.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11511461)
-				[CFO](http://ww2.cfo.com/forecasting/2015/09/study-questions-success-inflation-targeting/)
+	* in media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations),
+				[Financial Times](http://www.ft.com/fastft/390171/inflation-targeting),
+				[Washington Post](http://www.washingtonpost.com/news/wonkblog/wp/2015/09/10/people-like-puppies-and-its-a-big-problem-for-the-economy/),
+				[Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves),
+				[New Zealand Herald](http://m.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11511461),
+				[CFO](http://ww2.cfo.com/forecasting/2015/09/study-questions-success-inflation-targeting/),
 				[Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
