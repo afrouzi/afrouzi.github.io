@@ -41,4 +41,4 @@
 	* [Slides](http://www.afrouzi.com/confusion_presented.pdf)
 * “**Inflation Expectations under High Inflation: Evidence from Iran**” (with Saeed Bayat, Omid Ghaderi and Ali Madanizadeh)
 
-[123]({{ site.url }}/files/Midterm.pdf)
+[123](/files/Midterm.pdf)
