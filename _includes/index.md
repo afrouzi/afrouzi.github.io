@@ -10,7 +10,7 @@
 
 ## Publications
 
-* “[Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf)” 
+* “[**Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand**](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf)” 
 (with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/)). ***Brookings Papers on Economic Activity 2015(Fall)***, [151-225](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf). <br />
 	* [PDF](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6NjI3MTAwMDgzYjViNzY3ZA),
 	  [NBER](http://www.nber.org/papers/w21814),
@@ -40,3 +40,5 @@
 * “**Rationally Confused: On the Aggregate Implications of Information Provision Policies**” (with [Miguel Acosta](https://sites.google.com/view/miguelacosta/)). 
 	* [Slides](http://www.afrouzi.com/confusion_presented.pdf)
 * “**Inflation Expectations under High Inflation: Evidence from Iran**” (with Saeed Bayat, Omid Ghaderi and Ali Madanizadeh)
+
+[123]({{ site.url }}/files/Midterm.pdf)
