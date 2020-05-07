@@ -1,5 +1,3 @@
-# Hassan  Afrouzi 
-
 ## What's new?!
 * **May 4, 2020:** Solve Dynamic Rational Inattention Problems in milliseconds using the new DRIPs package.<br />
 	* [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/),
