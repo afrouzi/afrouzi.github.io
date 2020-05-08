@@ -14,9 +14,16 @@ compass:
   Assistant Professor, Columbia </br>
   Research Network Affiliate, CESifo</br></br>
   <strong>Links:</strong> </br>
+  <span class='fa fa-university fa-lg main-list-item-icon'></span>
   <a href='http://cognition.econ.columbia.edu'>Cognition and Decision Lab</a> </br>
+
+  <span class='fa fa-github fa-lg main-list-item-icon'></span>
   <a href='http://github.com/afrouzi/DRIPs.jl'>DRIPs</a> </br> 
-  <a href='http://afrouzi.com/files/cv.pdf'>Curriculum Vitae</a> </br>
+
+  <span class='fa fa-paperclip fa-lg main-list-item-icon'></span>
+  <a href='http://afrouzi.com/cv.pdf'>Curriculum Vitae</a> </br>
+
+  <span class='fa fa-google fa-lg main-list-item-icon'></span>
   <a href='https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en'>Google Scholar</a> </br></br>
 
   <strong>Contact:</strong> </br>
