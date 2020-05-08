@@ -43,3 +43,11 @@ highlighter: rouge
 
 # Permalinks
 permalink: pretty
+
+plugins:
+  - jekyll-redirect-from
+
+collections:
+  files:
+    output: true
+    permalink: /:path/
