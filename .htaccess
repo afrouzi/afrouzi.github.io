@@ -1,1 +1,0 @@
-RewriteRule ^/(.*)$ /files/$1 [R=301,NC,L]
