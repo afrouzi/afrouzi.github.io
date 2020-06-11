@@ -37,6 +37,6 @@
 ## Works in Progress
 * "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" 
 	* [Slides](/calvo_ri_presented.pdf)
-* "**Rationally Confused: On the Aggregate Implications of Information Provision Policies**" (with [Miguel Acosta](https://sites.google.com/view/miguelacosta/)). 
+* "**Rationally Confused: On the Aggregate Implications of Information Provision Policies**" (with [Miguel Acosta](https://sites.google.com/view/miguelacosta/))
 	* [Slides](/confusion_presented.pdf)
 * "**Inflation Expectations under High Inflation: Evidence from Iran**" (with Saeed Bayat, Omid Ghaderi and Ali Madanizadeh)
