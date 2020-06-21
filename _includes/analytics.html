@@ -9,4 +9,15 @@ forget to set the include_analytics attribute to true on the _config.yml file --
 
   gtag('config', 'UA-165870070-1');
 </script>
+<!-- Note: plugin scripts must be included after the tracking snippet. -->
+<script src="https://ipmeta.io/plugin.js"></script>
+
+<script>
+   provideGtagPlugin({
+      apiKey: 'c7fe8ab6bce93d9d6cefb7f2e5cc5c28fa547e278e5946b239ed7b9c8df81569',
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+   });
+</script>
 
