@@ -28,14 +28,13 @@
 				[Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
-
-* "**[A Model of Costly Recall](/akm_memory.pdf)**"  (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369) and [Yueran Ma](https://voices.uchicago.edu/yueranma/)). This version: **April 2020**. <br />
-* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" This version: **March 2020**.<br />
-	* in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
-* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**" (with [Choongryul Yang](https://choongryulyang.github.io/)). This version: **November 2019**. <br />
+* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**" (with [Choongryul Yang](https://choongryulyang.github.io/)). This version: **July 2020**. <br />
 	* [Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)](http://github.com/afrouzi/DRIPs.jl) <br />
 	* [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
 	* [An interactive Jupyter notebook for solving Dynamic Rational Inattention Models in Julia](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
+* "**[A Model of Costly Recall](/akm_memory.pdf)**"  (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369) and [Yueran Ma](https://voices.uchicago.edu/yueranma/)). This version: **April 2020**. <br />
+* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" This version: **March 2020**.<br />
+	* in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 * "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**" This version: **December 2019**. Other versions: [Dallas Fed](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). Revise and Resubmit at ***Review of Economics and Statistics***.
 
 ## Works in Progress
