@@ -1,4 +1,8 @@
 ## What's new?!
+* **July 1, 2020:** Update draft for [Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf) with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
+	* Replication codes: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex5_Afrouzi_Yang_2019.ipynb)
+	[Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex5_Afrouzi_Yang_2019.jl)
+	[HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex5_ay2020/ex5_Afrouzi_Yang_2019/)
 * **May 4, 2020:** Solve Dynamic Rational Inattention Problems in milliseconds using the new DRIPs package.<br />
 	* [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/),
 	[GitHub](http://github.com/afrouzi/DRIPs.jl),
