@@ -28,7 +28,7 @@
 				[Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
-* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**" (with [Choongryul Yang](https://choongryulyang.github.io/)). This version: **July 2020**. <br />
+* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**" (with [Choongryul Yang](https://choongryulyang.github.io/))([Slides](/dynamic_inattention_slides.pdf)). This version: **July 2020**. <br />
 	* [Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)](http://github.com/afrouzi/DRIPs.jl) <br />
 	* [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
 	* [An interactive Jupyter notebook for solving Dynamic Rational Inattention Models in Julia](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
