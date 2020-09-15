@@ -67,6 +67,17 @@ forget to set the include_analytics attribute to true on the _config.yml file --
 
   gtag('config', 'UA-165870070-1');
 </script>
+<!-- Note: plugin scripts must be included after the tracking snippet. -->
+<script src="https://ipmeta.io/plugin.js"></script>
+
+<script>
+   provideGtagPlugin({
+      apiKey: 'c7fe8ab6bce93d9d6cefb7f2e5cc5c28fa547e278e5946b239ed7b9c8df81569',
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+   });
+</script>
 
 
   
@@ -102,6 +113,13 @@ forget to set the include_analytics attribute to true on the _config.yml file --
         
         <h2 id="whats-new">What’s new?!</h2>
 <ul>
+  <li><strong>July 1, 2020:</strong> Updated draft for “<a href="/dynamic_inattention.pdf">Dynamic Rational Inattention and the Phillips Curve</a>” with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
+    <ul>
+      <li>Replication material: <a href="https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex5_Afrouzi_Yang_2019.ipynb">Jupyter notebook</a>,
+  <a href="https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex5_Afrouzi_Yang_2019.jl">Julia source file</a>,
+  <a href="https://afrouzi.com/DRIPs.jl/dev/examples/ex5_ay2020/ex5_Afrouzi_Yang_2019/">HTML</a></li>
+    </ul>
+  </li>
   <li><strong>May 4, 2020:</strong> Solve Dynamic Rational Inattention Problems in milliseconds using the new DRIPs package.<br />
     <ul>
       <li><a href="http://afrouzi.github.io/DRIPs.jl/dev/">Documentation</a>,
@@ -139,19 +157,26 @@ forget to set the include_analytics attribute to true on the _config.yml file --
 </ul>
 
 <h2 id="working-papers">Working Papers</h2>
-
 <ul>
+  <li>“<strong><a href="/dynamic_inattention.pdf">Dynamic Rational Inattention and the Phillips Curve</a></strong>” (with <a href="https://choongryulyang.github.io/">Choongryul Yang</a>). This version: <strong>July 2020</strong>. <br />
+    <ul>
+      <li><a href="/dynamic_inattention_slides.pdf">Slides</a> <br /></li>
+      <li><a href="http://github.com/afrouzi/DRIPs.jl">Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)</a> <br />
+        <ul>
+          <li><a href="http://afrouzi.github.io/DRIPs.jl/dev/">Documentation</a>,
+<a href="http://github.com/afrouzi/DRIPs.jl">GitHub</a>,
+<a href="https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/">Replication of Mackowiack Wiederholt (2009)</a>,
+<a href="https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2011/ex4_Sims_2011/">Replication of Sims (2011)</a><br /></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/choongryulyang/dynamic_multivariate_RI">Matlab Solver for Dynamic Rational Inattention Problems</a> <br /></li>
+      <li><a href="https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples">An interactive set of Jupyter notebooks for solving Dynamic Rational Inattention Models in Julia</a> <br /></li>
+    </ul>
+  </li>
   <li>“<strong><a href="/akm_memory.pdf">A Model of Costly Recall</a></strong>”  (with <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369">Spencer Kwon</a> and <a href="https://voices.uchicago.edu/yueranma/">Yueran Ma</a>). This version: <strong>April 2020</strong>. <br /></li>
   <li>“<strong><a href="/strategic_inattention.pdf">Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money</a></strong>” This version: <strong>March 2020</strong>.<br />
     <ul>
       <li>in media: <a href="https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions">Bloomberg</a><br /></li>
-    </ul>
-  </li>
-  <li>“<strong><a href="/dynamic_inattention.pdf">Dynamic Rational Inattention and the Phillips Curve</a></strong>” (with <a href="https://choongryulyang.github.io/">Choongryul Yang</a>). This version: <strong>November 2019</strong>. <br />
-    <ul>
-      <li><a href="http://github.com/afrouzi/DRIPs.jl">Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)</a> <br /></li>
-      <li><a href="https://github.com/choongryulyang/dynamic_multivariate_RI">Matlab Solver for Dynamic Rational Inattention Problems</a> <br /></li>
-      <li><a href="https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples">An interactive Jupyter notebook for solving Dynamic Rational Inattention Models in Julia</a> <br /></li>
     </ul>
   </li>
   <li>“<strong><a href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg">Endogenous Firm Competition and Cyclicality of Markups</a></strong>” This version: <strong>December 2019</strong>. Other versions: <a href="http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf">Dallas Fed</a>. Revise and Resubmit at <strong><em>Review of Economics and Statistics</em></strong>.</li>
