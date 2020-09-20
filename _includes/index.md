@@ -1,14 +1,17 @@
 ## What's new?!
-* **September 19, 2020:** New working paper on "[Memory and Overreaction in Expectations](/aklmt_memory.pdf)". <br />
-* **July 1, 2020:** Updated draft for "[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)" with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
-	* Replication material: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex5_Afrouzi_Yang_2019.ipynb),
-	[Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex5_Afrouzi_Yang_2019.jl),
-	[HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex5_ay2020/ex5_Afrouzi_Yang_2019/)
+* **Sept. 30, 2020:** New working paper on "[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
+* **Sept. 21, 2020:** New working paper on "[Overreaction and Working Memory](/aklmt_memory.pdf)." <br />
+* **Jul. 1, 2020:** Updated draft for "[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)" with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
+	* Replication material: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex6_Afrouzi_Yang_2020.ipynb),
+	[Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex6_Afrouzi_Yang_2020.jl),
+	[HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/)
 * **May 4, 2020:** Solve Dynamic Rational Inattention Problems in milliseconds using the new DRIPs package.<br />
 	* [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/),
-	[GitHub](http://github.com/afrouzi/DRIPs.jl),
-	[Replication of Mackowiack Wiederholt (2009)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/),
-	[Replication of Sims (2011)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2011/ex4_Sims_2011/)<br />
+	[GitHub](http://github.com/afrouzi/DRIPs.jl) <br />
+	* Replications: 
+	[Mackowiak and Wiederholt (2009)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/),
+	[Sims (2010)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2010/ex4_Sims_2010/),
+	[Mackowiak, Matejka and Wiederholt (2018)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex5_mmw2018/ex5_Mackowiak_Matejka_Wiederholt_2018/)<br />
 
 ## Publications
 
@@ -26,19 +29,28 @@
 				[Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
-* "**[Memory and Overreaction in Expectations](/aklmt_memory.pdf)**"  (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)). This version: **September 2020**. <br />
-* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**" (with [Choongryul Yang](https://choongryulyang.github.io/)). This version: **July 2020**. <br />
+* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **September 2020**. <br />
+	(with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
+* "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," This version: **September 2020**. <br /> 
+	(with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
+	* This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
+* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," This version: **July 2020**. <br />
+	(with [Choongryul Yang](https://choongryulyang.github.io/)) 
 	* [Slides](/dynamic_inattention_slides.pdf) <br />
+	* Replication material: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex6_Afrouzi_Yang_2020.ipynb),
+	[Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex6_Afrouzi_Yang_2020.jl),
+	[HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/)
 	* [Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)](http://github.com/afrouzi/DRIPs.jl) <br />
-		* [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/),
-		  [GitHub](http://github.com/afrouzi/DRIPs.jl),
-	      [Replication of Mackowiack Wiederholt (2009)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/),
-	      [Replication of Sims (2011)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2011/ex4_Sims_2011/)<br />
+		* [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/)
+		* Replications: 
+			[Mackowiak and Wiederholt (2009)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/),
+			[Sims (2010)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2010/ex4_Sims_2010/),
+			[Mackowiak, Matejka and Wiederholt (2018)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex5_mmw2018/ex5_Mackowiak_Matejka_Wiederholt_2018/)<br />
 	* [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
-	* [An interactive set of Jupyter notebooks for solving Dynamic Rational Inattention Models in Julia](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
-* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" This version: **March 2020**.<br />
+	* [An Interactive Set of Jupyter Notebooks for Solving Dynamic Rational Inattention Problems in Julia](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
+* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," This version: **March 2020**.<br />
 	* in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
-* "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**" This version: **December 2019**. Other versions: [Dallas Fed](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). Revise and Resubmit at ***Review of Economics and Statistics***.
+* "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**," This version: **December 2019**. Other versions: [Dallas Fed](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). Revise and Resubmit at ***Review of Economics and Statistics***.
 
 ## Works in Progress
 * "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" 
