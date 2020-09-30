@@ -1,6 +1,5 @@
 ## What's new?!
 * **Sept. 30, 2020:** New working paper on "[Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
-* **Sept. 30, 2020:** New working paper on "[Overreaction and Working Memory](/aklmt_memory.pdf)." <br />
 * **Jul. 1, 2020:** Updated draft for "[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)" with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
     * Replication material: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex6_Afrouzi_Yang_2020.ipynb),
     [Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex6_Afrouzi_Yang_2020.jl),
@@ -32,9 +31,6 @@
 ## Working Papers
 * "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," **September 2020**. <br />
 	(with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
-* "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," **September 2020**. <br /> 
-	(with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
-	* This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
 * "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," **July 2020**. <br />
     (with [Choongryul Yang](https://choongryulyang.github.io/)) 
     * [Slides](/dynamic_inattention_slides.pdf) <br />
