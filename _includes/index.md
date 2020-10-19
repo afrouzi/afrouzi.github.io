@@ -19,7 +19,7 @@
 * “[**Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand**](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf)” 
 (with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/)). ***Brookings Papers on Economic Activity 2015(Fall)***, [151-225](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf). <br />
     * [PDF](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6NjI3MTAwMDgzYjViNzY3ZA),
-      [NBER](http://www.nber.org/papers/w21814),
+      [NBER Working Paper #21814](http://www.nber.org/papers/w21814),
       [Data and Replication Files](/KACG_replication_files.zip)
     * in media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations),
                 [Financial Times](http://www.ft.com/fastft/390171/inflation-targeting),
@@ -30,12 +30,13 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
-* "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," **October 2020**. <br /> 
+* "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," This version: **October 2020**. <br /> 
     (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
+    * Other versions: [NBER Working Paper #27947](https://www.nber.org/papers/w27947).
     * This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
-* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," **September 2020**. <br />
+* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **October 2020**. <br />
 	(with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
-* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," **July 2020**. <br />
+* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," This version: **July 2020**. <br />
     (with [Choongryul Yang](https://choongryulyang.github.io/)) 
     * [Slides](/dynamic_inattention_slides.pdf) <br />
     * Replication material: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex6_Afrouzi_Yang_2020.ipynb),
@@ -49,9 +50,12 @@
             [Mackowiak, Matejka and Wiederholt (2018)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex5_mmw2018/ex5_Mackowiak_Matejka_Wiederholt_2018/)<br />
     * [Live Jupyter Notebooks for all Examples and Replications](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
     * [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
-* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," **March 2020**.<br />
+* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," This version: **March 2020**.<br />
+    * Other versions: [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money).
     * in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
-* "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**," **December 2019**. Other versions: [Dallas Fed](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). Revise and Resubmit at ***Review of Economics and Statistics***.
+* "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**," This version: **December 2019**. 
+    Revise and Resubmit at ***Review of Economics and Statistics***.
+    * Other versions: [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). 
 
 ## Works in Progress
 * "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" 
