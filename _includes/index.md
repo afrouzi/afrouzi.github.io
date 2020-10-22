@@ -32,10 +32,12 @@
 ## Working Papers
 * "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," This version: **October 2020**. <br /> 
     (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
-    * Other versions: [NBER Working Paper #27947](https://www.nber.org/papers/w27947).
+    * Also available as [NBER Working Paper #27947](https://www.nber.org/papers/w27947).
     * This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
 * "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **October 2020**. <br />
 	(with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
+    * [Slides](/adk_concentration_slides.pdf)
+    * Also available as [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power)
 * "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," This version: **July 2020**. <br />
     (with [Choongryul Yang](https://choongryulyang.github.io/)) 
     * [Slides](/dynamic_inattention_slides.pdf) <br />
@@ -51,11 +53,11 @@
     * [Live Jupyter Notebooks for all Examples and Replications](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
     * [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
 * "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," This version: **March 2020**.<br />
-    * Other versions: [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money).
+    * Also available as [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money).
     * in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
-* "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**," This version: **December 2019**. 
+* "**[Endogenous Firm Competition and Cyclicality of Markups](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxoYWZyb3V6aWt8Z3g6MzZkMmU1Y2FlZDI3YmFjZg)**," This version: **December 2019**. <br />
     Revise and Resubmit at ***Review of Economics and Statistics***.
-    * Other versions: [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). 
+    * An earlier version is also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf). 
 
 ## Works in Progress
 * "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" 
