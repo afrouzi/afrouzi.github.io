@@ -34,10 +34,10 @@
     (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
     * Also available as [NBER Working Paper #27947](https://www.nber.org/papers/w27947).
     * This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
-* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **October 2020**. <br />
+* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **November 2020**. <br />
 	(with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
     * [Slides](/adk_concentration_slides.pdf)
-    * Also available as [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power)
+    * Other versions: [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power)
 * "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," This version: **July 2020**. <br />
     (with [Choongryul Yang](https://choongryulyang.github.io/)) 
     * [Slides](/dynamic_inattention_slides.pdf) <br />
