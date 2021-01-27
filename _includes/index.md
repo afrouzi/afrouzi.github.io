@@ -30,18 +30,14 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
-* "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," This version: **October 2020**. <br /> 
-    (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
-    * Also available as [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: **October 2020**). <br />
-    * This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
-* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **November 2020**. <br />
-	(with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
+* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **December 2020**. <br />
+    (with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
     * [Slides](/adk_concentration_slides.pdf)
     * Also available as [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power) (version: **October 2020**). <br />
-* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," This version: **November 2020**. <br />
+* "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)**," This version: **December 2020** ([Other versions](/dynamic_inattention/)) <br />
     (with [Choongryul Yang](https://choongryulyang.github.io/)) 
     * Also available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793) (version: **October 2019**). <br />
-    * [Slides](/dynamic_inattention_slides.pdf) <br />
+    * Slides: [NBER Summer Institute 2020 - EFBEM](/dynamic_inattention/slides_NBER_EFBEM.pdf), [NBER Monetary Economics Meeting - Fall 2020](/dynamic_inattention/slides_NBER_ME.pdf) <br />
     * Replication material: [Jupyter notebook](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/notebooks/ex6_Afrouzi_Yang_2020.ipynb),
     [Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex6_Afrouzi_Yang_2020.jl),
     [HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/)
@@ -53,6 +49,10 @@
             [Mackowiak, Matejka and Wiederholt (2018)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex5_mmw2018/ex5_Mackowiak_Matejka_Wiederholt_2018/)<br />
     * [Live Jupyter Notebooks for all Examples and Replications](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
     * [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
+* "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," This version: **October 2020**. <br /> 
+    (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
+    * Also available as [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: **October 2020**). <br />
+    * This paper subsumes "[A Model of Costly Recall](/akm_memory.pdf)."
 * "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," This version: **March 2020**.<br />
     * Also available as [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money) (version: **March 2020**). <br />
     * in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
