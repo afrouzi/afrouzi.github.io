@@ -61,8 +61,7 @@
     * Also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf) (version: **February 2016**). <br /> 
 
 ## Works in Progress
-* "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" 
-    * [Slides](/calvo_ri_presented.pdf)
+* "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" (with [Choongryul Yang](https://choongryulyang.github.io/)) 
 * "**Rationally Confused: On the Aggregate Implications of Information Provision Policies**" (with [Miguel Acosta](https://sites.google.com/view/miguelacosta/))
     * [Slides](/confusion_presented.pdf)
 * "**Inflation Expectations under High Inflation: Evidence from Iran**" (with Saeed Bayat, Omid Ghaderi and Ali Madanizadeh)
