@@ -49,6 +49,7 @@
             [Mackowiak, Matejka and Wiederholt (2018)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex5_mmw2018/ex5_Mackowiak_Matejka_Wiederholt_2018/)<br />
     * [Live Jupyter Notebooks for all Examples and Replications](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
     * [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
+    * Teaching Slides for DRIPs.jl: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 * "**[Overreaction and Working Memory](/aklmt_memory.pdf)**," This version: **October 2020**. <br /> 
     (with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar))
     * Also available as [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: **October 2020**). <br />
