@@ -6,8 +6,8 @@
     [Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex6_Afrouzi_Yang_2020.jl),
     [HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/)
 * **May 4, 2020:** Solve Dynamic Rational Inattention Problems in milliseconds using the new DRIPs package.<br />
-    * [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/),
-    [GitHub](http://github.com/afrouzi/DRIPs.jl) <br />
+    * Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), 
+    [GitHub Code Repository](http://github.com/afrouzi/DRIPs.jl) <br />
     * Replications: 
     [Mackowiak and Wiederholt (2009)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/),
     [Sims (2010)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2010/ex4_Sims_2010/),
@@ -42,7 +42,7 @@
     [Julia source file](https://github.com/afrouzi/DRIPs.jl/blob/master/examples/src/ex6_Afrouzi_Yang_2020.jl),
     [HTML](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/)
     * [Julia Package for Solving Dynamic Rational Inattention Problems (DRIPs)](http://github.com/afrouzi/DRIPs.jl) <br />
-        * [Documentation](http://afrouzi.github.io/DRIPs.jl/dev/)
+        * Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/)
         * Replications: 
             [Mackowiak and Wiederholt (2009)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex3_mw2009/ex3_Mackowiak_Wiederholt_2009/),
             [Sims (2010)](https://afrouzi.github.io/DRIPs.jl/dev/examples/ex4_sims2010/ex4_Sims_2010/),
