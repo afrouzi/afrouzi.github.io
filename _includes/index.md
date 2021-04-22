@@ -1,4 +1,5 @@
 ## What's new?!
+* **Apr. 22, 2021:** New working paper on "[Selection in Information Acquisition](/ay_infoselection.pdf)." <br />  
 * **Oct. 9, 2020:** New working paper on "[Overreaction and Working Memory](/aklmt_memory.pdf)." <br />
 * **Sept. 30, 2020:** New working paper on "[Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
 * **Jul. 1, 2020:** Updated draft for "[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)" with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
@@ -30,6 +31,8 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies)
 
 ## Working Papers
+* "**[Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**," This version: **April 2021**. <br />
+    (with [Choongryul Yang](https://choongryulyang.github.io/)) 
 * "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: **December 2020**. <br />
     (with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/))
     * [Slides](/adk_concentration_slides.pdf)
@@ -62,7 +65,6 @@
     * Also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf) (version: **February 2016**). <br /> 
 
 ## Works in Progress
-* "**Sticky Prices, Rational Inattention, and Monetary Non-Neutrality**" (with [Choongryul Yang](https://choongryulyang.github.io/)) 
 * "**Rationally Confused: On the Aggregate Implications of Information Provision Policies**" (with [Miguel Acosta](https://sites.google.com/view/miguelacosta/))
     * [Slides](/confusion_presented.pdf)
 * "**Inflation Expectations under High Inflation: Evidence from Iran**" (with Saeed Bayat, Omid Ghaderi and Ali Madanizadeh)
