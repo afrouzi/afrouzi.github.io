@@ -6,7 +6,7 @@ baseurl: ''
 compass:
   # an avatar or logo (optional)
   author: "Hassan Afrouzi"
-  logo: "/images/afrouzi.jpg"
+  logo: "/images/afrouzi_2.jpg"
   # author will appear under the avatar (optional)
   # tagline will appear under the title (optional)
   tagline: "
@@ -18,10 +18,10 @@ compass:
   <a href='http://cognition.econ.columbia.edu'>Cognition and Decision Lab</a> </br>
 
   <span class='fa fa-github fa-lg main-list-item-icon'></span>
-  <a href='http://github.com/afrouzi/DRIPs.jl'>DRIPs</a> </br> 
+  <a href='https://afrouzi.com/DRIPs.jl/dev'>DRIPs</a> </br> 
 
   <span class='fa fa-paperclip fa-lg main-list-item-icon'></span>
-  <a href='http://afrouzi.com/cv.pdf'>Curriculum Vitae</a> </br>
+  <a href='/cv.pdf'>Curriculum Vitae</a> </br>
 
   <span class='fa fa-google fa-lg main-list-item-icon'></span>
   <a href='https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en'>Google Scholar</a> </br></br>
