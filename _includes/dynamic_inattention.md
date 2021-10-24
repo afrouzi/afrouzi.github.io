@@ -3,6 +3,8 @@
 
 ### Version History for "Dynamic Rational Inattention and the Phillips Curve"
 
+* [Apr 11, 2021](/dynamic_inattention/draft_2021_04.pdf) <br/>
+(as submitted to the American Economic Review)
 * [Dec 15, 2020](/dynamic_inattention/draft_2020_12.pdf) <br/>
 (also available as [CESifo Working Paper #8840](https://www.cesifo.org/en/publikationen/2021/working-paper/dynamic-rational-inattention-and-phillips-curve))
 * [Nov 11, 2020](/dynamic_inattention/draft_2020_11.pdf) <br/>
