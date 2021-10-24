@@ -1,13 +1,20 @@
 ---
 ---
 
-$text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+// $text-color: #46433A;
+// $anchor-text-color: #CE534D;
+// $background-color: #F1EED9;
+
+$text-color: #534f41;
+$anchor-text-color: #b34843;
+$background-color: #eee8d5;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Palatino', serif;
 	color: $text-color;
+	line-height: 1.4;
+	font-size: 16px;
+	font-weight: 500;
 	background-color: $background-color;
 }
 
@@ -143,8 +150,8 @@ footer {
 	}
 
 	main {
-		width: 78%;
-		margin-left: 22%;
-		padding: 0;
+		width: 74%;
+		margin-left: 26%;
+		padding: 0%;
 	}
 }
