@@ -43,7 +43,6 @@
     * [Live Jupyter Notebooks for all Examples and Replications](https://mybinder.org/v2/gh/afrouzi/DRIPs.jl/binder?filepath=examples) <br />
     * [Matlab Solver for Dynamic Rational Inattention Problems](https://github.com/choongryulyang/dynamic_multivariate_RI) <br />
     * Teaching Slides for DRIPs.jl: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />    
-    * Also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf) (version: *February 2016*). <br /> 
 * "**[Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**," This version: *April 2021*. <br />
     *with [Choongryul Yang](https://choongryulyang.github.io/)*
 * "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: *December 2020*. <br />
@@ -56,6 +55,7 @@
 * "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markups.pdf)**," This version: *April 2021*. <br />
     *with Luigi Caloi*<br />
     Revise and Resubmit, ***Review of Economics and Statistics***.
+    * Also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf) (version: *February 2016*). <br /> 
 
 ## Works in Progress
 * "**Rationally Confused: On the Aggregate Implications of Information Provision Policies**" (with [Miguel Acosta](https://sites.google.com/view/miguelacosta/))
