@@ -1,6 +1,7 @@
 <span class='fa fa-chevron-left fa-lg main-list-item-icon'></span>
 [Back to Homepage](/)
 
+* *Apr. 4, 2021:* Updated draft for "[Endogenous Firm Competition and Cyclicality of Markups](/ac_markups.pdf)." <br />
 * *Oct. 9, 2020:* New working paper on "[Overreaction and Working Memory](/aklmt_memory.pdf)." <br />
 * *Sep. 30, 2020:* New working paper on "[Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
 * *Jul. 1, 2020:* Updated draft for "[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention.pdf)" with a quantitative rational inattention model for assessing the change in the slope of the Phillips curve.<br />
