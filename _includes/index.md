@@ -1,5 +1,6 @@
 ## What's New?!
 
+* *Dec. 20, 2021:* Updated draft for "[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
 * *Dec. 17, 2021:* New working paper on "[Can Leaders Persuade? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)." <br />
 * *Dec. 17, 2021:* Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)." <br />
 * *Sep. 20, 2021:* Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." <br />
@@ -23,6 +24,10 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
 
 ## Working Papers
+* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: *December 2021*. <br />
+    *with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/)*
+    * [Slides](/adk_concentration_slides.pdf)
+    * Also available as [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power) (version: *October 2020*). <br />
 * "**[Can Leaders Persuade? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)**," This version: *December 2021*. <br /> 
     *with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)*<br />
     * [Supplemental Materials](/aaw_persuasion_supplemental.pdf)
@@ -54,10 +59,6 @@
         * Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />    
 * "**[Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**," This version: *April 2021*. <br />
     *with [Choongryul Yang](https://choongryulyang.github.io/)*
-* "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**," This version: *December 2020*. <br />
-    *with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/)*
-    * [Slides](/adk_concentration_slides.pdf)
-    * Also available as [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power) (version: *October 2020*). <br />
 * "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markups.pdf)**," This version: *April 2021*. <br />
     *with Luigi Caloi*<br />
     Revise and Resubmit, ***Review of Economics and Statistics***.
