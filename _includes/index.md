@@ -24,6 +24,10 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
 
 ### Papers Under Revision
+* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," This version: *Dec. 2021*.<br />
+    Revise and Resubmit, ***Journal of Political Economy***.
+    * Also available as [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money) (version: *Mar. 2020*). <br />
+    * in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 * "**[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)**," This version: *Sep. 2021*. <br /> 
     *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
     Revise and Resubmit, ***The Quarterly Journal of Economics***.
@@ -63,9 +67,6 @@
     *with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)*<br />
     * [Supplemental Materials](/aaw_persuasion_supplemental.pdf)
     * Also available as [CESifo Working Paper #9593](https://www.cesifo.org/en/publikationen/2022/working-paper/can-leaders-persuade-examining-movement-immigration-beliefs) (version: *Feb. 2022*). <br />
-* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**," This version: *Dec. 2021*.<br />
-    * Also available as [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money) (version: *Mar. 2020*). <br />
-    * in media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 * "**[Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**," This version: *Apr. 2021*. <br />
     *with [Choongryul Yang](https://choongryulyang.github.io/)*
 
