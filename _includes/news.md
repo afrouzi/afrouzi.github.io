@@ -1,6 +1,9 @@
 <span class='fa fa-chevron-left fa-lg main-list-item-icon'></span>
 [Back to Homepage](/)
 
+* *Dec. 17, 2021:* Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)." <br />
+* *Sep. 20, 2021:* Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." <br />
+* *Apr. 22, 2021:* New working paper on "[Selection in Information Acquisition](/ay_infoselection.pdf)." <br />
 * *Apr. 4, 2021:* Updated draft for "[Endogenous Firm Competition and Cyclicality of Markups](/ac_markups.pdf)." <br />
 * *Oct. 9, 2020:* New working paper on "[Overreaction and Working Memory](/aklmt_memory.pdf)." <br />
 * *Sep. 30, 2020:* New working paper on "[Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
