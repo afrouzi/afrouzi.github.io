@@ -2,9 +2,12 @@ body {
   font-family: 'Palatino', serif;
   color: #534f41;
   line-height: 1.4;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   background-color: #eee8d5; }
+
+.journal {
+  color: black; }
 
 header,
 main {
