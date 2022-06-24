@@ -43,7 +43,7 @@
   
 * "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markups.pdf)**" (version: *Apr. 2021*) <br />
     *with Luigi Caloi*<br />
-    Revise and Resubmit, ***<span class=journal>Review of Economics and Statistics</span>***
+    Conditionally Accepted, ***<span class=journal>Review of Economics and Statistics</span>***
     * Also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf) (version: *Feb. 2016*) <br /> 
 
 ### Working Papers
