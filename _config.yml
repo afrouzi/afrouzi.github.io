@@ -10,9 +10,13 @@ compass:
   # author will appear under the avatar (optional)
   # tagline will appear under the title (optional)
   tagline: "
-  <strong>Current Affiliations:</strong> </br>
-  Assistant Professor, Columbia </br>
-  Research Network Affiliate, CESifo</br></br>
+  <strong>Assistant Professor of Economics</strong></br> 
+  &nbsp;&nbsp; <a href='https://econ.columbia.edu/'>Columbia University</a></br>
+  <strong>Visiting Research Associate</strong> (2022-23)</br>
+  &nbsp;&nbsp; <a href='https://bfi.uchicago.edu/BFI'>BFI at the University of Chicago</a> </br>
+  <strong>Research Network Affiliate</strong></br>
+  &nbsp;&nbsp; <a href='https://www.cesifo.org/en'>CESifo Network</a></br></br>
+
   <strong>Links:</strong> </br>
   <span class='fa fa-university fa-lg main-list-item-icon'></span>
   <a href='http://cognition.econ.columbia.edu'>Cognition and Decision Lab</a> </br>
