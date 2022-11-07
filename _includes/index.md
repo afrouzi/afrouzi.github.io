@@ -1,8 +1,8 @@
 ### What's New?
 
+* *Nov. 7, 2022:* Updated draft for "[Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)." <br />
 * *Feb. 28, 2022:* New working paper on "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)." <br />
 * *Dec. 20, 2021:* Updated draft for "[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
-* *Dec. 17, 2021:* New working paper on "[Can Leaders Persuade? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)." <br />
 [more...](./news)<br />
 
 ### Publications
@@ -52,7 +52,7 @@
 * "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**" (version: *Dec. 2021*) <br />
     *with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/)*
     * [CESifo Working Paper #8633](https://www.cesifo.org/en/publikationen/2020/working-paper/growing-masses-revisiting-link-between-firm-size-and-market-power) (version: *Oct. 2020*) <br />
-* "**[Can Leaders Persuade? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)**" (version: *Feb. 2022*, [Supplemental Materials](/aaw_persuasion_supplemental.pdf)) <br /> 
+* "**[Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)**" (version: *Nov. 2022*, [Supplemental Materials](/aaw_persuasion_supplemental.pdf)) <br /> 
     *with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)*<br />
     * [CESifo Working Paper #9593](https://www.cesifo.org/en/publikationen/2022/working-paper/can-leaders-persuade-examining-movement-immigration-beliefs) (version: *Feb. 2022*) <br />
 * "**[Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**" (version: *Apr. 2021*) <br />
