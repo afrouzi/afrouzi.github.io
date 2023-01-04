@@ -1,6 +1,7 @@
 <span class='fa fa-chevron-left fa-lg main-list-item-icon'></span>
 [Back to Homepage](/)
 
+* *Dec. 20, 2021:* Updated draft for "[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
 * *Dec. 17, 2021:* Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)." <br />
 * *Sep. 20, 2021:* Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." <br />
 * *Apr. 22, 2021:* New working paper on "[Selection in Information Acquisition](/ay_infoselection.pdf)." <br />

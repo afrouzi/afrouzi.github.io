@@ -1,8 +1,9 @@
 ### What's New?
 
+* *Jan. 3, 2023:* Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)." <br />
+* *Dec. 22, 2022:* Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." <br />
 * *Nov. 7, 2022:* Updated draft for "[Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)." <br />
 * *Feb. 28, 2022:* New working paper on "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)." <br />
-* *Dec. 20, 2021:* Updated draft for "[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)." <br />
 [more...](./news)<br />
 
 ### Publications
@@ -21,11 +22,11 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
 
 ### Papers Under Revision
-* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" (version: *Dec. 2021*)<br />
+* "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" (version: *Dec. 2022*)<br />
     Revise and Resubmit, ***<span class=journal> Journal of Political Economy </span>***
     * [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money) (version: *Mar. 2020*); In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 
-* "**[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)**" (version: *Sep. 2021*)<br />
+* "**[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)**" (version: *Dec. 2022*)<br />
     *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
     Revise and Resubmit, ***<span class=journal>The Quarterly Journal of Economics</span>***
     * [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: *Oct. 2020*); Subsumes "[A Model of Costly Recall](/akm_memory.pdf)" <br />
