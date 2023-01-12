@@ -7,6 +7,17 @@
 [more...](./news)<br />
 
 ### Publications
+* "**[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)**" <br />
+    *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
+    Accepted at ***<span class=journal>The Quarterly Journal of Economics</span>***
+    * [Experimental Interface](https://github.com/forecast-research/interface)
+    * [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: *Oct. 2020*); Subsumes "[A Model of Costly Recall](/akm_memory.pdf)" <br />
+
+* "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markup_cyclicality/ac_markups.pdf)**" (version: *Apr. 2021*) <br />
+    *with Luigi Caloi*<br />
+    Accepted at ***<span class=journal>Review of Economics and Statistics</span>***
+    * [Online Appendix](/ac_markup_cyclicality/ac_online_appendix.pdf), [Replication Files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MM6ZCV)
+
 * “[**Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand**](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf)” <br />
     *with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/)* <br />
     ***<span class=journal>Brookings Papers on Economic Activity 2015(Fall)</span>***, [151-225](http://www.brookings.edu/~/media/projects/bpea/fall-2015/pdfkumartextfallbpea.pdf) <br />
@@ -22,14 +33,10 @@
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
 
 ### Papers Under Revision
+
 * "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" (version: *Dec. 2022*)<br />
     Revise and Resubmit, ***<span class=journal> Journal of Political Economy </span>***
     * [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money) (version: *Mar. 2020*); In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
-
-* "**[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)**" (version: *Dec. 2022*)<br />
-    *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
-    Revise and Resubmit, ***<span class=journal>The Quarterly Journal of Economics</span>***
-    * [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: *Oct. 2020*); Subsumes "[A Model of Costly Recall](/akm_memory.pdf)" <br />
 
 * "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf)**" (version: *Apr. 2021*, [older versions](/dynamic_inattention/)) <br />
     *with [Choongryul Yang](https://choongryulyang.github.io/)* <br />
@@ -41,11 +48,6 @@
         [Matlab](https://github.com/choongryulyang/DRIPs.m);
       Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/)
     * Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
-  
-* "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markups.pdf)**" (version: *Apr. 2021*) <br />
-    *with Luigi Caloi*<br />
-    Conditionally Accepted, ***<span class=journal>Review of Economics and Statistics</span>***
-    * Also available as [Dallas Fed Working Paper #265](http://www.dallasfed.org/assets/documents/institute/wpapers/2016/0265.pdf) (version: *Feb. 2016*) <br /> 
 
 ### Working Papers
 * "**[Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)**" (version: *Feb. 2022*) <br />
