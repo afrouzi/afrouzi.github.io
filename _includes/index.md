@@ -13,7 +13,7 @@
     * [Experimental Interface](https://github.com/forecast-research/interface)
     * [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: *Oct. 2020*); Subsumes "[A Model of Costly Recall](/akm_memory.pdf)" <br />
 
-* "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markup_cyclicality/ac_markups.pdf)**" (version: *Apr. 2021*) <br />
+* "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markup_cyclicality/ac_markups.pdf)**" <br />
     *with Luigi Caloi*<br />
     Accepted at ***<span class=journal>Review of Economics and Statistics</span>***
     * [Online Appendix](/ac_markup_cyclicality/ac_online_appendix.pdf), [Replication Files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MM6ZCV)
