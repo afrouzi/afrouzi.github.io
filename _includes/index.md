@@ -10,7 +10,7 @@
 * "**[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)**" <br />
     *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/) and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
     Accepted at ***<span class=journal>The Quarterly Journal of Economics</span>***
-    * [Experimental Interface](https://github.com/forecast-research/interface)
+    * [Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface)
     * [NBER Working Paper #27947](https://www.nber.org/papers/w27947) (version: *Oct. 2020*); Subsumes "[A Model of Costly Recall](/akm_memory.pdf)" <br />
 
 * "**[Endogenous Firm Competition and Cyclicality of Markups](/ac_markup_cyclicality/ac_markups.pdf)**" <br />
