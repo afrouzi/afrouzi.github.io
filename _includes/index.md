@@ -1,9 +1,9 @@
 ### What's New?
 
+* *Feb. 24, 2023:* Updated draft for "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)." <br />
 * *Jan. 3, 2023:* Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)." <br />
 * *Dec. 22, 2022:* Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." <br />
 * *Nov. 7, 2022:* Updated draft for "[Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)." <br />
-* *Feb. 28, 2022:* New working paper on "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)." <br />
 [more...](./news)<br />
 
 ### Publications
@@ -50,7 +50,7 @@
     * Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 
 ### Working Papers
-* "**[Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)**" (version: *Feb. 2022*) <br />
+* "**[Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)**" (version: *Feb. 2023*) <br />
     *with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/)*
 * "**[Growing by the Masses: Revisiting the Link between Firm Size and Market Power](/adk_concentration.pdf)**" (version: *Dec. 2021*) <br />
     *with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/)*
