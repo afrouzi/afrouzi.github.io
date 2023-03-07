@@ -35,7 +35,7 @@
 ### Papers Under Revision
 
 * "**[Strategic Inattention, Inflation Dynamics and the Non-Neutrality of Money](/strategic_inattention.pdf)**" (version: *Dec. 2022*)<br />
-    Revise and Resubmit, ***<span class=journal> Journal of Political Economy </span>***
+    Revise and Resubmit (2nd round), ***<span class=journal> Journal of Political Economy </span>***
     * [CESifo Working Paper #8218](https://www.cesifo.org/en/publikationen/2020/working-paper/strategic-inattention-inflation-dynamics-and-non-neutrality-money) (version: *Mar. 2020*); In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 
 * "**[Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf)**" (version: *Apr. 2021*, [older versions](/dynamic_inattention/)) <br />
