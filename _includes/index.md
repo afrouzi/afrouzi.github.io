@@ -2,8 +2,6 @@
 
 * *Feb. 24, 2023:* Updated draft for "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)." <br />
 * *Jan. 3, 2023:* Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)." <br />
-* *Dec. 22, 2022:* Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." <br />
-* *Nov. 7, 2022:* Updated draft for "[Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)." <br />
 [more...](./news)<br />
 
 ### Publications
