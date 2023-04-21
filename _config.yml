@@ -5,34 +5,33 @@ baseurl: ''
 # compass configuration
 compass:
   # an avatar or logo (optional)
+  title: "Hassan Afrouzi"
+  description: "Hassan Afrouzi is an Assitant Professor of Economics at Columbia University and Faculty Research Fellow at the National Bureau of Economic Research (NBER). My research focuses on macroeconomic implications of imperfect information and imperfect competition. I am currently a Visiting Scholar at the Becker-Friedman Institute at the University of Chicago."
   author: "Hassan Afrouzi"
   logo: "/images/afrouzi_2.jpg"
   # author will appear under the avatar (optional)
   # tagline will appear under the title (optional)
   tagline: "
-  <strong>Assistant Professor of Economics</strong></br> 
-  &nbsp;&nbsp; <a href='https://econ.columbia.edu/'>Columbia University</a></br>
-  <strong>Visiting Research Associate</strong> (2022-23)</br>
-  &nbsp;&nbsp; <a href='https://bfi.uchicago.edu/BFI'>BFI at the University of Chicago</a> </br>
-  <strong>Research Network Affiliate</strong></br>
-  &nbsp;&nbsp; <a href='https://www.cesifo.org/en'>CESifo Network</a></br></br>
-
+  Columbia University <br/>
+  Department of Economics <br/>
+  420 W. 118th St, 1105A IAB<br/>
+  New York, NY 10027<br/>
+  <span class='fa fa-paper-plane'></span> <a href='mailto:ha2475@columbia.edu'>ha2475@columbia.edu</a>
+  "
+  links: "
   <strong>Links:</strong> </br>
-  <span class='fa fa-university fa-lg main-list-item-icon'></span>
-  <a href='http://cognition.econ.columbia.edu'>Cognition and Decision Lab</a> </br>
+  <span class='fa fa-brain'></span>
+  <a href='http://cognition.econ.columbia.edu'>Cognition & Decision Lab</a> </br>
 
-  <span class='fa fa-github fa-lg main-list-item-icon'></span>
+  <span class='fa fa-github'></span>
   <a href='https://afrouzi.com/DRIPs.jl/dev'>DRIPs</a> </br> 
 
-  <span class='fa fa-paperclip fa-lg main-list-item-icon'></span>
-  <a href='/cv.pdf'>Curriculum Vitae</a> </br>
-
-  <span class='fa fa-google fa-lg main-list-item-icon'></span>
+  <span class='fa fa-google'></span>
   <a href='https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en'>Google Scholar</a> </br></br>
+  "
 
-  <strong>Contact:</strong> </br>
-  <span class='fa fa-envelope fa-lg main-list-item-icon'></span>
-  <a href='mailto:ha2475@columbia.edu'>ha2475@columbia.edu</a> </br>
+  keywords: "
+  Hassan Afrouzi, Assistant Professor, Economics, Columbia University, NBER, National Bureau of Economic Research, macroeconomics, monetary economics, imperfect information, imperfect competition, Visiting Scholar, Becker-Friedman Institute at the University of Chicago
   "
   
   # if include_content is true, the contents of the content.html include will be

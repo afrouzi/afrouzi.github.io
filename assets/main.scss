@@ -5,33 +5,91 @@
 // $anchor-text-color: #CE534D;
 // $background-color: #F1EED9;
 
-$text-color: #534f41;
-$anchor-text-color: #b34843;
-$background-color: #eee8d5;
+$text-color: #37342c;
+$anchor-text-color: #860e24;
+// $anchor-text-color: #b34843;
+// $background-color: #eee8d5;
+$background-color: #fff6e3;
+$dark-background-color: #f4e4c2;
+$darker-background-color: #e8d1a2;
+$size-normal: 20px;
+$size-big: 22px;
+$size-menu: 24px;
 
 body {
-	font-family: 'Palatino', serif;
+	font-family: 'Crimson Text', serif;
 	color: $text-color;
-	line-height: 1.4;
-	font-size: 15px;
-	font-weight: 500;
+	line-height: 1.45;
+	font-size: $size-normal;
+	font-weight: 400;
 	background-color: $background-color;
 }
 
+.header-button {
+	background-color: $dark-background-color; /* Background color of the button */
+	border: none;               /* Remove the default border */
+	// color: white;               /* Text color of the button */
+	padding: 5px 15px;         /* Padding around the button text */
+	text-align: center;         /* Center the text within the button 
+	*/
+	font-weight: bold;
+	text-decoration: none;      /* Remove the underline from the link 
+	*/
+	display: inline-block;      /* Allow for width and height */
+	font-size: 15.5px;            /* Font size of the button text */
+	margin: 2px 2px;            /* Margin around the button */
+	cursor: pointer;            /* Cursor changes to a pointer when hovering over the button */
+	transition: background-color 0.3s ease; /* Transition effect for background color */
+	border-radius: 20px;        /* Rounded edges for the button */
+  }
+  
+  .header-button:hover {
+	// background-color: #cec198; /* Change the background color when hovering over the button */
+	background-color: $darker-background-color; /* Change the background color when hovering over the button */
+  }
+  
+  .header-button:active {
+	text-decoration: none;
+  }
+
 .journal {
-	color: black
+	color: black;
+	font-size: $size-big;
 }
 
+.phone-content {
+	display: flex; /* Use flexbox layout */
+	flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+	justify-content: center; /* Center the flex items horizontally */
+	align-items: center; /* Center the flex items vertically */
+	align-content: center; /* Center multiple lines of flex items vertically */
+	/* If you want to limit the width of the .phone-content section, you can use the max-width property */
+	max-width: 500px; /* Example max-width, adjust as needed */
+	margin: auto; /* Center the .phone-content section itself */
+  }
+  
+.other-content {
+	display: none; /* Hide other content by default */
+}
+  
 
 header,
 main {
-	padding: 0 20px;
+	padding: 0px;
 }
 
 /*** wrapper div for both header and main ***/
 .wrapper {
 	margin-top: 10%;
 }
+
+table {
+	font-size: $size-big;	
+  }
+
+table td, table th {
+	vertical-align: top; /* Align content to the top of the table cells */
+  }
 
 /*** anchor tags ***/
 a:link,
@@ -72,8 +130,8 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 225px;
-	height: 225px;
+	width: 275px;
+	height: 275px;
 	display: inline-block;
 	background-size: cover;
 	border-radius: 50%;
@@ -84,17 +142,17 @@ since it must be aligned with the content */
 
 /*** author ***/
 .author-container h1 {
-	font-size: 2em;
-	margin-top: 0;
+	font-size: 2.1em;
+	margin-top: 4%;
 	margin-bottom: 0;
 	text-align: center;
 }
 
 /*** tagline ***/
 .tagline-container p {
-	font-size: 1em;
+	font-size: 1.1em;
 	text-align: left;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 /******/
@@ -109,10 +167,11 @@ hr {
 
 /*** footer ***/
 footer {
-	position: fixed;
+	width: 100%;
 	bottom: 0;
 	right: 0;
 	height: 20px;
+	// text-align: right;
 }
 
 .poweredby {
@@ -120,6 +179,8 @@ footer {
 	font-size: 0.6em;
 	line-height: 0.6em;
 	padding: 0 5px;
+	color: gray;
+	text-align: right;
 }
 
 /*** media queries ***/
@@ -137,14 +198,24 @@ footer {
 	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
 	to accomodate both the header column and the content column */
 	.wrapper {
-		width: 1200px;
+		width: 940px;
+		margin-left: 8%;
+		margin-top: 5%;
+	}
+
+	.phone-content {
+		display: none; /* Hide phone content on larger screens */
+		text-align: center;
+	}
+	.other-content {
+		display: block; /* Show other content on larger screens */
 	}
 
 	/* the header column stays left and has a dynamic width with all contents
 	aligned right */
 	header {
 		float: left;
-		width: 25%;
+		width: 35%;
 		text-align: right;
 	}
 
@@ -155,8 +226,17 @@ footer {
 	}
 
 	main {
-		width: 74%;
-		margin-left: 26%;
-		padding: 0%;
+		width: 100%;
+		margin-left: 33%;
+		padding-left: 12%;
+	}
+
+	menu {
+		width: 100%;
+		padding-left: 45%;
+	}
+
+	.header-button {
+		font-size: $size-menu;
 	}
 }

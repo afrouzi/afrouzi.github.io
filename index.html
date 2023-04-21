@@ -2,6 +2,10 @@
 layout: base
 ---
 <div class="wrapper">
+    <menu>
+      {% capture my_include %}{% include menu.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </menu>
     <header>
         {% if site.compass.logo %}
         <div class="logo-container">
@@ -16,11 +20,22 @@ layout: base
         {% if site.compass.tagline %}
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
         {% endif %}
+        
+        {% if site.compass.links %}
+        <div class="tagline-container"><p>{{ site.compass.links }}</p></div>
+        {% endif %}
     </header>
     <main>
-      <!-- <div class="content"> -->
+      <div class="content">
         {% capture my_include %}{% include index.md %}{% endcapture %}
         {{ my_include | markdownify }}
-      <!-- </div> -->
+        {% capture my_include %}{% include papers.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+      </div>
+      <footer>
+        <div class="poweredby">
+          This design was built on <a href="https://github.com/excentris/compass">Compass</a>.
+        </div>
+      </footer>
     </main>
 </div>
