@@ -133,10 +133,24 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 1.6em;
   margin: 0.67em 0;
 }
 
+h2 {
+  margin-bottom: 0%;
+}
+
+h3 {
+  margin-top: -0.25%;
+  margin-left: 0px;
+  margin-bottom: -2%;
+  font-size: $size-big;
+}
+
+h3 + * {
+  margin-left: 25px; /* Apply 20 pixels of indentation to the element immediately following the h3 header */
+}
 /**
  * Address styling not present in IE 8/9.
  */
