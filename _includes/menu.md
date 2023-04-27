@@ -6,7 +6,7 @@
 	Under Revision</a>
 	<a href="/#working-papers" target="_self" class="header-button"><i class="fa fa-pencil" aria-hidden="true"></i>
 	Working Papers</a>
-	<a href="/news" target="_self" class="header-button"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+	<a href="/news/#news" target="_self" class="header-button"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
 	News</a>
 	<a href="/" target="_self" class="header-button"><i class="fa fa-home" aria-hidden="true"></i></a>
 </div>
@@ -20,7 +20,7 @@
 	Under Revision</a>
 	<a href="/#working-papers" target="_self" class="header-button"><i class="fa fa-pencil" aria-hidden="true"></i>
 	Working Papers</a>
-	<a href="/news" target="_self" class="header-button"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+	<a href="/news/#news" target="_self" class="header-button"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
 	News</a>
 	<a href="/" target="_self" class="header-button"><i class="fa fa-home" aria-hidden="true"></i></a>
 </div>
