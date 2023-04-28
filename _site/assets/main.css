@@ -132,7 +132,11 @@ since it must be aligned with the content */
 .tagline-container p {
   font-size: 1.1em;
   text-align: left;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-left: 20px; }
+
+main {
+  margin: 20px; }
 
 /******/
 hr {
@@ -170,9 +174,11 @@ footer {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
   to accomodate both the header column and the content column */
   .wrapper {
-    width: 940px;
-    margin-left: 8%;
-    margin-top: 5%; }
+    float: left;
+    width: 60vw;
+    min-width: 700px;
+    margin-left: max(55px, 5%);
+    margin-top: 2%; }
 
   .phone-content {
     display: none;
@@ -187,22 +193,24 @@ footer {
   aligned right */
   header {
     float: left;
-    width: 35%;
+    width: 340px;
     text-align: right; }
 
   .author-container h1,
   .logo-container,
   .tagline-container p {
-    text-align: left; }
+    text-align: left;
+    margin-left: 0; }
 
   main {
     width: 100%;
-    margin-left: 33%;
-    padding-left: 12%; }
+    margin: 0;
+    margin-left: max(320px, 45%); }
 
   menu {
     width: 100%;
-    padding-left: 45%; }
+    min-width: 940px;
+    margin-left: max(300px, 41%); }
 
   .header-button {
     font-size: 24px; } }
