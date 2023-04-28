@@ -133,6 +133,7 @@ dfn {
  */
 
 h1 {
+  /* font-size: clamp(30px, 2vw, 36px); */
   font-size: 1.6em;
   margin: 0.67em 0;
 }
@@ -142,9 +143,10 @@ h2 {
 }
 
 h3 {
-  margin-top: -0.25%;
+  /* font-size: clamp(22px, 1.5vw, 24px); */
+  margin-top: -2.5px;
   margin-left: 0px;
-  margin-bottom: -2%;
+  margin-bottom: -20px;
   font-size: $size-big;
 }
 
