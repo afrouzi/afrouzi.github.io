@@ -6,11 +6,6 @@ table {
     margin-bottom: 0%;
     margin-top: -5%;
   }
-
-h3 + * {
-  margin-left: 0px; /* Apply 20 pixels of indentation to the element immediately following the h3 header */
-}
-}
 </style>
 
 # News

@@ -1,15 +1,35 @@
 ---
 layout: base
+title: Dynamic Rational Inattention
 ---
 <div class="wrapper">
   <menu>
     {% capture my_include %}{% include menu.md %}{% endcapture %}
     {{ my_include | markdownify }}
   </menu>
-    <main>
-      <div class="content">
-        {% capture my_include %}{% include dynamic_inattention.md %}{% endcapture %}
-        {{ my_include | markdownify }}
+  <header>
+      {% if site.compass.logo %}
+      <div class="logo-container">
+        <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
       </div>
-    </main>
+      {% endif %}
+
+      {% if site.compass.author %}
+      <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+      {% endif %}
+
+      {% if site.compass.tagline %}
+      <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+      {% endif %}
+      
+      {% if site.compass.links %}
+      <div class="tagline-container"><p>{{ site.compass.links }}</p></div>
+      {% endif %}
+  </header>
+  <main>
+    <div class="content">
+      {% capture my_include %}{% include dynamic_inattention.md %}{% endcapture %}
+      {{ my_include | markdownify }}
+    </div>
+  </main>
 </div>
