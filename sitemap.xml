@@ -1,0 +1,30 @@
+---
+layout: null
+---
+<urlset>
+{% for page in site.pages %}
+  <url>
+    <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+    {% if page.date %}
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    {% else %}
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+{% endfor %}
+{% assign collection = site.collections | where: 'label', 'files' | first %}
+{% for pdf in site.data.pdfs %}
+  <url>
+    <loc>{{ site.url }}/{{pdf.filename}}</loc>
+    {% if page.date %}
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    {% else %}
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  {% endfor %}
+</urlset>
