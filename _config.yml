@@ -6,7 +6,7 @@ baseurl: ''
 compass:
   # an avatar or logo (optional)
   title: "Hassan Afrouzi"
-  description: "Hassan Afrouzi is an Assitant Professor of Economics at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition. He is currently a Visiting Scholar at the Becker-Friedman Institute at the University of Chicago."
+  description: "Hassan Afrouzi is an Assistant Professor of Economics at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition. He is currently a visiting scholar at the Becker-Friedman Institute at the University of Chicago."
   author: "Hassan Afrouzi"
   logo: "/images/afrouzi_2.jpg"
   
