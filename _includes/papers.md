@@ -37,7 +37,7 @@ Code Repos:
     [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)** <br /> 
-*with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)* --- *Version: Nov. 2022* <br />
+*with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)* --- *Version: Jun. 2023* <br />
 Revise and Resubmit, ***<span class=journal>Journal of Political Economy Microeconomics</span>*** <br />
 [Supplemental Materials](/aaw_persuasion_supplemental.pdf) <br />
 
