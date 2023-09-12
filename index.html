@@ -22,6 +22,10 @@ title: Hassan Afrouzi | Assistant Professor | Columbia Economics
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
         {% endif %}
         
+        {% if site.compass.affiliations %}
+        <div class="tagline-container"><p>{{ site.compass.affiliations }}</p></div>
+        {% endif %}
+
         {% if site.compass.links %}
         <div class="tagline-container"><p>{{ site.compass.links }}</p></div>
         {% endif %}
@@ -29,8 +33,6 @@ title: Hassan Afrouzi | Assistant Professor | Columbia Economics
     <main>
       <div class="content">
         {% capture my_include %}{% include index.md %}{% endcapture %}
-        {{ my_include | markdownify }}
-        {% capture my_include %}{% include papers.md %}{% endcapture %}
         {{ my_include | markdownify }}
       </div>
       <footer>
