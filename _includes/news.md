@@ -11,6 +11,7 @@ table {
 # News
 
 |<img width=150> | |
+|***Sep. 6, 2023***|**"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is accepted for publication in JPE: Micro.**|
 |*Apr. 26, 2023*|New working paper on "[Monetary Policy without Commitment](/ahry_mpwc.pdf)."|
 |***Mar. 6, 2023***|**"[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)" is [forthcoming in QJE](https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjad009/7070742).**|
 |*Feb. 24, 2023*| Updated draft for "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)."|

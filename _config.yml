@@ -13,21 +13,24 @@ compass:
 
   shorttagline: "Assistant Professor of Economics, Columbia University"
   tagline: "
-  Columbia University <br/>
-  Department of Economics <br/>
-  420 W. 118th St, 1105A IAB<br/>
-  New York, NY 10027<br/>
-  <span class='fa fa-paper-plane'></span> <a href='mailto:ha2475@columbia.edu'>ha2475@columbia.edu</a>
+  <strong>Assistant Professor</strong> <br/>
+  &nbsp Department of Economics <br/>
+  &nbsp Columbia University <br/>
+  &nbsp <span class='fa fa-paper-plane'></span> <a href='mailto:ha2475@columbia.edu'>ha2475@columbia.edu</a><br/>
+  <strong>NBER</strong></br>
+  &nbsp Faculty Research Fellow<br/>
+  <strong>CESifo</strong><br/>
+  &nbsp Research Network Affiliate</br>
   "
   links: "
   <strong>Links:</strong> </br>
-  <span class='fa fa-brain'></span>
+  &nbsp <span class='fa fa-brain'></span>
   <a href='http://cognition.econ.columbia.edu'>Cognition & Decision Lab</a> </br>
 
-  <span class='fa fa-github'></span>
+  &nbsp <span class='fa fa-github'></span>
   <a href='https://afrouzi.com/DRIPs.jl/dev'>DRIPs</a> </br> 
 
-  <span class='fa fa-google'></span>
+  &nbsp <span class='fa fa-google'></span>
   <a href='https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en'>Google Scholar</a> </br></br>
   "
 
