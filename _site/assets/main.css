@@ -210,7 +210,8 @@ footer {
   menu {
     width: 100%;
     min-width: 940px;
-    margin-left: max(300px, 41%); }
+    margin-left: max(300px, 41%);
+    padding-bottom: 25px; }
 
   .header-button {
     font-size: 24px; } }
