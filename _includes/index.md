@@ -14,7 +14,7 @@ Revise and Resubmit, ***<span class=journal> Econometrica </span>***<br />
 Reject and Resubmit, ***<span class=journal>American Economic Review</span>*** <br />
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf)** <br />
-*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: Apr 2021* <br />
+*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: April 2021* <br />
 Reject and Resubmit, ***<span class=journal>American Economic Review</span>*** <br />
 [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793) (*Version: October 2019*, [older versions](/dynamic_inattention/));
 [Replication material](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/);
