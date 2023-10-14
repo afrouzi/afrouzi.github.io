@@ -1,7 +1,7 @@
 # Working Papers
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)**<br />
-*Version: January 2023*<br/>
+*Version: October 2023*<br/>
 Revise and Resubmit (2nd round), ***<span class=journal> Journal of Political Economy </span>***<br />
 In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 
