@@ -36,9 +36,9 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 ***<span class=journal>The Quarterly Journal of Economics</span>***, 138(3), 1713–1764, August 2023<br />
 [Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface)<br/>
 
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)** <br /> 
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365)** <br /> 
 *with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)* <br />
-***<span class=journal>Journal of Political Economy Microeconomics</span>***, Accepted <br />
+***<span class=journal>Journal of Political Economy Microeconomics</span>***, Forthcoming <br />
 [Supplemental Materials](/aaw_persuasion_supplemental.pdf) <br />
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)**
