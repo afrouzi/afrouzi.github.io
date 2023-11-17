@@ -1,35 +1,8 @@
-# Working Papers
+# Publications
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)**<br />
-*Version: October 2023*<br/>
-Revise and Resubmit (2nd round), ***<span class=journal> Journal of Political Economy </span>***<br />
+***<span class=journal>Journal of Political Economy</span>***, Accepted<br />
 In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
-
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)**
-*with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/)* --- *Version: May 2023* <br />
-Revise and Resubmit, ***<span class=journal> Econometrica </span>***<br />
-
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)**
-*with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/)* --- *Version: May 2023* <br />
-Reject and Resubmit, ***<span class=journal>American Economic Review</span>*** <br />
-
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf)** <br />
-*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: April 2021* <br />
-Reject and Resubmit, ***<span class=journal>American Economic Review</span>*** <br />
-[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793) (*Version: October 2019*, [older versions](/dynamic_inattention/));
-[Replication material](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/);
-Code Repos:
-    [Julia](http://github.com/afrouzi/DRIPs.jl),
-    [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
-Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
-
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)**
-*with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)* --- *Version: April 2023* <br />
-
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**
-*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: December 2021*
-
-# Publications
 
 ### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Overreaction in Expectations: Evidence and Theory**](https://doi.org/10.1093/qje/qjad009)
 *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
@@ -54,3 +27,29 @@ In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectati
                 [Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves),
                 [New Zealand Herald](http://m.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11511461),
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
+
+# Working Papers
+
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)**
+*with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/)* --- *Version: May 2023* <br />
+Revise and Resubmit, ***<span class=journal> Econometrica </span>***<br />
+
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)**
+*with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/)* --- *Version: May 2023* <br />
+Reject and Resubmit, ***<span class=journal>American Economic Review</span>*** <br />
+
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf)** <br />
+*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: April 2021* <br />
+Reject and Resubmit, ***<span class=journal>American Economic Review</span>*** <br />
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793) (*Version: October 2019*, [older versions](/dynamic_inattention/));
+[Replication material](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/);
+Code Repos:
+    [Julia](http://github.com/afrouzi/DRIPs.jl),
+    [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
+Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
+
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)**
+*with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)* --- *Version: April 2023* <br />
+
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**
+*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: December 2021*
