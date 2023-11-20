@@ -2,17 +2,17 @@
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)**<br />
 ***<span class=journal>Journal of Political Economy</span>***, Accepted<br />
-In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
+[Replication Files](https://github.com/afrouzi/strategic-inattention), In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
 
 ### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Overreaction in Expectations: Evidence and Theory**](https://doi.org/10.1093/qje/qjad009)
 *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
 ***<span class=journal>The Quarterly Journal of Economics</span>***, 138(3), 1713–1764, August 2023<br />
-[Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface)<br/>
+[Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface), [Replication Files](https://doi.org/10.7910/DVN/3Q6BHC)<br/>
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365)** <br /> 
 *with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0)* <br />
 ***<span class=journal>Journal of Political Economy Microeconomics</span>***, Forthcoming <br />
-[Supplemental Materials](/aaw_persuasion_supplemental.pdf) <br />
+[Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)**
 *with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)*<br />
@@ -22,7 +22,7 @@ In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economi
 ### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand**](https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf)
 *with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/)* <br />
 ***<span class=journal>Brookings Papers on Economic Activity</span>***, 43, 151-208, Fall 2015<br />
-[Data and Replication Files](/KACG_replication_files.zip), 
+[Replication Files](/KACG_replication_files.zip), 
 In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations),
                 [Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves),
                 [New Zealand Herald](http://m.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11511461),
