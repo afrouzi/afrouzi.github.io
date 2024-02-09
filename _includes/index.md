@@ -53,3 +53,7 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**
 *with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: December 2021*
+
+# Work in Progress
+### **[<i class="fas fa-tv" aria-hidden="true"></i> Cost of Inflation in Production Networks](/abw_slides.pdf)** 
+*with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu*
