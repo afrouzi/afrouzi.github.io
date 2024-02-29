@@ -1,8 +1,8 @@
 # Publications
 
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)**<br />
-***<span class=journal>Journal of Political Economy</span>***, Accepted<br />
-[Replication Files](https://github.com/afrouzi/strategic-inattention), In media: [Bloomberg](https://www.bloomberg.com/view/articles/2018-05-01/economics-grapples-what-causes-recessions)<br />
+### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money**](https://doi.org/10.1086/730201)<br />
+***<span class=journal>Journal of Political Economy</span>***, Forthcoming<br />
+[Replication Files](https://doi.org/10.7910/DVN/AO6C85)<br />
 
 ### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Overreaction in Expectations: Evidence and Theory**](https://doi.org/10.1093/qje/qjad009)
 *with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)*<br />
@@ -14,7 +14,7 @@
 ***<span class=journal>Journal of Political Economy Microeconomics</span>***, Forthcoming <br />
 [Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
 
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)**
+### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Endogenous Firm Competition and Cyclicality of Markups**](https://doi.org/10.1162/rest_a_01281)<br/>
 *with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)*<br />
 ***<span class=journal>Review of Economics and Statistics</span>***, Forthcoming<br />
 [Online Appendix](/ac_markup_cyclicality/ac_online_appendix.pdf), [Replication Files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MM6ZCV)<br/>
