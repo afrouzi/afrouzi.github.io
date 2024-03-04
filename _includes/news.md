@@ -11,11 +11,13 @@ table {
 # News
 
 |<img width=150> | |
-|***Sep. 6, 2023***|**"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is accepted for publication in JPE: Micro.**|
+|***Feb. 28, 2023***|**"[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)" is [forthcoming in the Journal of Political Economy](https://doi.org/10.1086/730201).**|
+|***Oct. 30, 2023***|**"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is [forthcoming in the Journal of Political Economy Microeconomics](https://doi.org/10.1086/728365).**|
+|*Sep. 6, 2023*|"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is accepted for publication in JPE: Micro.|
 |*Apr. 26, 2023*|New working paper on "[Monetary Policy without Commitment](/ahry_mpwc.pdf)."|
-|***Mar. 6, 2023***|**"[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)" is [forthcoming in QJE](https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjad009/7070742).**|
+|***Mar. 6, 2023***|**"[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)" is [forthcoming in the Quarterly Journal of Economics](https://academic.oup.com/qje/advance-article/doi/10.1093/qje/qjad009/7070742).**|
 |*Feb. 24, 2023*| Updated draft for "[Sufficient Statistics for Inflation and GDP Dynamics in Production Networks](/ab_inflation_networks.pdf)."|
-|***Feb. 6, 2023***| **"[Endogenous Firm Competition and the Cyclicality of Markups](/ac_markup_cyclicality/ac_markups.pdf)" is [forthcoming in ReSTAT](https://direct.mit.edu/rest/article/doi/10.1162/rest_a_01281/114763/Endogenous-Firm-Competition-and-the-Cyclicality-of).**|
+|***Feb. 6, 2023***| **"[Endogenous Firm Competition and the Cyclicality of Markups](/ac_markup_cyclicality/ac_markups.pdf)" is [forthcoming in the Review of Economics and Statistics](https://direct.mit.edu/rest/article/doi/10.1162/rest_a_01281/114763/Endogenous-Firm-Competition-and-the-Cyclicality-of).**|
 |*Jan. 3, 2023*| Updated draft for "[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)."|
 |*Dec. 22, 2022*| Updated draft for "[Overreaction in Expectations: Evidence and Theory](/aklmt_overreaction.pdf)." |
 |*Nov. 7, 2022*| Updated draft for "[Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](/aaw_persuasion.pdf)."|
