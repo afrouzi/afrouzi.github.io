@@ -51,12 +51,12 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)**
 *with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)* --- *Version: April 2023* <br />
 
-### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Selection in Information Acquisition and Monetary Non-Neutrality](/ay_infoselection.pdf)**
-*with [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: December 2021*
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality](/afy_selection.pdf)**
+*with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/)* --- *Version: March 2024*
 
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings](/wetal_tellme.pdf)**
 *with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/)* --- *Version: February 2024*
 
 # Work in Progress
-### **[<i class="fas fa-tv" aria-hidden="true"></i> The Welfare Cost of Inflation in Production Networks](/abw_slides.pdf)** 
+### **[The Welfare Cost of Inflation in Production Networks](/abw_slides.pdf)** 
 *with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu*
