@@ -11,7 +11,7 @@ table {
 # News
 
 |<img width=150> | |
-|***Feb. 28, 2023***|**"[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)" is [forthcoming in the Journal of Political Economy](https://doi.org/10.1086/730201).**|
+|***Feb. 28, 2024***|**"[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)" is [forthcoming in the Journal of Political Economy](https://doi.org/10.1086/730201).**|
 |***Oct. 30, 2023***|**"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is [forthcoming in the Journal of Political Economy Microeconomics](https://doi.org/10.1086/728365).**|
 |*Sep. 6, 2023*|"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is accepted for publication in JPE: Micro.|
 |*Apr. 26, 2023*|New working paper on "[Monetary Policy without Commitment](/ahry_mpwc.pdf)."|
