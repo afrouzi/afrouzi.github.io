@@ -14,6 +14,7 @@
 ***<span class=journal>Journal of Political Economy Microeconomics</span>***, Forthcoming <br />
 [PDF](/aaw_persuasion.pdf), [Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
 
+
 ### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Endogenous Firm Competition and Cyclicality of Markups**](https://doi.org/10.1162/rest_a_01281)<br/>
 *with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)*<br />
 ***<span class=journal>Review of Economics and Statistics</span>***, Forthcoming<br />
@@ -48,6 +49,10 @@ Code Repos:
     [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 
+### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)**
+*with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)* --- *Version: March 2024 (Conference draft)* <br />
+Prepared for ***<span class=journal>[Brookings Papers on Economic Activity, Spring 2024](https://www.brookings.edu/articles/changing-central-bank-pressures-and-inflation/)</span>*** <br />
+
 ### **[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)**
 *with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)* --- *Version: April 2023* <br />
 
@@ -60,3 +65,6 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 # Work in Progress
 ### **[The Welfare Cost of Inflation in Production Networks](/abw_slides.pdf)** 
 *with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu*
+
+### **Inflation Preferences** 
+*with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/)*
