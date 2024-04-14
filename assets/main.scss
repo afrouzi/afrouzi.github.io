@@ -6,20 +6,20 @@
 // $background-color: #F1EED9;
 
 $text-color: #37342c;
-$anchor-text-color: #860e24;
+$anchor-text-color: #7f0a20;
 $background-color: #fff6e3;
 $dark-background-color: #f4e4c2;
 $darker-background-color: #e8d1a2;
-$size-normal: 20px;
-$size-big: 22px;
-$size-menu: 24px;
+$size-normal: 18px;
+$size-big: 20px;
+$size-menu: 22px;
 
 body {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Open Sans', sans-serif;
 	color: $text-color;
-	line-height: 1.45;
+	line-height: 1.7;
 	font-size: $size-normal;
-	font-weight: 400;
+	font-weight: 340;
 	background-color: $background-color;
 }
 
@@ -53,6 +53,7 @@ body {
 .journal {
 	color: black;
 	font-size: $size-big;
+	font-weight: 600;
 }
 
 .phone-content {

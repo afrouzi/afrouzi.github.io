@@ -11,7 +11,7 @@ table {
 # News
 
 |<img width=150> | |
-|*Mar. 29, 2023*|New working paper on "[Chaning Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)" (Prepared for [Brookings Papers on Economic Activity](https://www.brookings.edu/articles/changing-central-bank-pressures-and-inflation/)).|
+|*Mar. 29, 2024*|New working paper on "[Chaning Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)" (Prepared for [Brookings Papers on Economic Activity](https://www.brookings.edu/articles/changing-central-bank-pressures-and-inflation/)).|
 |***Feb. 28, 2024***|**"[Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](/strategic_inattention.pdf)" is [forthcoming in the Journal of Political Economy](https://doi.org/10.1086/730201).**|
 |***Oct. 30, 2023***|**"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is [forthcoming in the Journal of Political Economy Microeconomics](https://doi.org/10.1086/728365).**|
 |*Sep. 6, 2023*|"[Is it the Message or the Messenger?](/aaw_persuasion.pdf)" is accepted for publication in JPE: Micro.|
