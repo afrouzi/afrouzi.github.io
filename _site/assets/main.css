@@ -1,9 +1,9 @@
 body {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #37342c;
-  line-height: 1.45;
-  font-size: 20px;
-  font-weight: 400;
+  line-height: 1.7;
+  font-size: 18px;
+  font-weight: 340;
   background-color: #fff6e3; }
 
 .header-button {
@@ -42,7 +42,8 @@ body {
 
 .journal {
   color: black;
-  font-size: 22px; }
+  font-size: 20px;
+  font-weight: 600; }
 
 .phone-content {
   display: flex;
@@ -74,7 +75,7 @@ main {
   margin-top: 10%; }
 
 table {
-  font-size: 22px; }
+  font-size: 20px; }
 
 table td, table th {
   vertical-align: top;
@@ -85,7 +86,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #860e24;
+  color: #7f0a20;
   text-decoration: none; }
 
 a:hover {
@@ -214,4 +215,4 @@ footer {
     padding-bottom: 25px; }
 
   .header-button {
-    font-size: 24px; } }
+    font-size: 22px; } }
