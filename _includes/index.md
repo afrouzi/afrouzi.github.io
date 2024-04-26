@@ -56,7 +56,7 @@ Prepared for <span class=journal>[Brookings Papers on Economic Activity, Spring 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: April 2023 <br />
 
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality](/afy_selection.pdf)
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
 with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: March 2024
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
@@ -66,5 +66,8 @@ with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kri
 with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/) --- Version: February 2024
 
 # Work in Progress
+### [<i class="fa fa-pencil-alt" aria-hidden="true"></i> The Distributional Effects of Inflation on the Labor Market](/abdh_slides.pdf) 
+with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com)
+
 ### [<i class="fa fa-pencil-alt" aria-hidden="true"></i> The Welfare Cost of Inflation in Production Networks](/abw_slides.pdf) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu
