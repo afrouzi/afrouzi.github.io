@@ -49,6 +49,10 @@ Code Repos:
     [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings](/wetal_tellme.pdf)
+with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/) --- Version: February 2024 <br/>
+Revise and Resubmit, <span class=journal>Econometrica</span> <br />
+
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: March 2024 (Conference draft) <br />
 Prepared for <span class=journal>[Brookings Papers on Economic Activity, Spring 2024](https://www.brookings.edu/articles/changing-central-bank-pressures-and-inflation/)</span> <br />
@@ -61,9 +65,6 @@ with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choong
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
 with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings](/wetal_tellme.pdf)
-with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/) --- Version: February 2024
 
 # Work in Progress
 ### [<i class="fa fa-pencil-alt" aria-hidden="true"></i> The Distributional Effects of Inflation on the Labor Market](/abdh_slides.pdf) 
