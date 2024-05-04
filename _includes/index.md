@@ -53,6 +53,10 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/) --- Version: February 2024 <br/>
 Revise and Resubmit, <span class=journal>Econometrica</span> <br />
 
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](/abw_relative_prices.pdf) 
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu --- Version: May 2024 (Conference draft) <br />
+Prepared for <span class=journal>[NBER Inflation in the COVID Era and Beyond Conference, Spring 2024](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)</span> <br />
+
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: March 2024 (Conference draft) <br />
 Prepared for <span class=journal>[Brookings Papers on Economic Activity, Spring 2024](https://www.brookings.edu/articles/changing-central-bank-pressures-and-inflation/)</span> <br />
