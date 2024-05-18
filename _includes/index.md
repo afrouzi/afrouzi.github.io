@@ -4,25 +4,24 @@
 <span class=journal>Journal of Political Economy</span>, Forthcoming<br />
 [PDF](/strategic_inattention.pdf), [Online Appendix](/strategic_inattention_appendix.pdf), [Replication Files](https://doi.org/10.7910/DVN/AO6C85)<br />
 
-### [<i class="fa fa-book" aria-hidden="true"></i> Overreaction in Expectations: Evidence and Theory](https://doi.org/10.1093/qje/qjad009)
-with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)<br />
-<span class=journal>The Quarterly Journal of Economics</span>, 138(3), 1713–1764, August 2023<br />
-[Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface), [Replication Files](https://doi.org/10.7910/DVN/3Q6BHC)<br/>
-
-### [<i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365) <br /> 
-with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0) <br />
-<span class=journal>Journal of Political Economy Microeconomics</span>, Forthcoming <br />
-[PDF](/aaw_persuasion.pdf), [Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
-
-
 ### [<i class="fa fa-book" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)<br/>
 with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<br />
 <span class=journal>Review of Economics and Statistics</span>, Forthcoming<br />
 [PDF](/ac_markup_cyclicality/ac_markups.pdf), [Online Appendix](/ac_markup_cyclicality/ac_online_appendix.pdf), [Replication Files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MM6ZCV)<br/>
 
+### [<i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365) <br /> 
+with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0) <br />
+<span class=journal>Journal of Political Economy Microeconomics</span>, 2(2), pp. 244–297. <br />
+[PDF](/aaw_persuasion.pdf), [Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
+
+### [<i class="fa fa-book" aria-hidden="true"></i> Overreaction in Expectations: Evidence and Theory](https://doi.org/10.1093/qje/qjad009)
+with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)<br />
+<span class=journal>The Quarterly Journal of Economics</span>, 138(3), pp. 1713-1764.<br />
+[Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface), [Replication Files](https://doi.org/10.7910/DVN/3Q6BHC)<br/>
+
 ### [<i class="fa fa-book" aria-hidden="true"></i> Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand](https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf)
 with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/) <br />
-<span class=journal>Brookings Papers on Economic Activity</span>, 43, 151-208, Fall 2015<br />
+<span class=journal>Brookings Papers on Economic Activity</span>, 2015(2), pp. 151-225.<br />
 [Replication Files](/KACG_replication_files.zip), 
 In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations),
                 [Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves),
