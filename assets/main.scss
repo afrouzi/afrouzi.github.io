@@ -11,7 +11,7 @@ $background-color: #fff6e3;
 $dark-background-color: #f4e4c2;
 $darker-background-color: #e8d1a2;
 $size-normal: 18px;
-$size-big: 20px;
+$size-big: 19.5px;
 $size-menu: 22px;
 
 body {
@@ -51,9 +51,8 @@ body {
   }
 
 .journal {
-	color: black;
 	font-size: $size-big;
-	font-weight: 550;
+	font-weight: 600;
 }
 
 .phone-content {
