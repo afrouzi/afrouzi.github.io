@@ -11,17 +11,17 @@ with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<b
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365) <br /> 
 with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0) <br />
-<span class=journal>Journal of Political Economy Microeconomics</span>, 2(2), pp. 244–297. <br />
+<span class=journal>Journal of Political Economy Microeconomics</span>, 2(2), pp. 244–297, May 2024 <br />
 [PDF](/aaw_persuasion.pdf), [Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Overreaction in Expectations: Evidence and Theory](https://doi.org/10.1093/qje/qjad009)
 with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)<br />
-<span class=journal>The Quarterly Journal of Economics</span>, 138(3), pp. 1713-1764.<br />
+<span class=journal>The Quarterly Journal of Economics</span>, 138(3), pp. 1713-1764, August 2023<br />
 [Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface), [Replication Files](https://doi.org/10.7910/DVN/3Q6BHC)<br/>
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand](https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf)
-with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/) <br />
-<span class=journal>Brookings Papers on Economic Activity</span>, 2015(2), pp. 151-225.<br />
+with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/) <br/>
+<span class=journal>Brookings Papers on Economic Activity</span>, 2015(2), pp. 151-225, Fall 2015<br />
 [Replication Files](/KACG_replication_files.zip), 
 In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations),
                 [Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves),
@@ -52,6 +52,9 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/) --- Version: February 2024 <br/>
 Revise and Resubmit, <span class=journal>Econometrica</span> <br />
 
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
+with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: May 2024
+
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](/abw_relative_prices.pdf) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu --- Version: May 2024 (Conference draft) <br />
 Prepared for <span class=journal>[NBER Inflation in the COVID Era and Beyond Conference, Spring 2024](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)</span> <br />
@@ -62,9 +65,6 @@ Prepared for <span class=journal>[Brookings Papers on Economic Activity, Spring 
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: April 2023 <br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
-with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: March 2024
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
 with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
