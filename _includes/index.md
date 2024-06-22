@@ -56,7 +56,7 @@ Revise and Resubmit, <span class=journal>Econometrica</span> <br />
 with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](/abw_relative_prices.pdf) 
-with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu --- Version: May 2024 (Conference draft) <br />
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and Edson Wu --- Version: June 2024 <br />
 Prepared for <span class=journal>[NBER Inflation in the COVID Era and Beyond Conference, Spring 2024](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)</span> <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)
