@@ -1,6 +1,6 @@
 # Publications
 
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](/abw_relative_prices.pdf) 
+### [<i class="fa fa-book" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](/abw_relative_prices.pdf) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/) (Prepared for [NBER Inflation in the COVID Era and Beyond Conference](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)) <br />
 <span class=journal>Journal of Monetary Economics</span>, Accepted<br />
 
@@ -16,6 +16,7 @@ with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<b
 ### [<i class="fas fa-book" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) <br />
 <span class=journal>Brookings Papers on Economic Activity</span>, Forthcoming<br />
+[VoxEU Column](https://cepr.org/voxeu/columns/changing-central-bank-pressures-and-inflation) <br />
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365) <br /> 
 with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0) <br />
