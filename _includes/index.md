@@ -48,7 +48,7 @@ with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.g
 Revise and Resubmit, <span class=journal> Econometrica </span><br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
-with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: May 2023 <br />
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: July 2024 <br />
 Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf) <br />
