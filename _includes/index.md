@@ -1,8 +1,8 @@
 # Publications
 
-### [<i class="fa fa-book" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](/abw_relative_prices.pdf) 
+### [<i class="fa fa-book" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](https://doi.org/10.1016/j.jmoneco.2024.103650) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/) (Prepared for [NBER Inflation in the COVID Era and Beyond Conference](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)) <br />
-<span class=journal>Journal of Monetary Economics</span>, Accepted<br />
+<span class=journal>Journal of Monetary Economics</span>, Forthcoming<br />
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](https://doi.org/10.1086/730201)<br />
 <span class=journal>Journal of Political Economy</span>, Forthcoming<br />
@@ -20,17 +20,17 @@ with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff]
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365) <br /> 
 with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0) <br />
-<span class=journal>Journal of Political Economy Microeconomics</span>, 2(2), pp. 244–297, May 2024 <br />
+<span class=journal>Journal of Political Economy Microeconomics</span> 2(2): 244--297 (2024) <br />
 [PDF](/aaw_persuasion.pdf), [Supplemental Materials](/aaw_persuasion_supplemental.pdf), [Replication Files](https://doi.org/10.7910/DVN/8DM8KG) <br />
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Overreaction in Expectations: Evidence and Theory](https://doi.org/10.1093/qje/qjad009)
 with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)<br />
-<span class=journal>The Quarterly Journal of Economics</span>, 138(3), pp. 1713-1764, August 2023<br />
+<span class=journal>The Quarterly Journal of Economics</span> 138(3): 1713--1764 (2023)<br />
 [Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface), [Replication Files](https://doi.org/10.7910/DVN/3Q6BHC)<br/>
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand](https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf)
 with [Saten Kumar](http://www.aut.ac.nz/profiles/saten-kumar), [Olivier Coibion](https://sites.google.com/site/ocoibion/), and [Yuriy Gorodnichenko](http://eml.berkeley.edu/~ygorodni/) <br/>
-<span class=journal>Brookings Papers on Economic Activity</span>, 2015(2), pp. 151-225, Fall 2015<br />
+<span class=journal>Brookings Papers on Economic Activity</span> 46(2): 151--225 (2015)<br />
 [Replication Files](/KACG_replication_files.zip), 
 In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectations),
                 [Bloomberg](http://www.bloomberg.com/news/articles/2015-09-10/this-new-study-questions-a-key-assumption-central-bankers-make-about-themselves),
