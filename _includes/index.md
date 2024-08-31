@@ -61,6 +61,9 @@ Code Repos:
     [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
+with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: August 2024
+
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
 with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024
 
@@ -71,8 +74,6 @@ with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff]
 with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
 
 # Work in Progress
-### [<i class="fa fa-pencil-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_slides.pdf) 
-with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com)
 
 ### [<i class="fa fa-pencil-alt" aria-hidden="true"></i> The Welfare Cost of Inflation in Production Networks](/abw_slides.pdf) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/)
