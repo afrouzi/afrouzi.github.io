@@ -1,4 +1,7 @@
 # Publications
+### [<i class="fa fa-book" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings](/wetal_tellme.pdf)
+with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/)<br/>
+<span class=journal>Econometrica</span>, Accepted <br />
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](https://doi.org/10.1016/j.jmoneco.2024.103650) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/) (Prepared for [NBER Inflation in the COVID Era and Beyond Conference](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)) <br />
@@ -38,10 +41,6 @@ In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectati
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
 
 # Working Papers
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings](/wetal_tellme.pdf)
-with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/) --- Version: June 2024 <br/>
-Conditionally Accepted, <span class=journal>Econometrica</span> <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)
 with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/) --- Version: May 2023 <br />
