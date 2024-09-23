@@ -7,10 +7,6 @@ with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/) (Prepared for [NBER Inflation in the COVID Era and Beyond Conference](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)) <br />
 <span class=journal>Journal of Monetary Economics</span>, Forthcoming<br />
 
-### [<i class="fa fa-book" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](https://doi.org/10.1086/730201)<br />
-<span class=journal>Journal of Political Economy</span>, Forthcoming<br />
-[PDF](/strategic_inattention.pdf), [Online Appendix](/strategic_inattention_appendix.pdf), [Replication Files](https://doi.org/10.7910/DVN/AO6C85)<br />
-
 ### [<i class="fa fa-book" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)<br/>
 with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<br />
 <span class=journal>Review of Economics and Statistics</span>, Forthcoming<br />
@@ -20,6 +16,10 @@ with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<b
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) <br />
 <span class=journal>Brookings Papers on Economic Activity</span>, Forthcoming<br />
 [VoxEU Column](https://cepr.org/voxeu/columns/changing-central-bank-pressures-and-inflation) <br />
+
+### [<i class="fa fa-book" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](https://doi.org/10.1086/730201)<br />
+<span class=journal>Journal of Political Economy</span>, 132(10): 3378--3420 (2024)<br />
+[PDF](/strategic_inattention.pdf), [Online Appendix](/strategic_inattention_appendix.pdf), [Replication Files](https://doi.org/10.7910/DVN/AO6C85)<br />
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs](https://doi.org/10.1086/728365) <br /> 
 with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](https://sites.google.com/site/emilyweisburst/home?authuser=0) <br />
