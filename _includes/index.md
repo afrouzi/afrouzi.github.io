@@ -5,17 +5,17 @@ with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence](https://doi.org/10.1016/j.jmoneco.2024.103650) 
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/) (Prepared for [NBER Inflation in the COVID Era and Beyond Conference](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)) <br />
-<span class=journal>Journal of Monetary Economics</span>, Forthcoming<br />
-
-### [<i class="fa fa-book" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)<br/>
-with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<br />
-<span class=journal>Review of Economics and Statistics</span>, Forthcoming<br />
-[PDF](/ac_markup_cyclicality/ac_markups.pdf), [Online Appendix](/ac_markup_cyclicality/ac_online_appendix.pdf), [Replication Files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MM6ZCV)<br/>
+<span class=journal>Journal of Monetary Economics</span>, 148(S): 103650 (2024)<br />
 
 ### [<i class="fas fa-book" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) <br />
-<span class=journal>Brookings Papers on Economic Activity</span>, Forthcoming<br />
+<span class=journal>Brookings Papers on Economic Activity</span>, 55(1): 205–241 (2024)<br />
 [VoxEU Column](https://cepr.org/voxeu/columns/changing-central-bank-pressures-and-inflation) <br />
+
+### [<i class="fa fa-book" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups](https://doi.org/10.1162/rest_a_01281)<br/>
+with [Luigi Caloi](https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/)<br />
+<span class=journal>Review of Economics and Statistics</span>, 106(6): 1638–1654 (2024)<br />
+[PDF](/ac_markup_cyclicality/ac_markups.pdf), [Online Appendix](/ac_markup_cyclicality/ac_online_appendix.pdf), [Replication Files](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MM6ZCV)<br/>
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money](https://doi.org/10.1086/730201)<br />
 <span class=journal>Journal of Political Economy</span>, 132(10): 3378--3420 (2024)<br />
