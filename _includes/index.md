@@ -50,10 +50,6 @@ Revise and Resubmit, <span class=journal> Econometrica </span><br />
 with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024 <br />
 Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
 
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
-with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: July 2024 <br />
-Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
-
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf) <br />
 with [Choongryul Yang](https://choongryulyang.github.io/) --- Version: April 2021 <br />
 Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
@@ -66,6 +62,9 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
 with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: August 2024
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: July 2024
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: April 2023 <br />
