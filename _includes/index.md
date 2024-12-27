@@ -64,7 +64,7 @@ Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.git
 with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: August 2024
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
-with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: July 2024
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
