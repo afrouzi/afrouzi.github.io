@@ -7,7 +7,7 @@ with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson Wu](https://edson-wu.github.io/) (Prepared for [NBER Inflation in the COVID Era and Beyond Conference](https://www.nber.org/conferences/inflation-covid-era-and-beyond-spring-2024)) <br />
 <span class=journal>Journal of Monetary Economics</span>, 148(S): 103650 (2024)<br />
 
-### [<i class="fas fa-book" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/03/4_Afrouzi-et-al_unembargoed.pdf)
+### [<i class="fas fa-book" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation](https://www.brookings.edu/wp-content/uploads/2024/11/16937-BPEA-BPEA-SP24_WEB-Afrouzi-et-al.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) <br />
 <span class=journal>Brookings Papers on Economic Activity</span>, 55(1): 205–241 (2024)<br />
 [VoxEU Column](https://cepr.org/voxeu/columns/changing-central-bank-pressures-and-inflation) <br />
