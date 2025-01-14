@@ -80,5 +80,5 @@ with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson
 ### <i class="fa fa-pencil-alt" aria-hidden="true"></i> Sectoral Salience
 with [Benjamin Hébert](https://gsb-faculty.stanford.edu/benjamin-hebert/), [Jennifer La'O](https://www.jennifer-la-o.com/), and [John Leahy](https://sites.google.com/umich.edu/johnleahy/home)
 
-### <i class="fas fa-file-alt" aria-hidden="true"></i> Optimal Long-Run Inflation
+### <i class="fa fa-pencil-alt" aria-hidden="true"></i> Optimal Long-Run Inflation
 with [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)
