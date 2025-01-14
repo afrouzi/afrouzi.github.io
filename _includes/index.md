@@ -69,9 +69,6 @@ with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Versio
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
 
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Optimal Long-Run Inflation](/ay_longruninflation.pdf)
-with [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
-
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
 with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
 
@@ -82,3 +79,6 @@ with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) and [Edson
 
 ### <i class="fa fa-pencil-alt" aria-hidden="true"></i> Sectoral Salience
 with [Benjamin Hébert](https://gsb-faculty.stanford.edu/benjamin-hebert/), [Jennifer La'O](https://www.jennifer-la-o.com/), and [John Leahy](https://sites.google.com/umich.edu/johnleahy/home)
+
+### <i class="fas fa-file-alt" aria-hidden="true"></i> Optimal Long-Run Inflation
+with [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/)
