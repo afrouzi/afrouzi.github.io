@@ -46,6 +46,10 @@ In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectati
 with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/) --- Version: May 2023 <br />
 Revise and Resubmit, <span class=journal> Econometrica </span><br />
 
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
+with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
+Revise and Resubmit, <span class=journal>American Economic Review</span> <br />
+
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
 with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024 <br />
 Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
@@ -65,9 +69,6 @@ with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
-with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
 with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
