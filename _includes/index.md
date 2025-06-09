@@ -65,7 +65,7 @@ Code Repos:
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
-with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: August 2024
+with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: May 2025
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
