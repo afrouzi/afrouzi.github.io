@@ -28,7 +28,7 @@ with [Carolina Arteaga](http://www.carolinaarteaga.com/) and [Emily Weisburst](h
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Overreaction in Expectations: Evidence and Theory](https://doi.org/10.1093/qje/qjad009)
 with [Spencer Kwon](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369), [Augustin Landier](https://sites.google.com/site/augustinlandier/), [Yueran Ma](https://voices.uchicago.edu/yueranma/), and [David Thesmar](https://mitsloan.mit.edu/faculty/directory/david-thesmar)<br />
-<span class=journal>The Quarterly Journal of Economics</span> 138(3): 1713--1764 (2023)<br />
+<span class=journal>Quarterly Journal of Economics</span> 138(3): 1713--1764 (2023)<br />
 [Online Appendix](/aklmt_overreaction_appendix.pdf), [Experimental Interface](https://github.com/forecast-research/interface), [Replication Files](https://doi.org/10.7910/DVN/3Q6BHC)<br/>
 
 ### [<i class="fa fa-book" aria-hidden="true"></i> Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand](https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf)
@@ -42,13 +42,17 @@ In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectati
 
 # Working Papers
 
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)
-with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/) --- Version: May 2023 <br />
-Revise and Resubmit, <span class=journal> Econometrica </span><br />
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
+with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: May 2025 <br />
+Revise and Resubmit, <span class=journal>Quarterly Journal of Economics</span> <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
 with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
 Revise and Resubmit, <span class=journal>American Economic Review</span> <br />
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)
+with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/) --- Version: May 2023 <br />
+Revise and Resubmit, <span class=journal> Econometrica </span><br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
 with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024 <br />
@@ -63,9 +67,6 @@ Code Repos:
     [Julia](http://github.com/afrouzi/DRIPs.jl),
     [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
-with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: May 2025
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
 with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
