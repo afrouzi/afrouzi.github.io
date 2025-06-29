@@ -1,3 +1,37 @@
+# Working Papers
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
+with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: May 2025 <br />
+Revise and Resubmit, <span class=journal>Quarterly Journal of Economics</span> <br />
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
+with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
+Revise and Resubmit, <span class=journal>American Economic Review</span> <br />
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)
+with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/) --- Version: May 2023 <br />
+Revise and Resubmit, <span class=journal> Econometrica </span><br />
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
+with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024 <br />
+Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf) <br />
+with [Choongryul Yang](https://choongryulyang.github.io/) --- Version: April 2021 <br />
+Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793) (Version: October 2019, [older versions](/dynamic_inattention/));
+[Replication material](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/);
+Code Repos:
+    [Julia](http://github.com/afrouzi/DRIPs.jl),
+    [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
+Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
+
+### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
+with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
+
 # Publications
 ### [<i class="fa fa-book" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings](https://doi.org/10.3982/ECTA22764)
 with  [Michael Weber](http://faculty.chicagobooth.edu/michael.weber/), [Bernardo Candia](https://www.bernardocandia.com/), [Tiziano Ropele](https://ideas.repec.org/f/pro704.html), [Rodrigo Lluberas](https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy), [Serafin Frache](https://www.serafin-frache.com/), [Brent Meyer](https://www.atlantafed.org/research/economists/meyer-brent), [Saten Kumar](https://www.satenkumar.com/), [Yuriy Gorodnichenko](http://emlab.berkeley.edu/~ygorodni/index.htm), [Dimitris Georgarakos](https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html), [Olivier Coibion](https://sites.google.com/site/ocoibion/), [Geoff Kenny](https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html), and [Jorge Ponce](https://jorgeponce.wordpress.com/)<br/>
@@ -40,39 +74,6 @@ In media: [VoxEU](http://www.voxeu.org/article/inflation-targeting-and-expectati
                 [New Zealand Herald](http://m.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11511461),
                 [Week](http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies) <br />
 
-# Working Papers
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> A Theory of How Workers Keep Up with Inflation](/abdh_inflation.pdf) 
-with [Andres Blanco](https://www.andresjblanco.com/), [Andres Drenik](http://www.andresdrenik.com), and [Erik Hurst](https://erikhurst.com) --- Version: May 2025 <br />
-Revise and Resubmit, <span class=journal>Quarterly Journal of Economics</span> <br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Monetary Policy without Commitment](/ahry_mpwc.pdf)
-with [Marina Halac](https://sites.google.com/view/marinahalac), [Kenneth Rogoff](https://scholar.harvard.edu/rogoff/home), and [Pierre Yared](https://www0.gsb.columbia.edu/faculty/pyared/) --- Version: December 2024 <br />
-Revise and Resubmit, <span class=journal>American Economic Review</span> <br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition](/adk_concentration.pdf)
-with [Andres Drenik](http://www.andresdrenik.com) and [Ryan Kim](https://sites.google.com/site/ryansungryongkim/) --- Version: May 2023 <br />
-Revise and Resubmit, <span class=journal> Econometrica </span><br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?](/afy_selection.pdf)
-with [Joel P. Flynn](https://joelflynn.com) and [Choongryul Yang](https://choongryulyang.github.io/) --- Version: June 2024 <br />
-Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Dynamic Rational Inattention and the Phillips Curve](/dynamic_inattention/draft_2021_04.pdf) <br />
-with [Choongryul Yang](https://choongryulyang.github.io/) --- Version: April 2021 <br />
-Reject and Resubmit, <span class=journal>American Economic Review</span> <br />
-[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793) (Version: October 2019, [older versions](/dynamic_inattention/));
-[Replication material](https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/);
-Code Repos:
-    [Julia](http://github.com/afrouzi/DRIPs.jl),
-    [Matlab](https://github.com/choongryulyang/DRIPs.m);<br/>
-Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
-with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
-
-### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
-with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
 
 # Work in Progress
 

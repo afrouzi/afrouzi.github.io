@@ -136,6 +136,8 @@ h1 {
   /* font-size: clamp(30px, 2vw, 36px); */
   font-size: 1.6em;
   margin: 0.67em 0;
+  margin-left: -1%;
+  margin-bottom: 20px;
 }
 
 h2 {
