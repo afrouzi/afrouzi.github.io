@@ -27,7 +27,7 @@ Code Repos:
 Documentation: [PDF](/dynamic_inattention/manual.pdf), [HTML](http://afrouzi.github.io/DRIPs.jl/dev/), Teaching Slides: [HTML](/DRIPs_slides.html), [Live Jupyter Slides](https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb) <br />
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach](/ab_inflation_networks.pdf)
-with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: December 2024
+with [Saroj Bhattarai](https://sites.google.com/site/bhattaraisaroj/) --- Version: August 2025
 
 ### [<i class="fas fa-file-alt" aria-hidden="true"></i> Inflation Preferences](/admps_preferences.pdf) 
 with [Alexander Dietrich](https://sites.google.com/view/alexanderdietrich), [Kristian Myrseth](https://sites.google.com/site/kmyrseth2/Myrseth), [Romanos Priftis](https://sites.google.com/site/romanospriftis/home), and [Raphael Schoenle](https://people.brandeis.edu/~schoenle/) --- Version: April 2024
