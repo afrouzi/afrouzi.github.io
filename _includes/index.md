@@ -28,7 +28,7 @@
     </div>
             {% if paper.status or paper.journal %}
                 <div class="status-journal">
-                    {% if paper.status %}<span class="status-light">{{ paper.status }}</span>{% endif %}{% if paper.status and paper.journal %}, {% endif %}{% if paper.journal %}<span class="journal-bold">{{ paper.journal }}</span>{% endif %}
+                    {% if paper.status %}<span class="status-light">{{ paper.status }}{% if paper.status and paper.journal %}, {% endif %}</span>{% endif %}{% if paper.journal %}<span class="journal-bold">{{ paper.journal }}</span>{% endif %}
                 </div>
             {% endif %}
     {% if paper.extra_links %}

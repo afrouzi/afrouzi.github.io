@@ -23,6 +23,8 @@ flynn:
   name: "Joel P. Flynn"
   url: "https://joelflynn.com"
 yang:
+  name: "Choongryul Yang"
+  url: "https://choongryulyang.github.io/"
 weber:
   name: "Michael Weber"
   url: "http://faculty.chicagobooth.edu/michael.weber/"
@@ -80,8 +82,6 @@ ma:
 thesmar:
   name: "David Thesmar"
   url: "https://mitsloan.mit.edu/faculty/directory/david-thesmar"
-  name: "Choongryul Yang"
-  url: "https://choongryulyang.github.io/"
 bhattarai:
   name: "Saroj Bhattarai"
   url: "https://sites.google.com/site/bhattaraisaroj/"

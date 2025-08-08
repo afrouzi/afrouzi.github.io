@@ -56,6 +56,12 @@ body, main {
 	max-width: 100vw;
 }
 @media (max-width: 600px) {
+	.paper-card {
+		padding: 0.9em 0.9em 0.9em 0.9em !important;
+	}
+	.sidebar-menu, .sidebar-menu * {
+		font-size: 0.98em !important;
+	}
 	.section-ribbon {
 		font-size: 1.2em;
 	}
@@ -66,9 +72,17 @@ body, main {
 	.ribbon-link.inactive .ribbon-label {
 		display: none;
 	}
+	.ribbon-link.inactive {
+		text-overflow: unset;
+		white-space: normal;
+	}
 	.ribbon-link.active .ribbon-label {
 		display: inline;
 	}
+	.main-content, .main-content * {
+		font-size: 0.98em !important;
+	}
+	.poweredby { font-size: 0.6em !important; }
 }
 .ribbon-link.active {
 	color: #111;
@@ -277,6 +291,14 @@ body, main {
 	.sidebar {
 		width: 100vw;
 		height: auto;
+
+	.modern-tagline {
+		font-size: 0.96em;
+	}
+	.modern-tagline .tagline-row,
+	.modern-tagline .tagline-sub {
+		font-size: 0.96em;
+	}
 		position: static;
 		border-radius: 0 0 18px 18px;
 		border-right: none;
@@ -286,7 +308,7 @@ body, main {
 	.main-content {
 		margin-left: 0;
 		margin-top: 25px; // Reduced from 260px for less top padding
-		padding: 0 2vw;
+		padding: 0 1vw;
 	}
 }
 // Section titles for card layout
@@ -533,12 +555,13 @@ footer {
 }
 
 .poweredby {
-	font-family: "Arial Narrow", Arial;
-	font-size: 0.6em;
-	line-height: 0.6em;
-	padding: 0 5px;
-	color: gray;
+	font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
+	font-weight: 260;
+	color: $text-color;
 	text-align: right;
+	padding-top: 40em;
+	background: none;
+	font-size: 0.6em;
 }
 
 /*** media queries ***/
@@ -566,6 +589,16 @@ footer {
 	}
 	.ribbon-link.active .ribbon-label {
 		display: inline;
+	}
+
+	/* Break line between status and journal in mobile mode */
+	.status-journal {
+		display: flex;
+		flex-direction: column;
+		gap: 0.2em;
+	}
+	.status-journal .journal-bold {
+		margin-top: 0.1em;
 	}
 }
 
