@@ -59,6 +59,12 @@ $size-menu: 22px;
 		font-size: 0.95em;
 		padding: 0.1em 0.4em;
 	}
+	.ribbon-link.inactive .ribbon-label {
+		display: none;
+	}
+	.ribbon-link.active .ribbon-label {
+		display: inline;
+	}
 }
 .ribbon-link.active {
 	color: #111;
@@ -275,7 +281,7 @@ $size-menu: 22px;
 	}
 	.main-content {
 		margin-left: 0;
-		margin-top: 260px;
+		margin-top: 25px; // Reduced from 260px for less top padding
 		padding: 0 2vw;
 	}
 }
@@ -541,31 +547,28 @@ footer {
 }
 
 /* All other devices (768px and up) */
-@media (min-width: 768px) {
-	.wrapper {
-		width: 100%;
-		margin: 0;
-		float: none;
-		min-width: 0;
+
+
+@media (max-width: 600px) {
+	.section-ribbon {
+		font-size: 1.2em;
 	}
-	.phone-content {
+	.ribbon-link {
+		font-size: 0.95em;
+		padding: 0.1em 0.4em;
+	}
+	.ribbon-link.inactive .ribbon-label {
 		display: none;
-		text-align: center;
 	}
-	.other-content {
-		display: block;
+	.ribbon-link.active .ribbon-label {
+		display: inline;
 	}
-	main {
-		width: 100%;
-		margin: 0;
-	}
-	menu {
-		width: 100%;
-		min-width: 0;
-		margin-left: 0;
-		padding-bottom: 25px;
-	}
-	.header-button {
-		font-size: $size-menu;
-	}
+}
+
+.ribbon-link .fa, .ribbon-link .fas {
+	display: inline;
+	margin-right: 0.3em; // More space between icon and label
+}
+.ribbon-link .fa-file-alt {
+	margin-left: 0.2em; // Add space before Working Papers icon
 }

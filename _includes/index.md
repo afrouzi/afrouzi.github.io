@@ -2,11 +2,20 @@
 
 <div id="working-papers">
     <div class="section-ribbon sticky-ribbon">
-            <a href="#working-papers" class="ribbon-link active"> Working Papers </a>
-            <span class="ribbon-sep">|</span>
-            <a href="#publications" class="ribbon-link inactive"> Publications </a>
-            <span class="ribbon-sep">|</span>
-            <a href="#work-in-progress" class="ribbon-link inactive"> Work in Progress </a>
+        <a href="#working-papers" class="ribbon-link active">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span class="ribbon-label">Working Papers</span>
+        </a>
+        <span class="ribbon-sep">|</span>
+        <a href="#publications" class="ribbon-link inactive">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <span class="ribbon-label">Publications</span>
+        </a>
+        <span class="ribbon-sep">|</span>
+        <a href="#work-in-progress" class="ribbon-link inactive">
+            <i class="fa fa-pencil-alt" aria-hidden="true"></i>
+            <span class="ribbon-label">Work in Progress</span>
+        </a>
     </div>
     {% for paper in site.data.papers.working_papers %}
     <div class="paper-card">
@@ -43,11 +52,20 @@
 
 <div id="publications">
     <div class="section-ribbon sticky-ribbon">
-            <a href="#working-papers" class="ribbon-link inactive">Working Papers</a>
-            <span class="ribbon-sep">|</span>
-            <a href="#publications" class="ribbon-link active">Publications</a>
-            <span class="ribbon-sep">|</span>
-            <a href="#work-in-progress" class="ribbon-link inactive">Work in Progress</a>
+        <a href="#working-papers" class="ribbon-link inactive">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span class="ribbon-label">Working Papers</span>
+        </a>
+        <span class="ribbon-sep">|</span>
+        <a href="#publications" class="ribbon-link active">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <span class="ribbon-label">Publications</span>
+        </a>
+        <span class="ribbon-sep">|</span>
+        <a href="#work-in-progress" class="ribbon-link inactive">
+            <i class="fa fa-pencil-alt" aria-hidden="true"></i>
+            <span class="ribbon-label">Work in Progress</span>
+        </a>
     </div>
     {% for pub in site.data.papers.publications %}
     <div class="paper-card">
@@ -72,11 +90,20 @@
 
 <div id="work-in-progress">
     <div class="section-ribbon sticky-ribbon">
-            <a href="#working-papers" class="ribbon-link inactive">Working Papers</a>
-            <span class="ribbon-sep">|</span>
-            <a href="#publications" class="ribbon-link inactive">Publications</a>
-            <span class="ribbon-sep">|</span>
-            <a href="#work-in-progress" class="ribbon-link active">Work in Progress</a>
+        <a href="#working-papers" class="ribbon-link inactive">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span class="ribbon-label">Working Papers</span>
+        </a>
+        <span class="ribbon-sep">|</span>
+        <a href="#publications" class="ribbon-link inactive">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <span class="ribbon-label">Publications</span>
+        </a>
+        <span class="ribbon-sep">|</span>
+        <a href="#work-in-progress" class="ribbon-link active">
+            <i class="fa fa-pencil-alt" aria-hidden="true"></i>
+            <span class="ribbon-label">Work in Progress</span>
+        </a>
     </div>
     {% for wip in site.data.papers.work_in_progress %}
     <div class="paper-card">
