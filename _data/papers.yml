@@ -76,7 +76,7 @@ publications:
     url: "https://doi.org/10.3982/ECTA22764"
     authors: [weber, candia, ropele, lluberas, frache, meyer, kumar, gorodnichenko, georgarakos, coibion, kenny, ponce]
     journal: "Econometrica"
-    details: "93(1): 229--264 (2025)"
+    details: "93(1): 229–264 (2025)"
   - title: "Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence"
     url: "https://doi.org/10.1016/j.jmoneco.2024.103650"
     authors: [bhattarai, wu]
@@ -86,31 +86,31 @@ publications:
     url: "https://www.brookings.edu/wp-content/uploads/2024/11/16937-BPEA-BPEA-SP24_WEB-Afrouzi-et-al.pdf"
     authors: [halac, rogoff, yared]
     journal: "Brookings Papers on Economic Activity"
-    details: "55(1): 205--241 (2024)"
+    details: "55(1): 205–241 (2024)"
   - title: "Endogenous Firm Competition and Cyclicality of Markups"
     url: "https://doi.org/10.1162/rest_a_01281"
     authors: [caloi]
     journal: "Review of Economics and Statistics"
-    details: "106(6): 1638--1654 (2024)"
+    details: "106(6): 1638–1654 (2024)"
   - title: "Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money"
     url: "https://doi.org/10.1086/730201"
     journal: "Journal of Political Economy"
-    details: "132(10): 3378--3420 (2024)"
+    details: "132(10): 3378–3420 (2024)"
   - title: "Is it the Message or the Messenger? Examining Movement in Immigration Beliefs"
     url: "https://doi.org/10.1086/728365"
     authors: [arteaga, weisburst]
     journal: "Journal of Political Economy Microeconomics"
-    details: "2(2): 244--297 (2024)"
+    details: "2(2): 244–297 (2024)"
   - title: "Overreaction in Expectations: Evidence and Theory"
     url: "https://doi.org/10.1093/qje/qjad009"
     authors: [kwon, landier, ma, thesmar]
     journal: "Quarterly Journal of Economics"
-    details: "138(3): 1713--1764 (2023)"
+    details: "138(3): 1713–1764 (2023)"
   - title: "Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand"
     url: "https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf"
     authors: [kumar, coibion, gorodnichenko]
     journal: "Brookings Papers on Economic Activity"
-    details: "46(2): 151--225 (2015)"
+    details: "46(2): 151–225 (2015)"
 
 work_in_progress:
   - title: "The Welfare Cost of Inflation in Production Networks"
