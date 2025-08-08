@@ -1,0 +1,122 @@
+# papers.yml
+# This file contains all papers, grouped by category
+
+working_papers:
+  - title: "A Theory of How Workers Keep Up with Inflation"
+    file: "/abdh_inflation.pdf"
+    authors: [blanco, drenik, hurst]
+    version: "May 2025"
+    status: "Revise and Resubmit"
+    journal: "Quarterly Journal of Economics"
+  - title: "Monetary Policy without Commitment"
+    file: "/ahry_mpwc.pdf"
+    authors: [halac, rogoff, yared]
+    version: "December 2024"
+    status: "Revise and Resubmit"
+    journal: "American Economic Review"
+  - title: "Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition"
+    file: "/adk_concentration.pdf"
+    authors: [drenik, kim]
+    version: "May 2023"
+    status: "Revise and Resubmit"
+    journal: "Econometrica"
+  - title: "What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?"
+    file: "/afy_selection.pdf"
+    authors: [flynn, yang]
+    version: "June 2024"
+    status: "Reject and Resubmit"
+    journal: "American Economic Review"
+  - title: "Dynamic Rational Inattention and the Phillips Curve"
+    file: "/dynamic_inattention/draft_2021_04.pdf"
+    authors: [yang]
+    version: "April 2021"
+    status: "Reject and Resubmit"
+    journal: "American Economic Review"
+    extra_links:
+      - note: "SSRN"
+        links:
+          - label: "SSRN"
+            url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793"
+            desc: "Version: October 2019, older versions: /dynamic_inattention/"
+      - note: "Replication material"
+        links:
+          - label: "Replication material"
+            url: "https://afrouzi.com/DRIPs.jl/dev/examples/ex6_ay2020/ex6_Afrouzi_Yang_2020/"
+      - note: "Code Repos"
+        links:
+          - label: "Julia"
+            url: "http://github.com/afrouzi/DRIPs.jl"
+          - label: "Matlab"
+            url: "https://github.com/choongryulyang/DRIPs.m"
+      - note: "Documentation"
+        links:
+          - label: "PDF"
+            url: "/dynamic_inattention/manual.pdf"
+          - label: "HTML"
+            url: "http://afrouzi.github.io/DRIPs.jl/dev/"
+      - note: "Teaching Slides"
+        links:
+          - label: "HTML"
+            url: "/DRIPs_slides.html"
+          - label: "Live Jupyter Slides"
+            url: "https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb"
+  - title: "Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach"
+    file: "/ab_inflation_networks.pdf"
+    authors: [bhattarai]
+    version: "August 2025"
+  - title: "Inflation Preferences"
+    file: "/admps_preferences.pdf"
+    authors: [dietrich, myrseth, priftis, schoenle]
+    version: "April 2024"
+
+# Add similar sections for publications and work_in_progress
+
+publications:
+  - title: "Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings"
+    url: "https://doi.org/10.3982/ECTA22764"
+    authors: [weber, candia, ropele, lluberas, frache, meyer, kumar, gorodnichenko, georgarakos, coibion, kenny, ponce]
+    journal: "Econometrica"
+    details: "93(1): 229--264 (2025)"
+  - title: "Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence"
+    url: "https://doi.org/10.1016/j.jmoneco.2024.103650"
+    authors: [bhattarai, wu]
+    journal: "Journal of Monetary Economics"
+    details: "148(S): 103650 (2024)"
+  - title: "Changing Central Bank Pressures and Inflation"
+    url: "https://www.brookings.edu/wp-content/uploads/2024/11/16937-BPEA-BPEA-SP24_WEB-Afrouzi-et-al.pdf"
+    authors: [halac, rogoff, yared]
+    journal: "Brookings Papers on Economic Activity"
+    details: "55(1): 205--241 (2024)"
+  - title: "Endogenous Firm Competition and Cyclicality of Markups"
+    url: "https://doi.org/10.1162/rest_a_01281"
+    authors: [caloi]
+    journal: "Review of Economics and Statistics"
+    details: "106(6): 1638--1654 (2024)"
+  - title: "Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money"
+    url: "https://doi.org/10.1086/730201"
+    journal: "Journal of Political Economy"
+    details: "132(10): 3378--3420 (2024)"
+  - title: "Is it the Message or the Messenger? Examining Movement in Immigration Beliefs"
+    url: "https://doi.org/10.1086/728365"
+    authors: [arteaga, weisburst]
+    journal: "Journal of Political Economy Microeconomics"
+    details: "2(2): 244--297 (2024)"
+  - title: "Overreaction in Expectations: Evidence and Theory"
+    url: "https://doi.org/10.1093/qje/qjad009"
+    authors: [kwon, landier, ma, thesmar]
+    journal: "Quarterly Journal of Economics"
+    details: "138(3): 1713--1764 (2023)"
+  - title: "Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand"
+    url: "https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf"
+    authors: [kumar, coibion, gorodnichenko]
+    journal: "Brookings Papers on Economic Activity"
+    details: "46(2): 151--225 (2015)"
+
+work_in_progress:
+  - title: "The Welfare Cost of Inflation in Production Networks"
+    file: "/abw_slides.pdf"
+    authors: [bhattarai, wu]
+  - title: "Sectoral Salience"
+    authors: [hebert, lao, leahy]
+  - title: "Optimal Long-Run Inflation"
+    authors: [yared]

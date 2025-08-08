@@ -1,0 +1,113 @@
+blanco:
+  name: "Andres Blanco"
+  url: "https://www.andresjblanco.com/"
+drenik:
+  name: "Andres Drenik"
+  url: "http://www.andresdrenik.com"
+hurst:
+  name: "Erik Hurst"
+  url: "https://erikhurst.com"
+halac:
+  name: "Marina Halac"
+  url: "https://sites.google.com/view/marinahalac"
+rogoff:
+  name: "Kenneth Rogoff"
+  url: "https://scholar.harvard.edu/rogoff/home"
+yared:
+  name: "Pierre Yared"
+  url: "https://www0.gsb.columbia.edu/faculty/pyared/"
+kim:
+  name: "Ryan Kim"
+  url: "https://sites.google.com/site/ryansungryongkim/"
+flynn:
+  name: "Joel P. Flynn"
+  url: "https://joelflynn.com"
+yang:
+weber:
+  name: "Michael Weber"
+  url: "http://faculty.chicagobooth.edu/michael.weber/"
+candia:
+  name: "Bernardo Candia"
+  url: "https://www.bernardocandia.com/"
+ropele:
+  name: "Tiziano Ropele"
+  url: "https://ideas.repec.org/f/pro704.html"
+lluberas:
+  name: "Rodrigo Lluberas"
+  url: "https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy"
+frache:
+  name: "Serafin Frache"
+  url: "https://www.serafin-frache.com/"
+meyer:
+  name: "Brent Meyer"
+  url: "https://www.atlantafed.org/research/economists/meyer-brent"
+kumar:
+  name: "Saten Kumar"
+  url: "https://www.satenkumar.com/"
+gorodnichenko:
+  name: "Yuriy Gorodnichenko"
+  url: "http://emlab.berkeley.edu/~ygorodni/index.htm"
+georgarakos:
+  name: "Dimitris Georgarakos"
+  url: "https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html"
+coibion:
+  name: "Olivier Coibion"
+  url: "https://sites.google.com/site/ocoibion/"
+kenny:
+  name: "Geoff Kenny"
+  url: "https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html"
+ponce:
+  name: "Jorge Ponce"
+  url: "https://jorgeponce.wordpress.com/"
+caloi:
+  name: "Luigi Caloi"
+  url: "https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/"
+arteaga:
+  name: "Carolina Arteaga"
+  url: "http://www.carolinaarteaga.com/"
+weisburst:
+  name: "Emily Weisburst"
+  url: "https://sites.google.com/site/emilyweisburst/home?authuser=0"
+kwon:
+  name: "Spencer Kwon"
+  url: "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369"
+landier:
+  name: "Augustin Landier"
+  url: "https://sites.google.com/site/augustinlandier/"
+ma:
+  name: "Yueran Ma"
+  url: "https://voices.uchicago.edu/yueranma/"
+thesmar:
+  name: "David Thesmar"
+  url: "https://mitsloan.mit.edu/faculty/directory/david-thesmar"
+  name: "Choongryul Yang"
+  url: "https://choongryulyang.github.io/"
+bhattarai:
+  name: "Saroj Bhattarai"
+  url: "https://sites.google.com/site/bhattaraisaroj/"
+dietrich:
+  name: "Alexander Dietrich"
+  url: "https://sites.google.com/view/alexanderdietrich"
+myrseth:
+  name: "Kristian Myrseth"
+  url: "https://sites.google.com/site/kmyrseth2/Myrseth"
+priftis:
+  name: "Romanos Priftis"
+  url: "https://sites.google.com/site/romanospriftis/home"
+schoenle:
+  name: "Raphael Schoenle"
+  url: "https://people.brandeis.edu/~schoenle/"
+wu:
+  name: "Edson Wu"
+  url: "https://edson-wu.github.io/"
+# Add more coauthors as needed
+
+hebert:
+  name: "Benjamin Hébert"
+  url: "https://gsb-faculty.stanford.edu/benjamin-hebert/"
+lao:
+  name: "Jennifer La'O"
+  url: "https://www.jennifer-la-o.com/"
+leahy:
+  name: "John Leahy"
+  url: "https://sites.google.com/umich.edu/johnleahy/home"
