@@ -3,6 +3,7 @@
 $text-color: #37342c;
 $anchor-text-color: #7f0a20;
 $background-color: #fff6e3;
+$green-bg-color: #d6e5d2;
 $size-normal: 18px;
 $size-big: 19.5px;
 $size-menu: 22px;
@@ -11,12 +12,6 @@ main {
 	padding-top: 0;
 	margin-left: 20px;
 	margin-right:20px;
-}
-
-#sticky-ribbon-spacer {
-	width: 100%;
-	height: 0;
-	pointer-events: none;
 }
 body {
 	font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
@@ -71,7 +66,7 @@ body {
 	max-width: 100vw;
 }
 .ribbon-link.active {
-	color: #111;
+	color: $text-color;
 	text-underline-offset: 0.1em;
 	background: #d6e5d2;
 	cursor: default;
