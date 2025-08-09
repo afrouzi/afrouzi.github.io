@@ -3,16 +3,25 @@
 $text-color: #37342c;
 $anchor-text-color: #7f0a20;
 $background-color: #fff6e3;
-$dark-background-color: #f4e4c2;
-$darker-background-color: #e8d1a2;
 $size-normal: 18px;
 $size-big: 19.5px;
 $size-menu: 22px;
-body, main {
-	margin-top: 0 !important;
-	padding-top: 0 !important;
+main {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 25em;
+	margin-left: 20px;
+	margin-right:20px;
 }
-// Sticky section ribbon styles
+body {
+	font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
+	color: $text-color;
+	line-height: 1.5;
+	font-size: $size-normal;
+	font-weight: 300;
+	background-color: $background-color;
+}
+// Section ribbon styles
 .section-ribbon {
 	display: flex;
 	align-items: center;
@@ -33,6 +42,7 @@ body, main {
 	z-index: 10;
 	overflow-x: auto;
 }
+// Make ribbon sticky
 .sticky-ribbon {
 	position: sticky;
 	top: 0;
@@ -55,35 +65,6 @@ body, main {
 	white-space: nowrap;
 	max-width: 100vw;
 }
-@media (max-width: 600px) {
-	.paper-card {
-		padding: 0.9em 0.9em 0.9em 0.9em !important;
-	}
-	.sidebar-menu, .sidebar-menu * {
-		font-size: 0.98em !important;
-	}
-	.section-ribbon {
-		font-size: 1.2em;
-	}
-	.ribbon-link {
-		font-size: 0.95em;
-		padding: 0.1em 0.4em;
-	}
-	.ribbon-link.inactive .ribbon-label {
-		display: none;
-	}
-	.ribbon-link.inactive {
-		text-overflow: unset;
-		white-space: normal;
-	}
-	.ribbon-link.active .ribbon-label {
-		display: inline;
-	}
-	.main-content, .main-content * {
-		font-size: 1em !important;
-	}
-	.poweredby { font-size: 0.6em !important; }
-}
 .ribbon-link.active {
 	color: #111;
 	text-underline-offset: 0.1em;
@@ -104,6 +85,13 @@ body, main {
 	font-size: 0.9em;
 	user-select: none;
 }
+.ribbon-link .fa, .ribbon-link .fas {
+	display: inline;
+	margin-right: 0.3em; // More space between icon and label
+}
+.ribbon-link .fa-file-alt {
+	margin-left: 0.2em; // Add space before Working Papers icon
+}
 
 .sleek-menu .menu-icon-labeled {
 	display: flex;
@@ -121,21 +109,17 @@ body, main {
 	transition: background 0.18s, color 0.18s, box-shadow 0.18s;
 	border: none;
 	text-align: left;
-	font-weight: 600;
+	font-weight: 700;
 	text-decoration: none;
 }
 .sleek-menu .menu-icon-labeled:hover {
 	background: #e0f2e9;
-	color: #111;
+	color: $anchor-text-color;
 	box-shadow: 0 2px 8px rgba(127,10,32,0.10);
 }
+// Menu icon styles
 .sleek-menu .menu-icon-labeled i {
 	font-size: 1.35em;
-	pointer-events: none;
-}
-.sleek-menu .menu-icon-labeled span {
-	font-size: 1em;
-	white-space: nowrap;
 	pointer-events: none;
 }
 // Modern sidebar styles
@@ -177,9 +161,6 @@ body, main {
 	margin: 0.2em 0 0.3em 0;
 	text-align: center;
 }
-.sidebar-tagline {
-	margin-bottom: 1em;
-}
 .modern-tagline {
 	background: #f6faef;
 	border-radius: 12px;
@@ -192,7 +173,7 @@ body, main {
 	display: flex;
 	flex-direction: column;
 	gap: 0.07em;
-	width: 98%;
+	width: 100%;
 	min-width: 0;
 	align-items: flex-start;
 	text-align: left;
@@ -205,7 +186,7 @@ body, main {
 	align-items: center;
 	gap: 0.5em;
 	margin-bottom: 0.2em;
-	color: #111;
+	color: $text-color;
 	flex-wrap: wrap;
 }
 .modern-tagline .tagline-row {
@@ -224,7 +205,7 @@ body, main {
 	text-decoration: underline;
 }
 .modern-tagline .tagline-sub {
-	font-size: 0.97em;
+	font-size: 1em;
 	font-weight: 300;
 	color: #555;
 	margin-left: 0.3em;
@@ -232,7 +213,7 @@ body, main {
 .modern-tagline i {
 	min-width: 1.2em;
 	text-align: center;
-	color: #111;
+	color: $text-color;
 	opacity: 1;
 }
 .sidebar-menu {
@@ -241,9 +222,8 @@ body, main {
 	align-items: center;
 	gap: 0.5em;
 	width: 100%;
-	margin-top: 0.05em;
+	margin-top: 0em;
 }
-
 .sleek-menu .menu-icon {
 	display: flex;
 	align-items: center;
@@ -287,54 +267,30 @@ body, main {
 	padding: 0 2.5vw;
 	min-height: 100vh;
 }
-@media (max-width: 900px) {
-	.sidebar {
-		width: 100vw;
-		height: auto;
-
-	.modern-tagline {
-		font-size: 0.96em;
-	}
-	.modern-tagline .tagline-row,
-	.modern-tagline .tagline-sub {
-		font-size: 0.96em;
-	}
-		position: static;
-		border-radius: 0 0 18px 18px;
-		border-right: none;
-		border-bottom: 1.5px solid #e0e0e0;
-		box-shadow: 0 2px 16px 0 rgba(127,10,32,0.07), 0 1.5px 4px 0 rgba(0,0,0,0.04);
-	}
-	.main-content {
-		margin-left: 0;
-		margin-top: 25px; // Reduced from 260px for less top padding
-		padding: 0 1vw;
-	}
-}
 // Section titles for card layout
-.section-title {
-	font-size: 1.6em;
-	font-weight: 800;
-	margin-top: 0em;
-	margin-bottom: 1.3em;
-	letter-spacing: 0.01em;
-	padding: 0.28em 1.1em 0.28em 1em;
-	background: #eaf5e6;
-	border-left: 7px solid $anchor-text-color;
-	border-radius: 0 10px 10px 0;
-	display: flex;
-	align-items: center;
-	box-shadow: 0 2px 12px rgba(127,10,32,0.08), 0 1.5px 4px rgba(0,0,0,0.04);
-	text-shadow: 0 1px 2px rgba(255,255,255,0.15);
-	min-height: 2em;
-	gap: 0.6em;
-}
-.section-title .section-icon {
-	font-size: 1.2em;
-	margin-right: 0.5em;
-	color: $anchor-text-color;
-	flex-shrink: 0;
-}
+// .section-title {
+// 	font-size: 1.6em;
+// 	font-weight: 800;
+// 	margin-top: 0em;
+// 	margin-bottom: 1.3em;
+// 	letter-spacing: 0.01em;
+// 	padding: 0.28em 1.1em 0.28em 1em;
+// 	background: #eaf5e6;
+// 	border-left: 7px solid $anchor-text-color;
+// 	border-radius: 0 10px 10px 0;
+// 	display: flex;
+// 	align-items: center;
+// 	box-shadow: 0 2px 12px rgba(127,10,32,0.08), 0 1.5px 4px rgba(0,0,0,0.04);
+// 	text-shadow: 0 1px 2px rgba(255,255,255,0.15);
+// 	min-height: 2em;
+// 	gap: 0.6em;
+// }
+// .section-title .section-icon {
+// 	font-size: 1.2em;
+// 	margin-right: 0.5em;
+// 	color: $anchor-text-color;
+// 	flex-shrink: 0;
+// }
 // Status and journal on one line, black
 .paper-card .status-journal {
 	color: #555;
@@ -346,7 +302,7 @@ body, main {
 	color: #111;
 }
 /* Card-based layout for papers/publications */
- .paper-card {
+.paper-card {
 	background: #f6faef;
 	border-radius: 14px;
 	box-shadow: 0 2px 12px rgba(0,0,0,0.07), 0 1.5px 4px rgba(0,0,0,0.04);
@@ -388,82 +344,11 @@ body, main {
 	margin-bottom: 0.2em;
 }
 
-body {
-	font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
-	color: $text-color;
-	line-height: 1.5;
-	font-size: $size-normal;
-	font-weight: 260;
-	background-color: $background-color;
-}
-
-.header-button {
-	background-color: $dark-background-color; /* Background color of the button */
-	border: none;               /* Remove the default border */
-	// color: white;               /* Text color of the button */
-	padding: 5px 15px;         /* Padding around the button text */
-	text-align: center;         /* Center the text within the button 
-	*/
-	font-weight: bold;
-	text-decoration: none;      /* Remove the underline from the link 
-	*/
-	display: inline-block;      /* Allow for width and height */
-	font-size: 15.5px;            /* Font size of the button text */
-	margin: 2px 2px;            /* Margin around the button */
-	cursor: pointer;            /* Cursor changes to a pointer when hovering over the button */
-	transition: background-color 0.3s ease; /* Transition effect for background color */
-	border-radius: 20px;        /* Rounded edges for the button */
-  }
-  
-  .header-button:hover {
-	// background-color: #cec198; /* Change the background color when hovering over the button */
-	background-color: $darker-background-color; /* Change the background color when hovering over the button */
-  }
-  
-  .header-button:active {
-	text-decoration: none;
-  }
-
-.journal {
-	font-size: 1em;
-	font-weight: 600;
-}
-
-.phone-content {
-	display: flex; /* Use flexbox layout */
-	flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
-	justify-content: center; /* Center the flex items horizontally */
-	align-items: center; /* Center the flex items vertically */
-	align-content: center; /* Center multiple lines of flex items vertically */
-	/* If you want to limit the width of the .phone-content section, you can use the max-width property */
-	max-width: 500px; /* Example max-width, adjust as needed */
-	margin: auto; /* Center the .phone-content section itself */
-  }
-  
-.other-content {
-	display: none; /* Hide other content by default */
-}
-  
-
-header,
-main {
-	padding: 0px;
-}
-
-/*** wrapper div for both header and main ***/
-.wrapper {
-	margin-top: 0;
-	width: 100%;
-	float: none;
-}
-
-table {
-	font-size: $size-big;	
-  }
-
-table td, table th {
-	vertical-align: top; /* Align content to the top of the table cells */
-  }
+// .wrapper {
+// 	margin-top: 0;
+// 	width: 100%;
+// 	float: none;
+// }
 
 /*** anchor tags ***/
 a:link,
@@ -476,45 +361,11 @@ a:active {
 
 a:hover {
 	text-decoration: underline;
+	text-underline-offset: 0.18em;
+	text-shadow: 0 1px 4px rgba(127,10,32,0.07), 0 1px 2px rgba(0,0,0,0.05);
+	transition: text-shadow 0.18s;
 }
 
-
-/*** main content list ***/
-.main-list-item {
-	font-weight: bold;
-	font-size: 1.2em;
-	margin: 0.8em 0;
-}
-
-/* override the left margin added by font awesome for the main content list,
-since it must be aligned with the content */
-.fa-ul.main-list {
-	margin-left: 0;
-}
-
-/* list icons */
-.main-list-item-icon {
-	width: 36px;
-	color: $text-color;
-}
-
-/*** logo ***/
-.logo-container {
-	text-align: center;
-}
-
-.logo {
-	width: 275px;
-	height: 275px;
-	display: inline-block;
-	background-size: cover;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
-}
-
-/*** author ***/
 .author-container h1 {
 	font-size: 2.1em;
 	margin-top: 4%;
@@ -522,58 +373,15 @@ since it must be aligned with the content */
 	text-align: center;
 }
 
-/*** tagline ***/
-.tagline-container p {
-	font-size: 1.1em;
-	text-align: left;
-	margin-bottom: 1em;
-	margin-left: 20px;
-}
-
-main {
-	margin: 20px;
-	padding-bottom: 21em;
-}
-
-/******/
-hr {
-	border: 0;
-	height: 1px;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-}
-
-/*** footer ***/
-footer {
-	width: 100%;
-	bottom: 0;
-	right: 0;
-	height: 20px;
-	// text-align: right;
-}
-
 .poweredby {
 	font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
 	font-weight: 260;
 	color: $text-color;
 	text-align: right;
-	padding-top: 40em;
+	padding-bottom: 0;
 	background: none;
 	font-size: 0.6em;
 }
-
-/*** media queries ***/
-/* X-Small devices (phones, 480px and up) */
-@media (min-width: 480px) {
-	.wrapper {
-		width: 100%;
-		margin: 0;
-	}
-}
-
-/* All other devices (768px and up) */
 
 
 @media (max-width: 600px) {
@@ -600,12 +408,55 @@ footer {
 	.status-journal .journal-bold {
 		margin-top: 0.1em;
 	}
+	.paper-card {
+		padding: 0.9em 0.9em 0.9em 0.9em !important;
+	}
+	.sidebar-menu, .sidebar-menu * {
+		font-size: 0.98em !important;
+	}
+	.section-ribbon {
+		font-size: 1.2em;
+	}
+	.ribbon-link {
+		font-size: 0.95em;
+		padding: 0.1em 0.4em;
+	}
+	.ribbon-link.inactive .ribbon-label {
+		display: none;
+	}
+	.ribbon-link.inactive {
+		text-overflow: unset;
+		white-space: normal;
+	}
+	.ribbon-link.active .ribbon-label {
+		display: inline;
+	}
+	.main-content, .main-content * {
+		font-size: 1em !important;
+	}
+	.poweredby { font-size: 0.6em !important; }
 }
+@media (max-width: 900px) {
+	.sidebar {
+		width: 100vw;
+		height: auto;
 
-.ribbon-link .fa, .ribbon-link .fas {
-	display: inline;
-	margin-right: 0.3em; // More space between icon and label
-}
-.ribbon-link .fa-file-alt {
-	margin-left: 0.2em; // Add space before Working Papers icon
+	.modern-tagline {
+		font-size: 0.96em;
+	}
+	.modern-tagline .tagline-row,
+	.modern-tagline .tagline-sub {
+		font-size: 0.96em;
+	}
+		position: static;
+		border-radius: 0 0 18px 18px;
+		border-right: none;
+		border-bottom: 1.5px solid #e0e0e0;
+		box-shadow: 0 2px 16px 0 rgba(127,10,32,0.07), 0 1.5px 4px 0 rgba(0,0,0,0.04);
+	}
+	.main-content {
+		margin-left: 0;
+		margin-top: 25px; // Reduced from 260px for less top padding
+		padding: 0 1vw;
+	}
 }
