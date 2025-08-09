@@ -9,9 +9,14 @@ $size-menu: 22px;
 main {
 	margin-top: 0;
 	padding-top: 0;
-	padding-bottom: 25em;
 	margin-left: 20px;
 	margin-right:20px;
+}
+
+#sticky-ribbon-spacer {
+	width: 100%;
+	height: 0;
+	pointer-events: none;
 }
 body {
 	font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
