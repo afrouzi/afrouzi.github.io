@@ -26,3 +26,5 @@ function updateStickyRibbonSpacer() {
 
 document.addEventListener("DOMContentLoaded", updateStickyRibbonSpacer);
 window.addEventListener("resize", updateStickyRibbonSpacer);
+window.addEventListener("load", updateStickyRibbonSpacer);
+setTimeout(updateStickyRibbonSpacer, 400);
