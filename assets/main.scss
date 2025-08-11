@@ -396,7 +396,16 @@ a:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+	.sidebar {
+		height: auto;
+		max-height: none;
+		overflow: visible;
+		position: static;
+		width: 100vw;
+		border-radius: 0;
+		box-shadow: none;
+	}
 	.section-ribbon {
 		font-size: 1.2em;
 	}
