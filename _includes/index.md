@@ -18,7 +18,7 @@
                 <a href="{{ paper.file }}"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
             </h4>
             <div class="authors">
-                {% if paper.authors %}with {% for author_key in paper.authors %}<a href="{{ site.data.coauthors[author_key].url }}">{{ site.data.coauthors[author_key].name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+                {% if paper.authors %}with {% for author_key in paper.authors %}<a href="{{ site.data.coauthors[author_key].url }}"><span class="author-name">{{ site.data.coauthors[author_key].name }}</span></a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
             {% if paper.version %}<span class="version">&mdash; Version: {{ paper.version }}</span>{% endif %}
             </div>
                     {% if paper.status or paper.journal %}
