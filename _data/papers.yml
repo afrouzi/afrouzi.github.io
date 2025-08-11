@@ -62,7 +62,7 @@ working_papers:
   - title: "Inflation Preferences"
     file: "/admps_preferences.pdf"
     authors: [dietrich, myrseth, priftis, schoenle]
-    version: "April 2024"
+    version: "April 2025"
 
 # Add similar sections for publications and work_in_progress
 
@@ -89,7 +89,7 @@ publications:
           - label: "Working Paper Version"
             url: "/abw_relative_prices.pdf"
           - label: "Online Appendix"
-            url: "/relative_price_changes.pdf"
+            url: "/abw_relative_prices_appendix.pdf"
 
   - title: "Changing Central Bank Pressures and Inflation"
     url: "https://www.brookings.edu/wp-content/uploads/2024/11/16937-BPEA-BPEA-SP24_WEB-Afrouzi-et-al.pdf"
