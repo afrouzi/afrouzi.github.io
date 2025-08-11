@@ -12,6 +12,40 @@ body {
   font-weight: 300;
   background-color: #fff6e3; }
 
+.tag-note {
+  display: inline-block;
+  font-size: 0.85em;
+  color: #888;
+  font-style: italic;
+  font-weight: 300;
+  margin-right: 0.4em;
+  vertical-align: middle; }
+
+.extra-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.18em 0.18em; }
+
+.tag-label {
+  display: inline-block;
+  background: #fff8e9;
+  color: #444;
+  font-size: 0.85em;
+  font-weight: 400;
+  border-radius: 7px;
+  padding: 0.08em 0.45em 0.08em 0.45em;
+  margin: 0 0.13em 0.13em 0;
+  box-shadow: 0 1px 1px rgba(127, 10, 32, 0.11), 0 2px 6px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s; }
+
+.tag-label:hover {
+  background: #fff7e4;
+  color: #7f0a20;
+  box-shadow: 0 4px 16px rgba(127, 10, 32, 0.13), 0 2px 8px rgba(0, 0, 0, 0.09);
+  text-decoration: underline; }
+
 .section-ribbon {
   display: flex;
   align-items: center;
@@ -254,9 +288,10 @@ body {
   font-size: 1em;
   margin-bottom: 0.3em; }
 
-.paper-card .status-journal .journal-bold {
+.paper-card .journal-bold {
   font-weight: 600;
-  color: #111; }
+  color: #111;
+  margin-top: 0.1em; }
 
 /* Card-based layout for papers/publications */
 .paper-card {
@@ -281,7 +316,7 @@ body {
   margin-right: 0.4em; }
 
 .paper-card .extra-links {
-  margin-top: 0.5em;
+  margin-top: 0.52em;
   font-size: 0.98em; }
 
 .paper-card .authors {
@@ -348,9 +383,6 @@ a:hover {
     flex-direction: column;
     gap: 0.2em; }
 
-  .status-journal .journal-bold {
-    margin-top: 0.1em; }
-
   .paper-card {
     padding: 0.9em 0.9em 0.9em 0.9em !important; }
 
@@ -382,7 +414,6 @@ a:hover {
 @media (max-width: 900px) {
   .sidebar {
     width: 100vw;
-    height: auto;
     position: static;
     border-radius: 0 0 18px 18px;
     border-right: none;
