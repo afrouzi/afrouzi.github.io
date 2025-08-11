@@ -29,11 +29,10 @@
             {% if paper.extra_links %}
                 <div class="extra-links">
                     {%- for group in paper.extra_links -%}
-                        {%- if group.links.size == 1 -%}
-                            <a href="{{ group.links[0].url }}">{{ group.note }}</a>{% unless forloop.last %}; {% endunless %}
-                        {%- else -%}
-                            {{ group.note }} ({%- for l in group.links -%}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %}, {% endunless %}{%- endfor -%}){% unless forloop.last %}; {% endunless %}
-                        {%- endif -%}
+                        {%- if group.note and group.note != '' -%}<span class="tag-note">{{ group.note }}:</span>{%- endif -%}
+                        {%- for l in group.links -%}
+                            <a class="tag-label" href="{{ l.url }}">{{ l.label }}</a>
+                        {%- endfor -%}
                     {%- endfor -%}
                 </div>
             {% endif %}
@@ -50,9 +49,19 @@
             </div>
                 {% if pub.journal or pub.details %}
                     <div class="journal-version">
-                        {% if pub.journal %}<span class="journal">{{ pub.journal }}</span>{% endif %}{% if pub.journal and pub.details %}, {% endif %}{% if pub.details %}<span class="version">{{ pub.details }}</span>{% endif %}
+                        {% if pub.journal %}<span class="journal-bold">{{ pub.journal }}</span>{% endif %}{% if pub.journal and pub.details %}, {% endif %}{% if pub.details %}<span class="version">{{ pub.details }}</span>{% endif %}
                     </div>
                 {% endif %}
+            {% if pub.extra_links %}
+                <div class="extra-links">
+                    {%- for group in pub.extra_links -%}
+                        {%- if group.note and group.note != '' -%}<span class="tag-note">{{ group.note }}:</span>{%- endif -%}
+                        {%- for l in group.links -%}
+                            <a class="tag-label" href="{{ l.url }}">{{ l.label }}</a>
+                        {%- endfor -%}
+                    {%- endfor -%}
+                </div>
+            {% endif %}
             </div>
             {% endfor %}
         {% when 'work-in-progress' %}
