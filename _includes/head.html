@@ -2,9 +2,9 @@
   {% if page.noindex %}
   <meta name="robots" content="noindex">
   {% endif %}
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+  <title>{% if page.title %}{{ page.title }} — {{ site.compass.author }}{% else %}{{ site.compass.title }}{% endif %}</title>
 
   <link rel="apple-touch-icon" href="{{ site.baseurl }}{{ site.compass.logo }}"/>
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" />
@@ -19,22 +19,20 @@
 
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
-  <meta name="description" content="{{ site.compass.description }}"/>
-  <meta name="keywords" content="{{ site.compass.keywords }}"/>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.compass.description }}{% endif %}"/>
   <meta name="author" content="{{ site.compass.author }}">
-  <meta name="address" content="{{ site.compass.tagline }}"/>
 
   <!-- Open Graph tags -->
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="{{ site.compass.title }}"/>
+  <meta property="og:title" content="{% if page.og_title %}{{ page.og_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.compass.title }}{% endif %}"/>
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}"/>
-  <meta property="og:description" content="{{ site.compass.description }}"/>
+  <meta property="og:image" content="{% if page.og_image %}{{ page.og_image | absolute_url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}{% endif %}"/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.compass.description }}{% endif %}"/>
   <meta property="og:site_name" content="{{ site.compass.title }}">
 
   <!-- Twitter Card tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ site.compass.title }}">
+  <meta name="twitter:title" content="{% if page.twitter_title %}{{ page.twitter_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.compass.title }}{% endif %}">
   {% if site.twitter.site %}
   <meta name="twitter:site" content="{{ site.twitter.site }}">
   {% endif %}
@@ -42,8 +40,35 @@
   <meta name="twitter:creator" content="{{ site.twitter.creator }}">
   {% endif %}
   <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-  <meta name="twitter:description" content="{{ site.compass.description }}">
-  <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.compass.description }}{% endif %}">
+  {% assign twitter_image = page.twitter_image | default: page.og_image %}
+  <meta name="twitter:image" content="{% if twitter_image %}{{ twitter_image | absolute_url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ site.compass.logo }}{% endif %}">
+
+  {%- if page.url == '/' or page.permalink == '/' -%}
+  <!-- JSON-LD: WebSite and Person (homepage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "name": "{{ site.compass.title }}",
+    "description": "{% if page.description %}{{ page.description | escape }}{% else %}{{ site.compass.description | escape }}{% endif %}"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.compass.author }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=mnxLP9YAAAAJ&hl=en&oi=ao",
+      "https://www.nber.org/people/hassan_afrouzi?page=1&perPage=50",
+      "https://econ.columbia.edu/econpeople/hassan-afrouzi/"
+    ]
+  }
+  </script>
+  {%- endif -%}
 
   {% if site.compass.include_analytics %}
   {% include analytics.html %}
@@ -51,15 +76,18 @@
 
   <meta name="theme-color" content="#fff6e3">
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('a').forEach(function(link) {
-    const href = link.getAttribute('href');
-    if (!href || href.startsWith('#') || href.startsWith('javascript:')) return;
-    link.setAttribute('target', '_blank');
-    link.setAttribute('rel', 'noopener noreferrer');
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href]').forEach(function(link) {
+      try {
+        var url = new URL(link.getAttribute('href'), window.location.href);
+        if (url.origin !== window.location.origin) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      } catch (e) { /* ignore invalid URLs */ }
+    });
   });
-});
-</script>
+  </script>
 </head>
 

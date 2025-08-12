@@ -4,6 +4,7 @@
 # Output: /:name/index.html (where :name is the base name of the PDF file, without extension)
 
 require 'fileutils'
+require 'json'
 
 module Jekyll
   class PDFPage < Page
@@ -33,29 +34,62 @@ module Jekyll
       authors = authors.uniq
       meta_authors = authors.join(', ')
       meta_version = paper['version'] ? paper['version'] : nil
-  meta_journal = (source_section == 'publications' && paper['journal']) ? paper['journal'] : nil
-  meta_tags = "<meta name=\"author\" content=\"#{meta_authors}\">\n"
-  meta_tags += "<meta name=\"version\" content=\"#{meta_version}\">\n" if meta_version
-  meta_tags += "<meta name=\"journal\" content=\"#{meta_journal}\">\n" if meta_journal
+      meta_journal = (source_section == 'publications' && paper['journal']) ? paper['journal'] : nil
+      meta_tags = "<meta name=\"author\" content=\"#{meta_authors}\">\n"
+      meta_tags += "<meta name=\"version\" content=\"#{meta_version}\">\n" if meta_version
+      meta_tags += "<meta name=\"journal\" content=\"#{meta_journal}\">\n" if meta_journal
       redirect_url = "/#{pdf_basename}"
       site_url = site.config['url'] || ''
       full_url = site_url.chomp('/') + redirect_url
-        analytics = ''
-        if site.config.dig('compass', 'include_analytics')
-          analytics = '{% include analytics.html %}'
-        end
-        self.content = <<~HTML
+
+      # Build SEO tags (description, canonical/alternate, OG/Twitter) and JSON-LD
+      site_title = site.config['title']
+      description_text = "#{paper['title']} — #{meta_authors}#{meta_journal ? " — #{meta_journal}" : ''}"
+      seo_tags = String.new
+      seo_tags << "<link rel=\"canonical\" href=\"#{full_url}\">\n"
+      seo_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_url}\">\n"
+      seo_tags << "<meta name=\"description\" content=\"#{description_text}\">\n"
+      seo_tags << "<meta property=\"og:title\" content=\"#{paper['title']}\">\n"
+      seo_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
+      seo_tags << "<meta property=\"og:type\" content=\"article\">\n"
+      seo_tags << "<meta property=\"og:url\" content=\"#{full_url}\">\n"
+      seo_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
+      seo_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
+      seo_tags << "<meta name=\"twitter:title\" content=\"#{paper['title']}\">\n"
+      seo_tags << "<meta name=\"twitter:description\" content=\"#{description_text}\">\n"
+
+      jsonld = {
+        "@context" => "https://schema.org",
+        "@type" => "ScholarlyArticle",
+        "name" => paper['title'],
+        "author" => authors.map { |n| { "@type" => "Person", "name" => n } },
+        "url" => full_url,
+        "isAccessibleForFree" => true
+      }
+      jsonld["dateModified"] = meta_version if meta_version
+      if meta_journal
+        jsonld["isPartOf"] = { "@type" => "Periodical", "name" => meta_journal }
+      end
+      jsonld_script = "<script type=\"application/ld+json\">#{JSON.generate(jsonld)}</script>\n"
+
+      analytics = ''
+      if site.config.dig('compass', 'include_analytics')
+        analytics = '{% include analytics.html %}'
+      end
+      self.content = <<~HTML
         <!DOCTYPE html>
         <html lang="en">
         <head>
           <meta http-equiv="refresh" content="0; url=#{redirect_url}">
           <title>#{paper['title']}</title>
           #{meta_tags}
+          #{seo_tags}
+          #{jsonld_script}
           #{analytics}
         </head>
         <body>
-          Opening the PDF file for <strong>#{paper['title']}</strong> by <strong>#{meta_authors}</strong>.<br>
-          If the PDF fails to open, please access it at <a href="#{full_url}">#{full_url}</a>.
+          Opening the PDF file for <strong>#{paper['title']}</strong> by <strong>#{meta_authors}</strong> at <a href="#{full_url}">#{full_url}</a>.<br>
+          If the PDF fails to open, please access it using the link above.
         </body>
         </html>
       HTML
