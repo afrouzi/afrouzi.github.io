@@ -4,9 +4,9 @@
   
   <meta name="robots" content="noindex">
   
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic Rational Inattention</title>
+  <title>Dynamic Rational Inattention — Hassan Afrouzi</title>
 
   <link rel="apple-touch-icon" href="/images/afrouzi_2.jpg"/>
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://afrouzi.com/favicon.ico" />
@@ -22,28 +22,25 @@
   <link rel="canonical" href="https://afrouzi.com/dynamic_inattention/">
 
   <meta name="description" content="Hassan Afrouzi is an Associate Professor of Economics (without tenure) at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition."/>
-  <meta name="keywords" content=" Hassan Afrouzi, Associate, Economics, Columbia University, NBER, National Bureau of Economic Research, macroeconomics, monetary economics, imperfect information, imperfect competition, Visiting Scholar, Becker-Friedman Institute at the University of Chicago "/>
   <meta name="author" content="Hassan Afrouzi">
-  <meta name="address" content=""/>
 
   <!-- Open Graph tags -->
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Hassan Afrouzi"/>
+  <meta property="og:title" content="Dynamic Rational Inattention"/>
   <meta property="og:url" content="https://afrouzi.com/dynamic_inattention/"/>
   <meta property="og:image" content="https://afrouzi.com/images/afrouzi_2.jpg"/>
   <meta property="og:description" content="Hassan Afrouzi is an Associate Professor of Economics (without tenure) at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition."/>
-  <meta property="og:site_name" content="Hassan Afrouzi">
+  <meta property="og:site_name" content="Hassan Afrouzi | Associate Professor (without tenure) | Columbia Economics">
 
   <!-- Twitter Card tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hassan Afrouzi">
+  <meta name="twitter:title" content="Dynamic Rational Inattention">
   
   
   <meta name="twitter:url" content="https://afrouzi.com/dynamic_inattention/">
   <meta name="twitter:description" content="Hassan Afrouzi is an Associate Professor of Economics (without tenure) at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition.">
-  <meta name="twitter:image:src" content="https://afrouzi.com/images/afrouzi_2.jpg">
-
   
+  <meta name="twitter:image" content="https://afrouzi.com/images/afrouzi_2.jpg">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSY67G8M6K"></script>
 	<script>
 	window.dataLayer = window.dataLayer || [];
@@ -56,16 +53,19 @@
 
   <meta name="theme-color" content="#fff6e3">
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('a').forEach(function(link) {
-    const href = link.getAttribute('href');
-    if (!href || href.startsWith('#') || href.startsWith('javascript:')) return;
-    link.setAttribute('target', '_blank');
-    link.setAttribute('rel', 'noopener noreferrer');
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href]').forEach(function(link) {
+      try {
+        var url = new URL(link.getAttribute('href'), window.location.href);
+        if (url.origin !== window.location.origin) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      } catch (e) { /* ignore invalid URLs */ }
+    });
   });
-});
-</script>
+  </script>
 </head>
 
 
