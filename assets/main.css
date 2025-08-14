@@ -102,11 +102,12 @@ body {
   /* tighten baseline to look centered */ }
 
 .ribbon-link.active {
-  color: #37342c;
+  color: #5b1f26;
   text-underline-offset: 0.1em;
   background: #d6e5d2;
   cursor: default;
-  pointer-events: none; }
+  pointer-events: none;
+  text-decoration: underline; }
 
 .ribbon-link.inactive:hover {
   color: #7f0a20;
@@ -216,9 +217,10 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0em;
   color: #37342c;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-shadow: 0 1px 2px rgba(127, 10, 32, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05); }
 
 .modern-tagline .tagline-row {
   display: flex;
@@ -226,7 +228,8 @@ body {
   gap: 0.4em;
   font-size: 1em;
   color: #111;
-  font-weight: 600; }
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(127, 10, 32, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05); }
 
 .modern-tagline .tagline-row a {
   color: #7f0a20;
@@ -239,7 +242,8 @@ body {
   font-size: 1em;
   font-weight: 300;
   color: #555;
-  margin-left: 0.3em; }
+  margin-left: 0.3em;
+  text-shadow: 0 1px 2px rgba(127, 10, 32, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05); }
 
 .modern-tagline i {
   min-width: 1.2em;
@@ -306,7 +310,8 @@ body {
 .paper-card .journal-bold {
   font-weight: 600;
   color: #111;
-  margin-top: 0.1em; }
+  margin-top: 0.1em;
+  text-shadow: 0 1px 4px rgba(127, 10, 32, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05); }
 
 /* Card-based layout for papers/publications */
 .paper-card {
@@ -367,7 +372,8 @@ a:hover {
   font-size: 2.1em;
   margin-top: 4%;
   margin-bottom: 0;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(127, 10, 32, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05); }
 
 .poweredby {
   font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
@@ -530,7 +536,8 @@ a:hover {
     display: none; }
 
   .ribbon-link.active .ribbon-label {
-    display: inline; }
+    display: inline;
+    text-decoration: underline; }
 
   /* Break line between status and journal in mobile mode */
   .status-journal {
