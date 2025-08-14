@@ -111,11 +111,12 @@ body {
 	line-height: 1.2;               /* tighten baseline to look centered */
 }
 .ribbon-link.active {
-	color: $text-color;
+	color: mix($anchor-text-color, $text-color, 50%);
 	text-underline-offset: 0.1em;
 	background: #d6e5d2;
 	cursor: default;
 	pointer-events: none;
+	text-decoration: underline;
 	// box-shadow: 0 2px 8px rgba(127,10,32,0.10);
 	// text-shadow: none;
 	// border-radius: 0.5em;
@@ -231,9 +232,10 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 0.5em;
-	margin-bottom: 0.2em;
+	margin-bottom: 0em;
 	color: $text-color;
 	flex-wrap: wrap;
+	text-shadow: 0 1px 2px rgba(127,10,32,0.07), 0 1px 2px rgba(0,0,0,0.05);
 }
 .modern-tagline .tagline-row {
 	display: flex;
@@ -242,6 +244,7 @@ body {
 	font-size: 1em;
 	color: #111;
 	font-weight: 600;
+	text-shadow: 0 1px 2px rgba(127,10,32,0.07), 0 1px 2px rgba(0,0,0,0.05);
 }
 .modern-tagline .tagline-row a {
 	color: $anchor-text-color;
@@ -255,6 +258,7 @@ body {
 	font-weight: 300;
 	color: #555;
 	margin-left: 0.3em;
+	text-shadow: 0 1px 2px rgba(127,10,32,0.07), 0 1px 2px rgba(0,0,0,0.05);
 }
 .modern-tagline i {
 	min-width: 1.2em;
@@ -322,6 +326,7 @@ body {
 	font-weight: 600;
 	color: #111;
 	margin-top: 0.1em;
+	text-shadow: 0 1px 4px rgba(127,10,32,0.07), 0 1px 2px rgba(0,0,0,0.05);
 }
 /* Card-based layout for papers/publications */
 .paper-card {
@@ -393,6 +398,7 @@ a:hover {
 	margin-top: 4%;
 	margin-bottom: 0;
 	text-align: center;
+	text-shadow: 0 1px 2px rgba(127,10,32,0.07), 0 1px 2px rgba(0,0,0,0.05);
 }
 
 .poweredby {
@@ -535,6 +541,7 @@ a:hover {
 	}
 	.ribbon-link.active .ribbon-label {
 		display: inline;
+		text-decoration: underline;
 	}
 	/* Break line between status and journal in mobile mode */
 	.status-journal {
