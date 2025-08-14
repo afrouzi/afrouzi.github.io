@@ -14,3 +14,4 @@ Crawl-delay: 1
 Disallow: /assets/
 Disallow: /.git/
 Disallow: /dynamic_inattention.html
+Disallow: /404.html
