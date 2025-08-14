@@ -1,140 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://afrouzi.com/404.html</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/dynamic_inattention/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/assets/main.css</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/assets/main.css</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/sitemap.xml</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/sitemap.xml</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/redirects.json</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/redirects.json</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/cv/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/cv/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/abdh_inflation/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/abdh_inflation/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/ahry_mpwc/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/ahry_mpwc/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/adk_concentration/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/adk_concentration/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/afy_selection/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/afy_selection/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/draft_2021_04/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/draft_2021_04/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/ab_inflation_networks/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/ab_inflation_networks/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/admps_preferences/</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/admps_preferences/</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
-  <url>
-    <loc>https://afrouzi.com/feed.xml</loc>
-    
-      <lastmod>2025-08-12T18:27:56+00:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+  
+    <url>
+      <loc>https://afrouzi.com/feed.xml</loc>
+      
+        <lastmod>2025-08-14T12:00:02+00:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
 
 
 

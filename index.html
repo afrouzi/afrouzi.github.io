@@ -125,11 +125,11 @@
       <div class="content">
         
         <!-- Automated Section Rendering -->
-
-<div id="working-papers">
-    <div class="section-ribbon sticky-ribbon">
+<!-- Global sticky ribbon (appears once at the top) -->
+<div class="section-ribbon sticky-ribbon">
+    <div class="ribbon-nav">
         
-            <a href="#working-papers" class="ribbon-link active">
+            <a href="#working-papers" class="ribbon-link inactive">
                 <i class="fas fa-file-alt" aria-hidden="true"></i>
                 <span class="ribbon-label">Working Papers</span>
             </a>
@@ -147,6 +147,38 @@
             </a>
             
         
+    </div>
+    <div class="ribbon-search">
+        <div class="search-container">
+            <input type="text" id="paper-search" placeholder="Search papers..." aria-label="Search papers" />
+            <button id="clear-search" class="clear-btn" aria-label="Clear search" style="display: none;">×</button>
+        </div>
+    </div>
+</div>
+
+<div id="working-papers">
+    <div class="section-ribbon">
+        <div class="ribbon-nav">
+            
+                <a href="#working-papers" class="ribbon-link active">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    <span class="ribbon-label">Working Papers</span>
+                </a>
+                <span class="ribbon-sep">|</span>
+            
+                <a href="#publications" class="ribbon-link inactive">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <span class="ribbon-label">Publications</span>
+                </a>
+                <span class="ribbon-sep">|</span>
+            
+                <a href="#work-in-progress" class="ribbon-link inactive">
+                    <i class="fa fa-pencil-alt" aria-hidden="true"></i>
+                    <span class="ribbon-label">Work in Progress</span>
+                </a>
+                
+            
+        </div>
     </div>
     
             
@@ -260,26 +292,28 @@
 </div>
 
 <div id="publications">
-    <div class="section-ribbon sticky-ribbon">
-        
-            <a href="#working-papers" class="ribbon-link inactive">
-                <i class="fas fa-file-alt" aria-hidden="true"></i>
-                <span class="ribbon-label">Working Papers</span>
-            </a>
-            <span class="ribbon-sep">|</span>
-        
-            <a href="#publications" class="ribbon-link active">
-                <i class="fa fa-book" aria-hidden="true"></i>
-                <span class="ribbon-label">Publications</span>
-            </a>
-            <span class="ribbon-sep">|</span>
-        
-            <a href="#work-in-progress" class="ribbon-link inactive">
-                <i class="fa fa-pencil-alt" aria-hidden="true"></i>
-                <span class="ribbon-label">Work in Progress</span>
-            </a>
+    <div class="section-ribbon">
+        <div class="ribbon-nav">
             
-        
+                <a href="#working-papers" class="ribbon-link inactive">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    <span class="ribbon-label">Working Papers</span>
+                </a>
+                <span class="ribbon-sep">|</span>
+            
+                <a href="#publications" class="ribbon-link active">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <span class="ribbon-label">Publications</span>
+                </a>
+                <span class="ribbon-sep">|</span>
+            
+                <a href="#work-in-progress" class="ribbon-link inactive">
+                    <i class="fa fa-pencil-alt" aria-hidden="true"></i>
+                    <span class="ribbon-label">Work in Progress</span>
+                </a>
+                
+            
+        </div>
     </div>
     
             
@@ -288,7 +322,7 @@
                 <a href="https://doi.org/10.3982/ECTA22764"><i class="fa fa-book" aria-hidden="true"></i> Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings</a>
             </h4>
             <div class="authors">
-                with <a href="http://faculty.chicagobooth.edu/michael.weber/">Michael Weber</a>, <a href="https://www.bernardocandia.com/">Bernardo Candia</a>, <a href="https://ideas.repec.org/f/pro704.html">Tiziano Ropele</a>, <a href="https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy">Rodrigo Lluberas</a>, <a href="https://www.serafin-frache.com/">Serafin Frache</a>, <a href="https://www.atlantafed.org/research/economists/meyer-brent">Brent Meyer</a>, <a href="https://www.satenkumar.com/">Saten Kumar</a>, <a href="http://emlab.berkeley.edu/~ygorodni/index.htm">Yuriy Gorodnichenko</a>, <a href="https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html">Dimitris Georgarakos</a>, <a href="https://sites.google.com/site/ocoibion/">Olivier Coibion</a>, <a href="https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html">Geoff Kenny</a>, <a href="https://jorgeponce.wordpress.com/">Jorge Ponce</a>
+                with <a href="http://faculty.chicagobooth.edu/michael.weber/"><span class="author-name">Michael Weber</span></a>, <a href="https://www.bernardocandia.com/"><span class="author-name">Bernardo Candia</span></a>, <a href="https://ideas.repec.org/f/pro704.html"><span class="author-name">Tiziano Ropele</span></a>, <a href="https://www.linkedin.com/in/rodrigo-lluberas-583a8a54/?originalSubdomain=uy"><span class="author-name">Rodrigo Lluberas</span></a>, <a href="https://www.serafin-frache.com/"><span class="author-name">Serafin Frache</span></a>, <a href="https://www.atlantafed.org/research/economists/meyer-brent"><span class="author-name">Brent Meyer</span></a>, <a href="https://www.satenkumar.com/"><span class="author-name">Saten Kumar</span></a>, <a href="http://emlab.berkeley.edu/~ygorodni/index.htm"><span class="author-name">Yuriy Gorodnichenko</span></a>, <a href="https://www.ecb.europa.eu/pub/research/authors/profiles/dimitris-georgarakos.en.html"><span class="author-name">Dimitris Georgarakos</span></a>, <a href="https://sites.google.com/site/ocoibion/"><span class="author-name">Olivier Coibion</span></a>, <a href="https://www.ecb.europa.eu/pub/research/authors/profiles/geoff-kenny.en.html"><span class="author-name">Geoff Kenny</span></a>, <a href="https://jorgeponce.wordpress.com/"><span class="author-name">Jorge Ponce</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -305,7 +339,7 @@
                 <a href="https://doi.org/10.1016/j.jmoneco.2024.103650"><i class="fa fa-book" aria-hidden="true"></i> Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence</a>
             </h4>
             <div class="authors">
-                with <a href="https://sites.google.com/site/bhattaraisaroj/">Saroj Bhattarai</a>, <a href="https://edson-wu.github.io/">Edson Wu</a>
+                with <a href="https://sites.google.com/site/bhattaraisaroj/"><span class="author-name">Saroj Bhattarai</span></a>, <a href="https://edson-wu.github.io/"><span class="author-name">Edson Wu</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -322,7 +356,7 @@
                 <a href="https://www.brookings.edu/wp-content/uploads/2024/11/16937-BPEA-BPEA-SP24_WEB-Afrouzi-et-al.pdf"><i class="fa fa-book" aria-hidden="true"></i> Changing Central Bank Pressures and Inflation</a>
             </h4>
             <div class="authors">
-                with <a href="https://sites.google.com/view/marinahalac">Marina Halac</a>, <a href="https://scholar.harvard.edu/rogoff/home">Kenneth Rogoff</a>, <a href="https://www0.gsb.columbia.edu/faculty/pyared/">Pierre Yared</a>
+                with <a href="https://sites.google.com/view/marinahalac"><span class="author-name">Marina Halac</span></a>, <a href="https://scholar.harvard.edu/rogoff/home"><span class="author-name">Kenneth Rogoff</span></a>, <a href="https://www0.gsb.columbia.edu/faculty/pyared/"><span class="author-name">Pierre Yared</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -339,7 +373,7 @@
                 <a href="https://doi.org/10.1162/rest_a_01281"><i class="fa fa-book" aria-hidden="true"></i> Endogenous Firm Competition and Cyclicality of Markups</a>
             </h4>
             <div class="authors">
-                with <a href="https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/">Luigi Caloi</a>
+                with <a href="https://econ.columbia.edu/econpeople/luigi-beneduci-caloi/"><span class="author-name">Luigi Caloi</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -373,7 +407,7 @@
                 <a href="https://doi.org/10.1086/728365"><i class="fa fa-book" aria-hidden="true"></i> Is it the Message or the Messenger? Examining Movement in Immigration Beliefs</a>
             </h4>
             <div class="authors">
-                with <a href="http://www.carolinaarteaga.com/">Carolina Arteaga</a>, <a href="https://sites.google.com/site/emilyweisburst/home?authuser=0">Emily Weisburst</a>
+                with <a href="http://www.carolinaarteaga.com/"><span class="author-name">Carolina Arteaga</span></a>, <a href="https://sites.google.com/site/emilyweisburst/home?authuser=0"><span class="author-name">Emily Weisburst</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -390,7 +424,7 @@
                 <a href="https://doi.org/10.1093/qje/qjad009"><i class="fa fa-book" aria-hidden="true"></i> Overreaction in Expectations: Evidence and Theory</a>
             </h4>
             <div class="authors">
-                with <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369">Spencer Kwon</a>, <a href="https://sites.google.com/site/augustinlandier/">Augustin Landier</a>, <a href="https://voices.uchicago.edu/yueranma/">Yueran Ma</a>, <a href="https://mitsloan.mit.edu/faculty/directory/david-thesmar">David Thesmar</a>
+                with <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1069369"><span class="author-name">Spencer Kwon</span></a>, <a href="https://sites.google.com/site/augustinlandier/"><span class="author-name">Augustin Landier</span></a>, <a href="https://voices.uchicago.edu/yueranma/"><span class="author-name">Yueran Ma</span></a>, <a href="https://mitsloan.mit.edu/faculty/directory/david-thesmar"><span class="author-name">David Thesmar</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -407,7 +441,7 @@
                 <a href="https://www.brookings.edu/wp-content/uploads/2015/09/KumarTextFall15BPEA.pdf"><i class="fa fa-book" aria-hidden="true"></i> Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand</a>
             </h4>
             <div class="authors">
-                with <a href="https://www.satenkumar.com/">Saten Kumar</a>, <a href="https://sites.google.com/site/ocoibion/">Olivier Coibion</a>, <a href="http://emlab.berkeley.edu/~ygorodni/index.htm">Yuriy Gorodnichenko</a>
+                with <a href="https://www.satenkumar.com/"><span class="author-name">Saten Kumar</span></a>, <a href="https://sites.google.com/site/ocoibion/"><span class="author-name">Olivier Coibion</span></a>, <a href="http://emlab.berkeley.edu/~ygorodni/index.htm"><span class="author-name">Yuriy Gorodnichenko</span></a>
             </div>
                 
                     <div class="journal-version">
@@ -423,26 +457,28 @@
 </div>
 
 <div id="work-in-progress">
-    <div class="section-ribbon sticky-ribbon">
-        
-            <a href="#working-papers" class="ribbon-link inactive">
-                <i class="fas fa-file-alt" aria-hidden="true"></i>
-                <span class="ribbon-label">Working Papers</span>
-            </a>
-            <span class="ribbon-sep">|</span>
-        
-            <a href="#publications" class="ribbon-link inactive">
-                <i class="fa fa-book" aria-hidden="true"></i>
-                <span class="ribbon-label">Publications</span>
-            </a>
-            <span class="ribbon-sep">|</span>
-        
-            <a href="#work-in-progress" class="ribbon-link active">
-                <i class="fa fa-pencil-alt" aria-hidden="true"></i>
-                <span class="ribbon-label">Work in Progress</span>
-            </a>
+    <div class="section-ribbon">
+        <div class="ribbon-nav">
             
-        
+                <a href="#working-papers" class="ribbon-link inactive">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    <span class="ribbon-label">Working Papers</span>
+                </a>
+                <span class="ribbon-sep">|</span>
+            
+                <a href="#publications" class="ribbon-link inactive">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <span class="ribbon-label">Publications</span>
+                </a>
+                <span class="ribbon-sep">|</span>
+            
+                <a href="#work-in-progress" class="ribbon-link active">
+                    <i class="fa fa-pencil-alt" aria-hidden="true"></i>
+                    <span class="ribbon-label">Work in Progress</span>
+                </a>
+                
+            
+        </div>
     </div>
     
             
@@ -451,7 +487,7 @@
                 <a href="/abw_slides.pdf"><i class="fa fa-pencil-alt" aria-hidden="true"></i> The Welfare Cost of Inflation in Production Networks</a>
             </h4>
             <div class="authors">
-                with <a href="https://sites.google.com/site/bhattaraisaroj/">Saroj Bhattarai</a>, <a href="https://edson-wu.github.io/">Edson Wu</a>
+                with <a href="https://sites.google.com/site/bhattaraisaroj/"><span class="author-name">Saroj Bhattarai</span></a>, <a href="https://edson-wu.github.io/"><span class="author-name">Edson Wu</span></a>
             </div>
             </div>
             
@@ -460,7 +496,7 @@
                 <i class="fa fa-pencil-alt" aria-hidden="true"></i> Sectoral Salience
             </h4>
             <div class="authors">
-                with <a href="https://gsb-faculty.stanford.edu/benjamin-hebert/">Benjamin Hébert</a>, <a href="https://www.jennifer-la-o.com/">Jennifer La'O</a>, <a href="https://sites.google.com/umich.edu/johnleahy/home">John Leahy</a>
+                with <a href="https://gsb-faculty.stanford.edu/benjamin-hebert/"><span class="author-name">Benjamin Hébert</span></a>, <a href="https://www.jennifer-la-o.com/"><span class="author-name">Jennifer La'O</span></a>, <a href="https://sites.google.com/umich.edu/johnleahy/home"><span class="author-name">John Leahy</span></a>
             </div>
             </div>
             
@@ -469,7 +505,7 @@
                 <i class="fa fa-pencil-alt" aria-hidden="true"></i> Optimal Long-Run Inflation
             </h4>
             <div class="authors">
-                with <a href="https://www0.gsb.columbia.edu/faculty/pyared/">Pierre Yared</a>
+                with <a href="https://www0.gsb.columbia.edu/faculty/pyared/"><span class="author-name">Pierre Yared</span></a>
             </div>
             </div>
             
@@ -490,8 +526,9 @@
     </div>
       <script src="/js/zepto.min.js"></script>
 <script src="/js/sticky-ribbon-scroll.js"></script>
-
+<script src="/js/search.js"></script>
 <script src="/js/sticky-ribbon-spacer.js"></script>
+<script src="/js/sticky-ribbon-scrollspy.js"></script>
 
   </body>
 </html>
