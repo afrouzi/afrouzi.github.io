@@ -1,14 +1,34 @@
 <!-- Automated Section Rendering -->
-{% for section in site.data.sections %}
-<div id="{{ section.id }}">
-    <div class="section-ribbon sticky-ribbon">
+<!-- Global sticky ribbon (appears once at the top) -->
+<div class="section-ribbon sticky-ribbon">
+    <div class="ribbon-nav">
         {% for nav in site.data.sections %}
-            <a href="#{{ nav.id }}" class="ribbon-link {% if nav.id == section.id %}active{% else %}inactive{% endif %}">
+            <a href="#{{ nav.id }}" class="ribbon-link inactive">
                 <i class="{{ nav.icon }}" aria-hidden="true"></i>
                 <span class="ribbon-label">{{ nav.label }}</span>
             </a>
             {% unless forloop.last %}<span class="ribbon-sep">|</span>{% endunless %}
         {% endfor %}
+    </div>
+    <div class="ribbon-search">
+        <div class="search-container">
+            <input type="text" id="paper-search" placeholder="Search papers..." aria-label="Search papers">
+            <button id="clear-search" class="clear-btn" aria-label="Clear search" style="display: none;">×</button>
+        </div>
+    </div>
+</div>
+{% for section in site.data.sections %}
+<div id="{{ section.id }}">
+    <div class="section-ribbon">
+        <div class="ribbon-nav">
+            {% for nav in site.data.sections %}
+                <a href="#{{ nav.id }}" class="ribbon-link {% if nav.id == section.id %}active{% else %}inactive{% endif %}">
+                    <i class="{{ nav.icon }}" aria-hidden="true"></i>
+                    <span class="ribbon-label">{{ nav.label }}</span>
+                </a>
+                {% unless forloop.last %}<span class="ribbon-sep">|</span>{% endunless %}
+            {% endfor %}
+        </div>
     </div>
     {% case section.id %}
         {% when 'working-papers' %}
@@ -45,7 +65,7 @@
                 <a href="{{ pub.url }}"><i class="fa fa-book" aria-hidden="true"></i> {{ pub.title }}</a>
             </h4>
             <div class="authors">
-                {% if pub.authors %}with {% for author_key in pub.authors %}<a href="{{ site.data.coauthors[author_key].url }}">{{ site.data.coauthors[author_key].name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+                {% if pub.authors %}with {% for author_key in pub.authors %}<a href="{{ site.data.coauthors[author_key].url }}"><span class="author-name">{{ site.data.coauthors[author_key].name }}</span></a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
             </div>
                 {% if pub.journal or pub.details %}
                     <div class="journal-version">
@@ -71,7 +91,7 @@
                 {% if wip.file %}<a href="{{ wip.file }}"><i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}</a>{% else %}<i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}{% endif %}
             </h4>
             <div class="authors">
-                {% if wip.authors %}with {% for author_key in wip.authors %}<a href="{{ site.data.coauthors[author_key].url }}">{{ site.data.coauthors[author_key].name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+                {% if wip.authors %}with {% for author_key in wip.authors %}<a href="{{ site.data.coauthors[author_key].url }}"><span class="author-name">{{ site.data.coauthors[author_key].name }}</span></a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
             </div>
             </div>
             {% endfor %}

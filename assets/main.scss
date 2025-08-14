@@ -78,6 +78,12 @@ body {
 	z-index: 10;
 	overflow-x: auto;
 }
+/* Ensure the nav content is vertically centered within the ribbon */
+.section-ribbon .ribbon-nav {
+	display: flex;
+	align-items: center;
+	min-width: 0; /* allow nav to shrink when search expands */
+}
 // Make ribbon sticky
 .sticky-ribbon {
 	position: sticky;
@@ -100,6 +106,9 @@ body {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	max-width: 100vw;
+	display: inline-flex;           /* center icon+label vertically */
+	align-items: center;
+	line-height: 1.2;               /* tighten baseline to look centered */
 }
 .ribbon-link.active {
 	color: $text-color;
@@ -124,6 +133,7 @@ body {
 .ribbon-link .fa, .ribbon-link .fas {
 	display: inline;
 	margin-right: 0.3em; // More space between icon and label
+	line-height: 1; /* avoid pushing label baseline */
 }
 .ribbon-link .fa-file-alt {
 	margin-left: 0.2em; // Add space before Working Papers icon
@@ -396,6 +406,113 @@ a:hover {
 }
 
 
+/* Sticky ribbon: minimal additions for search */
+:root { --sticky-ribbon-height: 0px; }
+
+.section-ribbon .ribbon-search {
+	margin-left: auto;
+	position: relative;
+	min-height: 2em;
+	// border-radius: 99px;
+	padding: 0em 1em;
+	cursor: pointer;
+	max-width: 2.4em; /* collapsed cap */
+	transition: max-width 220ms ease, background-color 160ms ease, opacity 160ms ease;
+	background: transparent; /* closed: no background */
+	display: flex;             /* keep contents vertically centered */
+	align-items: center;
+	overflow: hidden;          /* prevent height growth when open */
+	height: var(--ribbon-cap-height, 2em); /* match ribbon min-height */
+		z-index: 0; /* establish stacking context baseline */
+}
+/* Closed state: show only a centered magnifying glass icon */
+.section-ribbon .ribbon-search::before {
+	content: "\f002"; /* Font Awesome search icon */
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900; /* solid */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #7f0a20; /* match theme accent */
+	font-size: 0.95em;
+	line-height: 1;
+	pointer-events: none;
+	z-index: 2; /* draw above input in Chrome */
+}
+.section-ribbon .ribbon-search.open {
+  max-width: clamp(240px, 38vw, 460px);
+  cursor: text;
+	background: rgba(0,0,0,0.04); /* open: same look as before */
+	height: var(--ribbon-cap-height, 2em); /* lock height when open */
+}
+/* When open, keep showing the icon but move it to the left inside the cap */
+.section-ribbon .ribbon-search.open::before {
+	opacity: 1;
+	left: 20px; /* fixed px for cross-browser consistency */
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 25px; /* fixed icon size when open */
+}
+
+.section-ribbon .ribbon-search .search-container { position: relative; }
+
+#paper-search {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+	padding: 0 2.1em 0 0.8em; /* remove vertical padding to avoid growing the ribbon */
+  font: inherit;
+  display: none; /* hidden when collapsed */
+	height: calc(var(--ribbon-cap-height, 2em) - 0.6em); /* fit within the cap */
+	line-height: 1.2;
+	position: relative;
+	z-index: 1; /* beneath icon */
+	box-sizing: border-box; /* consistent padding model across browsers */
+}
+.ribbon-search.open #paper-search { display: block; }
+/* Add left padding when open to avoid overlapping the icon */
+.ribbon-search.open #paper-search { padding-left: 30px; /* icon-left (10) + icon size (16) + ~2px gap */ }
+
+/* Open-state placeholder styling: smaller and SF Mono */
+.ribbon-search.open #paper-search::placeholder {
+	font-family: 'SF Mono', 'SFMono-Regular', ui-monospace, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+	font-size: 1em;
+	letter-spacing: 0.01em;
+	opacity: 0.8;
+}
+/* Safari/WebKit placeholder */
+.ribbon-search.open #paper-search::-webkit-input-placeholder {
+	font-family: 'SF Mono', 'SFMono-Regular', ui-monospace, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+	font-size: 1em;
+}
+/* Improve caret visibility (shape cannot be changed reliably across browsers) */
+.ribbon-search.open #paper-search {
+	caret-color: #7f0a20;
+	font-family: 'SF Mono', 'SFMono-Regular', ui-monospace, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+	color: #222;           /* input text color */
+	font-size: 0.6em;     /* slightly larger than placeholder for clarity */
+}
+
+#clear-search {
+  position: absolute;
+  right: 0.35em;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1em;
+}
+/* Ensure clear button never shows while closed */
+.ribbon-search:not(.open) #clear-search { display: none !important; }
+
+/* CSS fallback for initial overlap when JS not ready */
+.sticky-ribbon + div[id] > .section-ribbon:not(.sticky-ribbon) {
+  margin-top: calc(var(--sticky-ribbon-height) * -1);
+}
+
 @media (max-width: 700px) {
 	.sidebar {
 		height: auto;
@@ -452,6 +569,26 @@ a:hover {
 		font-size: 1em !important;
 	}
 	.poweredby { font-size: 0.6em !important; }
+
+	/* When the sticky ribbon search is open on phones: hide all labels and let the search fill remaining space */
+	.section-ribbon.sticky-ribbon:has(.ribbon-search.open) .ribbon-label {
+		display: none !important;
+	}
+	.section-ribbon.sticky-ribbon:has(.ribbon-search.open) .ribbon-search {
+		max-width: none;        /* remove clamp */
+		width: auto;            /* size to available space */
+		flex: 1 1 auto;         /* grow to fill but don’t overflow */
+		padding-left: 0;        /* reduce left margin so icon is closer to edge */
+	}
+	/* Keep magnifying glass size consistent with closed state and closer to the edge */
+	.section-ribbon.sticky-ribbon .ribbon-search.open::before {
+		font-size: 0.95em;  /* match closed icon size */
+		left: 6px;          /* closer to the left edge on phones */
+	}
+	/* Recompute input left padding to avoid overlap with the icon */
+	.section-ribbon.sticky-ribbon .ribbon-search.open #paper-search {
+		padding-left: calc(6px + 0.95em + 4px); /* icon-left + icon-width + gap */
+	}
 }
 @media (max-width: 900px) {
 	.sidebar {
