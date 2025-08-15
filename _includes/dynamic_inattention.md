@@ -13,7 +13,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Apr 11, 2021</div>
-        <a href="/dynamic_inattention/draft_2021_04.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2021_04.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">as submitted to the American Economic Review</span>
       </div>
     </li>
@@ -21,7 +21,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Dec 15, 2020</div>
-        <a href="/dynamic_inattention/draft_2020_12.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2020_12.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">also available as <a href="https://www.cesifo.org/en/publikationen/2021/working-paper/dynamic-rational-inattention-and-phillips-curve" target="_blank">CESifo Working Paper #8840</a></span>
       </div>
     </li>
@@ -29,7 +29,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Nov 11, 2020</div>
-        <a href="/dynamic_inattention/draft_2020_11.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2020_11.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">as presented at <a href="https://www.nber.org/conferences/nber-monetary-economics-program-meeting-fall-2020" target="_blank">NBER Monetary Economics Meeting - Fall 2020</a></span>
       </div>
     </li>
@@ -37,7 +37,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Jul 1, 2020</div>
-        <a href="/dynamic_inattention/draft_2020_07.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2020_07.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">as presented at <a href="https://www.nber.org/conferences/si-2020-behavioral-macro" target="_blank">NBER Summer Institute - EFBEM</a></span>
       </div>
     </li>
@@ -45,7 +45,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Oct 14, 2019</div>
-        <a href="/dynamic_inattention/draft_2019_10.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2019_10.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">also available at <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465793" target="_blank">SSRN</a> and as presented at Chicago Fed, <a href="https://events.cornell.edu/event/sc_tsiang_macroeconomics_workshop_hassan_afrouzi" target="_blank">Cornell University</a>, <a href="https://www.gc.cuny.edu/CUNY_GC/media/Academic-Calendar/Hassan-Afrouzi-Dynamic-Rational-Inattention-and-the-Phillips-Curve-AY_2019_10_14.pdf" target="_blank">CUNY</a>, <a href="https://econ.wisc.edu/macroeconomics-seminar/#fall-2019" target="_blank">University of Wisconsin-Madison</a></span>
       </div>
     </li>
@@ -56,7 +56,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Mar 9, 2018</div>
-        <a href="/dynamic_inattention/draft_2018_03.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2018_03.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">as distributed at <a href="http://eng.kea.ne.kr/event/international-conference/program/read?page=1&perPageNum=10&id=91" target="_blank">19th KEA International Conference in Seoul</a> and as presented at <a href="https://editorialexpress.com/conference/SED2018/program/SED2018.html" target="_blank">2018 SED Meeting in Mexico City</a></span>
       </div>
     </li>
@@ -64,7 +64,7 @@
       <div class="sleek-timeline-dot"></div>
       <div class="sleek-timeline-content">
         <div class="sleek-timeline-date">Dec 28, 2016</div>
-        <a href="/dynamic_inattention/draft_2016_12.pdf" class="sleek-timeline-link"><i class="fas fa-file-pdf"></i> PDF</a>
+  <a href="/dynamic_inattention/draft_2016_12.pdf" class="sleek-timeline-link" rel="nofollow"><i class="fas fa-file-pdf"></i> PDF</a>
         <span class="sleek-timeline-note">preliminary draft that was available upon request as a part of my job market package</span>
       </div>
     </li>

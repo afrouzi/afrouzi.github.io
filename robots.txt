@@ -1,17 +1,12 @@
 User-agent: *
 Allow: /
 
+# Block direct indexing of PDF files (use slug HTML pages instead)
+Disallow: /*.pdf$
+Disallow: /*.PDF$
+
 # Sitemap
 Sitemap: https://afrouzi.com/sitemap.xml
 
-# Allow all academic content
-Allow: /_files/
-
-# Crawl delay (optional - be respectful)
-Crawl-delay: 1
-
-# Block common bot paths (if any)
-Disallow: /assets/
-Disallow: /.git/
-Disallow: /dynamic_inattention.html
+# Avoid indexing error pages
 Disallow: /404.html

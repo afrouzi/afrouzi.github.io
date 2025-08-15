@@ -35,11 +35,15 @@
             {% for paper in site.data.papers.working_papers %}
             <div class="paper-card">
             <h4 style="margin-top:0;">
-                <a href="{{ paper.file }}"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
+                {% if paper.slug %}
+                <a href="/{{ paper.slug }}/"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
+                {% else %}
+                <a href="{{ paper.file }}" rel="nofollow"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
+                {% endif %}
             </h4>
             <div class="authors">
                 {% if paper.authors %}with {% for author_key in paper.authors %}<a href="{{ site.data.coauthors[author_key].url }}"><span class="author-name">{{ site.data.coauthors[author_key].name }}</span></a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
-            {% if paper.version %}<span class="version">&mdash; Version: {{ paper.version }}</span>{% endif %}
+            {% if paper.lastmod %}<span class="version">&mdash; Version: {{ paper.lastmod | date: "%B %Y" }}</span>{% endif %}
             </div>
                     {% if paper.status or paper.journal %}
                         <div class="status-journal">
@@ -51,7 +55,7 @@
                     {%- for group in paper.extra_links -%}
                         {%- if group.note and group.note != '' -%}<span class="tag-note">{{ group.note }}:</span>{%- endif -%}
                         {%- for l in group.links -%}
-                            <a class="tag-label" href="{{ l.url }}">{{ l.label }}</a>
+                            <a class="tag-label" href="{{ l.url }}"{% assign _u = l.url | downcase %}{% if _u contains '.pdf' %} rel="nofollow"{% endif %}>{{ l.label }}</a>
                         {%- endfor -%}
                     {%- endfor -%}
                 </div>
@@ -77,7 +81,12 @@
                     {%- for group in pub.extra_links -%}
                         {%- if group.note and group.note != '' -%}<span class="tag-note">{{ group.note }}:</span>{%- endif -%}
                         {%- for l in group.links -%}
-                            <a class="tag-label" href="{{ l.url }}">{{ l.label }}</a>
+                            {%- assign target_url = l.url -%}
+                            {%- assign label_lc = l.label | default: '' | downcase | strip -%}
+                            {%- if label_lc == 'working paper version' and pub.slug -%}
+                                {%- assign target_url = '/' | append: pub.slug | append: '/working-paper/' -%}
+                            {%- endif -%}
+                            <a class="tag-label" href="{{ target_url }}"{% assign _u = target_url | downcase %}{% if _u contains '.pdf' %} rel="nofollow"{% endif %}>{{ l.label }}</a>
                         {%- endfor -%}
                     {%- endfor -%}
                 </div>
@@ -88,7 +97,11 @@
             {% for wip in site.data.papers.work_in_progress %}
             <div class="paper-card">
             <h4 style="margin-top:0;">
-                {% if wip.file %}<a href="{{ wip.file }}"><i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}</a>{% else %}<i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}{% endif %}
+                {% if wip.file %}
+                <a href="{{ wip.file }}"{% assign _wf = wip.file | downcase %}{% if _wf contains '.pdf' %} rel="nofollow"{% endif %}><i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}</a>
+                {% else %}
+                <i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}
+                {% endif %}
             </h4>
             <div class="authors">
                 {% if wip.authors %}with {% for author_key in wip.authors %}<a href="{{ site.data.coauthors[author_key].url }}"><span class="author-name">{{ site.data.coauthors[author_key].name }}</span></a>{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
