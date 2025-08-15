@@ -629,10 +629,12 @@ a:hover {
 
 /* Embedded PDF pages (working papers, CV, etc.) */
 .embed-root {
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   background: #f6faef;
-  font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif; }
+  font-family: 'Source Sans Pro', 'Karla', Arial, sans-serif;
+  display: flex;
+  flex-direction: column; }
 
 .embed-root .paper-header {
   background: #f6faef;
@@ -696,11 +698,11 @@ a:hover {
 
 /* PDF frame wrapper and iframe fill */
 .embed-root .pdf-frame {
-  height: 100vh;
-  max-height: 100vh;
+  flex: 1 1 auto;
   width: 100%;
   margin: 0;
   padding: 0;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #f4e4c2;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07), 0 1.5px 4px rgba(0, 0, 0, 0.04);
@@ -715,3 +717,22 @@ a:hover {
   .embed-root .paper-authors,
   .embed-root .last-updated {
     display: none; } }
+/* Mobile refinements */
+@media (max-width: 700px) {
+  /* Simplest full-viewport PDF: hide header and make viewer full-screen */
+  .embed-root {
+    min-height: 100dvh;
+    overflow: hidden; }
+
+  .embed-root .paper-header {
+    display: none; }
+
+  .embed-root .pdf-frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    border-radius: 0;
+    border: none;
+    box-shadow: none; } }
