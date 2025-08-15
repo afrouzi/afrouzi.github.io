@@ -1,4 +1,3 @@
-@charset "UTF-8";
 main {
   margin-top: 0;
   padding-top: 0;
@@ -505,7 +504,17 @@ a:hover {
   border: none;
   background: transparent;
   cursor: pointer;
-  font-size: 1em; }
+  font-size: 1em;
+  z-index: 3;
+  /* above input and icon for taps */
+  width: 2em;
+  height: 2em;
+  /* larger touch target */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1; }
 
 /* Ensure clear button never shows while closed */
 .ribbon-search:not(.open) #clear-search {
@@ -574,31 +583,29 @@ a:hover {
   .poweredby {
     font-size: 0.6em !important; }
 
-  /* When the sticky ribbon search is open on phones: hide all labels and let the search fill remaining space */
-  .section-ribbon.sticky-ribbon:has(.ribbon-search.open) .ribbon-label {
-    display: none !important; }
+  body.search-open .section-ribbon.sticky-ribbon .ribbon-label {
+    display: none; }
 
-  .section-ribbon.sticky-ribbon:has(.ribbon-search.open) .ribbon-search {
+  body.search-open .section-ribbon.sticky-ribbon .ribbon-search {
     max-width: none;
-    /* remove clamp */
     width: auto;
-    /* size to available space */
-    flex: 1 1 auto;
-    /* grow to fill but don’t overflow */
-    padding-left: 0;
-    /* reduce left margin so icon is closer to edge */ }
+    flex: 1 1 auto; }
+
+  body.search-open .section-ribbon.sticky-ribbon .ribbon-nav {
+    display: none; }
+
+  .section-ribbon .ribbon-search {
+    transition: background-color 160ms ease, opacity 160ms ease;
+    /* avoid width jank */ }
 
   /* Keep magnifying glass size consistent with closed state and closer to the edge */
   .section-ribbon.sticky-ribbon .ribbon-search.open::before {
     font-size: 0.95em;
-    /* match closed icon size */
-    left: 6px;
-    /* closer to the left edge on phones */ }
+    left: 6px; }
 
   /* Recompute input left padding to avoid overlap with the icon */
   .section-ribbon.sticky-ribbon .ribbon-search.open #paper-search {
-    padding-left: calc(6px + 0.95em + 4px);
-    /* icon-left + icon-width + gap */ } }
+    padding-left: calc(6px + 0.95em + 4px); } }
 @media (max-width: 900px) {
   .sidebar {
     width: 100vw;

@@ -51,16 +51,18 @@
         const ribbonSearch = document.querySelector('.ribbon-search');
         const stickyRibbon = document.querySelector('.section-ribbon.sticky-ribbon');
         
-        if (searchInput) {
+    if (searchInput) {
             // Expand on focus
             searchInput.addEventListener('focus', function() {
-                if (ribbonSearch) ribbonSearch.classList.add('open');
+        if (ribbonSearch) ribbonSearch.classList.add('open');
+        try { document.body.classList.add('search-open'); } catch (e) {}
             });
             searchInput.addEventListener('input', handleSearch);
             searchInput.addEventListener('keyup', function(e) {
                 if (e.key === 'Escape') {
                     clearSearch();
-                    if (ribbonSearch) ribbonSearch.classList.remove('open');
+            if (ribbonSearch) ribbonSearch.classList.remove('open');
+            try { document.body.classList.remove('search-open'); } catch (e) {}
                 }
             });
         }
@@ -72,6 +74,7 @@
             }
             function openSearchCap() {
                 ribbonSearch.classList.add('open');
+                try { document.body.classList.add('search-open'); } catch (e) {}
                 if (searchInput) {
                     searchInput.focus();
                     // Put caret at end
@@ -85,7 +88,12 @@
             };
             ribbonSearch.addEventListener('mousedown', openHandler);
             ribbonSearch.addEventListener('click', openHandler);
-            ribbonSearch.addEventListener('touchstart', function(){ openSearchCap(); }, {passive:true});
+            ribbonSearch.addEventListener('touchstart', function(e){
+                // Don't open if touching inside input or clear button
+                if (e.target !== searchInput && !e.target.closest('#paper-search') && !e.target.closest('#clear-search')) {
+                    openSearchCap();
+                }
+            }, {passive:true});
             ribbonSearch.addEventListener('keydown', function(e){
                 if ((e.key === 'Enter' || e.key === ' ') && !ribbonSearch.classList.contains('open')) {
                     e.preventDefault();
@@ -102,12 +110,31 @@
                 }
             });
             // Close cap on outside click/touch
-            document.addEventListener('mousedown', function(e){ if (!ribbonSearch.contains(e.target)) ribbonSearch.classList.remove('open'); });
-            document.addEventListener('touchstart', function(e){ if (!ribbonSearch.contains(e.target)) ribbonSearch.classList.remove('open'); }, {passive:true});
+            document.addEventListener('mousedown', function(e){
+                if (!ribbonSearch.contains(e.target)) {
+                    ribbonSearch.classList.remove('open');
+                    try { document.body.classList.remove('search-open'); } catch (e) {}
+                }
+            });
+            document.addEventListener('touchstart', function(e){
+                if (!ribbonSearch.contains(e.target)) {
+                    ribbonSearch.classList.remove('open');
+                    try { document.body.classList.remove('search-open'); } catch (e) {}
+                }
+            }, {passive:true});
         }
 
         if (clearButton) {
-            clearButton.addEventListener('click', clearSearch);
+            // Prevent container handlers from firing
+            clearButton.addEventListener('touchstart', function(e){ e.stopPropagation(); }, {passive:true});
+            clearButton.addEventListener('click', function(e){
+                e.stopPropagation();
+                clearSearch();
+                // Also close and blur on clear, especially on phones
+                if (ribbonSearch) ribbonSearch.classList.remove('open');
+                try { document.body.classList.remove('search-open'); } catch (e) {}
+                if (searchInput) searchInput.blur();
+            });
         }
     }
 
