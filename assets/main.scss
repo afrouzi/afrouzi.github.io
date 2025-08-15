@@ -510,13 +510,17 @@ a:hover {
   background: transparent;
   cursor: pointer;
   font-size: 1em;
+  z-index: 3; /* above input and icon for taps */
+  width: 2em; height: 2em; /* larger touch target */
+  display: flex; align-items: center; justify-content: center;
+  padding: 0; line-height: 1;
 }
 /* Ensure clear button never shows while closed */
 .ribbon-search:not(.open) #clear-search { display: none !important; }
 
 /* CSS fallback for initial overlap when JS not ready */
 .sticky-ribbon + div[id] > .section-ribbon:not(.sticky-ribbon) {
-  margin-top: calc(var(--sticky-ribbon-height) * -1);
+	margin-top: calc(var(--sticky-ribbon-height) * -1);
 }
 
 @media (max-width: 700px) {
@@ -576,26 +580,16 @@ a:hover {
 		font-size: 1em !important;
 	}
 	.poweredby { font-size: 0.6em !important; }
+	
+	body.search-open .section-ribbon.sticky-ribbon .ribbon-label { display: none; }
+	body.search-open .section-ribbon.sticky-ribbon .ribbon-search { max-width: none; width: auto; flex: 1 1 auto; }
+	body.search-open .section-ribbon.sticky-ribbon .ribbon-nav { display: none; }
 
-	/* When the sticky ribbon search is open on phones: hide all labels and let the search fill remaining space */
-	.section-ribbon.sticky-ribbon:has(.ribbon-search.open) .ribbon-label {
-		display: none !important;
-	}
-	.section-ribbon.sticky-ribbon:has(.ribbon-search.open) .ribbon-search {
-		max-width: none;        /* remove clamp */
-		width: auto;            /* size to available space */
-		flex: 1 1 auto;         /* grow to fill but don’t overflow */
-		padding-left: 0;        /* reduce left margin so icon is closer to edge */
-	}
-	/* Keep magnifying glass size consistent with closed state and closer to the edge */
-	.section-ribbon.sticky-ribbon .ribbon-search.open::before {
-		font-size: 0.95em;  /* match closed icon size */
-		left: 6px;          /* closer to the left edge on phones */
-	}
-	/* Recompute input left padding to avoid overlap with the icon */
-	.section-ribbon.sticky-ribbon .ribbon-search.open #paper-search {
-		padding-left: calc(6px + 0.95em + 4px); /* icon-left + icon-width + gap */
-	}
+  .section-ribbon .ribbon-search { transition: background-color 160ms ease, opacity 160ms ease; /* avoid width jank */ }
+  /* Keep magnifying glass size consistent with closed state and closer to the edge */
+  .section-ribbon.sticky-ribbon .ribbon-search.open::before { font-size: 0.95em; left: 6px; }
+  /* Recompute input left padding to avoid overlap with the icon */
+  .section-ribbon.sticky-ribbon .ribbon-search.open #paper-search { padding-left: calc(6px + 0.95em + 4px); }
 }
 @media (max-width: 900px) {
 	.sidebar {
