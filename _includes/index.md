@@ -36,9 +36,9 @@
             <div class="paper-card">
             <h4 style="margin-top:0;">
                 {% if paper.slug %}
-                <a href="/{{ paper.slug }}/"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
+                <a href="/{{ paper.slug }}/" target="_blank" rel="noopener"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
                 {% else %}
-                <a href="{{ paper.file }}" rel="nofollow"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
+                <a href="{{ paper.file }}" target="_blank" rel="noopener nofollow"><i class="fas fa-file-alt" aria-hidden="true"></i> {{ paper.title }}</a>
                 {% endif %}
             </h4>
             <div class="authors">
@@ -55,7 +55,7 @@
                     {%- for group in paper.extra_links -%}
                         {%- if group.note and group.note != '' -%}<span class="tag-note">{{ group.note }}:</span>{%- endif -%}
                         {%- for l in group.links -%}
-                            <a class="tag-label" href="{{ l.url }}"{% assign _u = l.url | downcase %}{% if _u contains '.pdf' %} rel="nofollow"{% endif %}>{{ l.label }}</a>
+                            <a class="tag-label" href="{{ l.url }}"{% assign _u = l.url | downcase %}{% if _u contains '.pdf' %} target="_blank" rel="noopener nofollow"{% else %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>
                         {%- endfor -%}
                     {%- endfor -%}
                 </div>
@@ -86,7 +86,7 @@
                             {%- if label_lc == 'working paper version' and pub.slug -%}
                                 {%- assign target_url = '/' | append: pub.slug | append: '/working-paper/' -%}
                             {%- endif -%}
-                            <a class="tag-label" href="{{ target_url }}"{% assign _u = target_url | downcase %}{% if _u contains '.pdf' %} rel="nofollow"{% endif %}>{{ l.label }}</a>
+                            <a class="tag-label" href="{{ target_url }}"{% assign _u = target_url | downcase %}{% if _u contains '.pdf' %} target="_blank" rel="noopener nofollow"{% else %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>
                         {%- endfor -%}
                     {%- endfor -%}
                 </div>
@@ -98,7 +98,7 @@
             <div class="paper-card">
             <h4 style="margin-top:0;">
                 {% if wip.file %}
-                <a href="{{ wip.file }}"{% assign _wf = wip.file | downcase %}{% if _wf contains '.pdf' %} rel="nofollow"{% endif %}><i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}</a>
+                <a href="{{ wip.file }}"{% assign _wf = wip.file | downcase %}{% if _wf contains '.pdf' %} target="_blank" rel="noopener nofollow"{% else %} target="_blank" rel="noopener"{% endif %}><i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}</a>
                 {% else %}
                 <i class="fa fa-pencil-alt" aria-hidden="true"></i> {{ wip.title }}
                 {% endif %}

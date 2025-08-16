@@ -151,10 +151,16 @@ module Jekyll
 							#{seo_tags}
 							#{jsonld_script}
 							#{analytics}
-							<script>try{window.location.replace('#{file_url}')}catch(e){location.href='#{file_url}'}</script>
+							<script>
+							try {
+							  var w = window.open('#{file_url}', '_blank');
+							  if (w) { w.opener = null; }
+							  else { location.href = '#{file_url}'; }
+							} catch(e) { location.href = '#{file_url}'; }
+							</script>
 						</head>
 						<body>
-							Redirecting to <a href="#{file_url}">#{file_url}</a>.
+							Redirecting to <a href="#{file_url}" target="_blank" rel="noopener">#{file_url}</a>.
 						</body>
 						</html>
 					HTML
