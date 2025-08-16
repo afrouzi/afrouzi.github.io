@@ -28,9 +28,15 @@
 
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
-	<script>try{window.location.replace('/ac_markup_cyclicality/ac_markups.pdf')}catch(e){location.href='/ac_markup_cyclicality/ac_markups.pdf'}</script>
+	<script>
+	try {
+	  var w = window.open('/ac_markup_cyclicality/ac_markups.pdf', '_blank');
+	  if (w) { w.opener = null; }
+	  else { location.href = '/ac_markup_cyclicality/ac_markups.pdf'; }
+	} catch(e) { location.href = '/ac_markup_cyclicality/ac_markups.pdf'; }
+	</script>
 </head>
 <body>
-	Redirecting to <a href="/ac_markup_cyclicality/ac_markups.pdf">/ac_markup_cyclicality/ac_markups.pdf</a>.
+	Redirecting to <a href="/ac_markup_cyclicality/ac_markups.pdf" target="_blank" rel="noopener">/ac_markup_cyclicality/ac_markups.pdf</a>.
 </body>
 </html>

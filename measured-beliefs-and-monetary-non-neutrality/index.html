@@ -29,9 +29,15 @@
 
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
-	<script>try{window.location.replace('/afy_selection.pdf')}catch(e){location.href='/afy_selection.pdf'}</script>
+	<script>
+	try {
+	  var w = window.open('/afy_selection.pdf', '_blank');
+	  if (w) { w.opener = null; }
+	  else { location.href = '/afy_selection.pdf'; }
+	} catch(e) { location.href = '/afy_selection.pdf'; }
+	</script>
 </head>
 <body>
-	Redirecting to <a href="/afy_selection.pdf">/afy_selection.pdf</a>.
+	Redirecting to <a href="/afy_selection.pdf" target="_blank" rel="noopener">/afy_selection.pdf</a>.
 </body>
 </html>

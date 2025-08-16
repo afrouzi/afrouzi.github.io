@@ -28,9 +28,15 @@
 
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
-	<script>try{window.location.replace('/wetal_tellme.pdf')}catch(e){location.href='/wetal_tellme.pdf'}</script>
+	<script>
+	try {
+	  var w = window.open('/wetal_tellme.pdf', '_blank');
+	  if (w) { w.opener = null; }
+	  else { location.href = '/wetal_tellme.pdf'; }
+	} catch(e) { location.href = '/wetal_tellme.pdf'; }
+	</script>
 </head>
 <body>
-	Redirecting to <a href="/wetal_tellme.pdf">/wetal_tellme.pdf</a>.
+	Redirecting to <a href="/wetal_tellme.pdf" target="_blank" rel="noopener">/wetal_tellme.pdf</a>.
 </body>
 </html>

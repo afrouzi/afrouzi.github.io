@@ -29,9 +29,15 @@
 
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
-	<script>try{window.location.replace('/ab_inflation_networks.pdf')}catch(e){location.href='/ab_inflation_networks.pdf'}</script>
+	<script>
+	try {
+	  var w = window.open('/ab_inflation_networks.pdf', '_blank');
+	  if (w) { w.opener = null; }
+	  else { location.href = '/ab_inflation_networks.pdf'; }
+	} catch(e) { location.href = '/ab_inflation_networks.pdf'; }
+	</script>
 </head>
 <body>
-	Redirecting to <a href="/ab_inflation_networks.pdf">/ab_inflation_networks.pdf</a>.
+	Redirecting to <a href="/ab_inflation_networks.pdf" target="_blank" rel="noopener">/ab_inflation_networks.pdf</a>.
 </body>
 </html>

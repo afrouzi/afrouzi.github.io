@@ -29,9 +29,15 @@
 
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
-	<script>try{window.location.replace('/admps_preferences.pdf')}catch(e){location.href='/admps_preferences.pdf'}</script>
+	<script>
+	try {
+	  var w = window.open('/admps_preferences.pdf', '_blank');
+	  if (w) { w.opener = null; }
+	  else { location.href = '/admps_preferences.pdf'; }
+	} catch(e) { location.href = '/admps_preferences.pdf'; }
+	</script>
 </head>
 <body>
-	Redirecting to <a href="/admps_preferences.pdf">/admps_preferences.pdf</a>.
+	Redirecting to <a href="/admps_preferences.pdf" target="_blank" rel="noopener">/admps_preferences.pdf</a>.
 </body>
 </html>

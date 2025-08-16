@@ -26,9 +26,15 @@
 
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
-  <script>try{window.location.replace('/cv.pdf')}catch(e){location.href='/cv.pdf'}</script>
+  <script>
+    try {
+      var w = window.open('/cv.pdf', '_blank');
+      if (w) { w.opener = null; }
+      else { location.href = '/cv.pdf'; }
+    } catch(e) { location.href = '/cv.pdf'; }
+  </script>
 </head>
 <body>
-  Redirecting to <a href="/cv.pdf">/cv.pdf</a>.
+  Redirecting to <a href="/cv.pdf" target="_blank" rel="noopener">/cv.pdf</a>.
 </body>
 </html>
