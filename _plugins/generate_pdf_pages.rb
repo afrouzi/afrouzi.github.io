@@ -68,6 +68,10 @@ module Jekyll
 			seo_tags = String.new
 			canonical_url = (source_section == 'publications') ? full_redirect : slug_url
 			seo_tags << "<link rel=\"canonical\" href=\"#{canonical_url}\">\n"
+			# For working papers, advertise the PDF as an alternate format
+			if source_section != 'publications' && full_pdf
+				seo_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
+			end
 			seo_tags << "<meta name=\"description\" content=\"#{description_text}\">\n"
 			seo_tags << "<meta property=\"og:title\" content=\"#{paper['title']}\">\n"
 			seo_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
@@ -134,78 +138,45 @@ module Jekyll
 					</html>
 				HTML
 			else
-				# For working papers, embed the PDF so the slug stays in the address bar
-				# Compute human-friendly last updated
-				display_lastmod = nil
-				if meta_lastmod && meta_lastmod =~ /\A\d{4}-\d{2}-\d{2}\z/
-					begin
-						display_lastmod = Date.strptime(meta_lastmod, '%Y-%m-%d').strftime('%B %Y')
-					rescue
-						display_lastmod = meta_lastmod
-					end
-				elsif file_url && file_url.start_with?('/')
-					pdf_path = File.join(site.source, file_url.sub(/^\//, ''))
-					if File.exist?(pdf_path)
-						display_lastmod = File.mtime(pdf_path).strftime('%B %Y')
-					end
-				end
-
-				adobe_client_id = site.config['adobe_pdf_client_id']
-				adobe_div_id = "adobe-dc-view"
-				adobe_script = if adobe_client_id && !adobe_client_id.to_s.strip.empty? && file_url
-					<<~AS
-					<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-					<script>
-					(function(){
-					  if (window.matchMedia && window.matchMedia('(max-width: 700px)').matches) return; // mobile handled by redirect
-					  document.addEventListener('adobe_dc_view_sdk.ready', function(){
-					    try {
-					      var view = new AdobeDC.View({clientId: '#{adobe_client_id}', divId: '#{adobe_div_id}'});
-					      view.previewFile({content:{location:{url:'#{file_url}'}}, metaData:{fileName: '#{paper['title']}.pdf'}},{
-					        defaultViewMode: "CONTINUOUS"
-					      });
-					    } catch(e) { /* ignore */ }
-					  });
-					})();
-					</script>
-					AS
-					else
-						""
-					end
-				iframe_html = if file_url
-					if adobe_client_id && !adobe_client_id.to_s.strip.empty?
-						"<div id=\"#{adobe_div_id}\" style=\"width:100%;height:100%;\"></div>#{adobe_script}"
-					else
-						"<iframe src=\"#{file_url}#page=1&zoom=page-fit\" title=\"#{paper['title']}\" loading=\"lazy\"></iframe>"
-					end
+				# For working papers, perform a simple immediate redirect to the PDF
+				if file_url
+					self.content = <<~HTML
+						<!DOCTYPE html>
+						<html lang="en">
+						<head>
+							<meta charset="utf-8">
+							<meta name="viewport" content="width=device-width, initial-scale=1">
+							<title>#{paper['title']}</title>
+							#{meta_tags}
+							#{seo_tags}
+							#{jsonld_script}
+							#{analytics}
+							<script>try{window.location.replace('#{file_url}')}catch(e){location.href='#{file_url}'}</script>
+						</head>
+						<body>
+							Redirecting to <a href="#{file_url}">#{file_url}</a>.
+						</body>
+						</html>
+					HTML
 				else
-					"<p>PDF not available.</p>"
+					self.content = <<~HTML
+						<!DOCTYPE html>
+						<html lang="en">
+						<head>
+							<meta charset="utf-8">
+							<meta name="viewport" content="width=device-width, initial-scale=1">
+							<title>#{paper['title']}</title>
+							#{meta_tags}
+							#{seo_tags}
+							#{jsonld_script}
+							#{analytics}
+						</head>
+						<body>
+							<p>PDF not available.</p>
+						</body>
+						</html>
+					HTML
 				end
-
-				mobile_redirect_script = file_url ? "<script>(function(){try{if(window.matchMedia&&window.matchMedia('(max-width: 700px)').matches){window.location.replace('#{file_url}');}}catch(e){}})();</script>" : ""
-				self.content = <<~HTML
-					<!DOCTYPE html>
-					<html lang="en">
-					<head>
-						<meta name="viewport" content="width=device-width, initial-scale=1">
-						<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-						<script src="https://kit.fontawesome.com/9800a0f763.js" crossorigin="anonymous"></script>
-						<link rel="stylesheet" href="/assets/main.css?v={{ site.time | date: '%s' }}">
-						<title>#{paper['title']}</title>
-						#{meta_tags}
-						#{seo_tags}
-						#{jsonld_script}
-						#{analytics}
-						#{mobile_redirect_script}
-					</head>
-					<body class="embed-root">
-						<div class="pdf-frame">
-							#{file_url ? "<a class=\"pdf-download-fab\" href=\"#{file_url}\" rel=\"nofollow\" download><i class=\"fas fa-download\" aria-hidden=\"true\"></i> Download PDF</a>" : ""}
-							#{iframe_html}
-						</div>
-					</body>
-					</html>
-				HTML
 			end
 		end
 	end

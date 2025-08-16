@@ -83,45 +83,17 @@ module Jekyll
         <!DOCTYPE html>
         <html lang="en">
         <head>
+          <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-          <script src="https://kit.fontawesome.com/9800a0f763.js" crossorigin="anonymous"></script>
-          <link rel="stylesheet" href="/assets/main.css?v={{ site.time | date: '%s' }}">
           <title>Curriculum Vitae — #{person_name}</title>
           <meta name="description" content="Academic CV for #{person_name}">
           #{seo_tags}
           #{person_jsonld_script}
           #{analytics}
-          <script>(function(){try{if(window.matchMedia&&window.matchMedia('(max-width: 700px)').matches){window.location.replace('#{file_url}');}}catch(e){}})();</script>
+          <script>try{window.location.replace('#{file_url}')}catch(e){location.href='#{file_url}'}</script>
         </head>
-        <body class="embed-root">
-          <div class="pdf-frame">
-            <a class="pdf-download-fab" href="#{file_url}" rel="nofollow" download><i class="fas fa-download" aria-hidden="true"></i> Download PDF</a>
-            #{begin
-              client = site.config['adobe_pdf_client_id']
-              if client && !client.to_s.strip.empty?
-                <<~ADOBE
-                <div id="cv-adobe-view" style="width:100%;height:100%"></div>
-                <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-                <script>
-                  (function(){
-                    if (window.matchMedia && window.matchMedia('(max-width: 700px)').matches) return;
-                    document.addEventListener('adobe_dc_view_sdk.ready', function(){
-                      try {
-                        var view = new AdobeDC.View({clientId: '#{client}', divId: 'cv-adobe-view'});
-                        view.previewFile({content:{location:{url:'#{file_url}'}}, metaData:{fileName:'Curriculum Vitae — #{person_name}.pdf'}},{
-                          defaultViewMode: "CONTINUOUS"
-                        });
-                      } catch(e) {}
-                    });
-                  })();
-                </script>
-                ADOBE
-              else
-                "<iframe src=\"#{file_url}#page=1&zoom=page-fit\" title=\"Curriculum Vitae — #{person_name}\" loading=\"lazy\"></iframe>"
-              end
-            end}
-          </div>
+        <body>
+          Redirecting to <a href="#{file_url}">#{file_url}</a>.
         </body>
         </html>
       HTML

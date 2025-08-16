@@ -39,8 +39,4 @@ collections:
     output: true
     permalink: /:path/
 
-# Adobe PDF Embed API (Document Cloud View SDK)
-# Get a free client ID from https://developer.adobe.com/document-services/apis/pdf-embed/
-# Leave blank to fall back to iframe embedding.
-adobe_pdf_client_id: "b22a7fc3bda64abaa1006c39b17afe5c"
-# adobe_pdf_client_id: "4db393aa0b3b4d87a3db545398d565d8"  # local override
+# (Adobe PDF Embed API removed; no longer used)
