@@ -80,7 +80,7 @@ module Jekyll
       end
 
   # Use same-origin relative path in viewer to avoid any CORS issues
-  viewer_src = "/assets/pdfjs/viewer.html?file=#{URI.encode_www_form_component(file_url)}"
+  viewer_src = "/assets/pdfjs/viewer.html?file=#{URI.encode_www_form_component(file_url)}#pagemode=none"
       self.content = <<~HTML
         <!DOCTYPE html>
         <html lang="en">

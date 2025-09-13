@@ -146,7 +146,7 @@ module Jekyll
 					else
 						full_pdf || file_url
 					end
-					viewer_src = "/assets/pdfjs/viewer.html?file=#{URI.encode_www_form_component(file_for_viewer)}"
+					viewer_src = "/assets/pdfjs/viewer.html?file=#{URI.encode_www_form_component(file_for_viewer)}#pagemode=none"
 					self.content = <<~HTML
 						<!DOCTYPE html>
 						<html lang="en">
