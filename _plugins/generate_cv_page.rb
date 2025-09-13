@@ -79,6 +79,8 @@ module Jekyll
         last_modified
       end
 
+  # Use same-origin relative path in viewer to avoid any CORS issues
+  viewer_src = "/assets/pdfjs/viewer.html?file=#{URI.encode_www_form_component(file_url)}"
       self.content = <<~HTML
         <!DOCTYPE html>
         <html lang="en">
@@ -90,16 +92,10 @@ module Jekyll
           #{seo_tags}
           #{person_jsonld_script}
           #{analytics}
-          <script>
-            try {
-              var w = window.open('#{file_url}', '_blank');
-              if (w) { w.opener = null; }
-              else { location.href = '#{file_url}'; }
-            } catch(e) { location.href = '#{file_url}'; }
-          </script>
+          <style>html,body{height:100%;margin:0;background:#f6faef} .viewer-frame{position:fixed;inset:0;border:0;width:100%;height:100%}</style>
         </head>
         <body>
-          Redirecting to <a href="#{file_url}" target="_blank" rel="noopener">#{file_url}</a>.
+          <iframe class="viewer-frame" src="#{viewer_src}" title="Curriculum Vitae — #{person_name}" allow="fullscreen"></iframe>
         </body>
         </html>
       HTML
