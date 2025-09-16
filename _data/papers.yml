@@ -4,15 +4,15 @@ working_papers:
     slug: "workers-keep-up-with-inflation"
     authors: [blanco, drenik, hurst]
     lastmod: "2025-09-05"
-    status: "Revised and Resubmitted"
+    status: "Resubmitted"
     journal: "Quarterly Journal of Economics"
 
   - title: "Monetary Policy without Commitment"
     file: "/ahry_mpwc.pdf"
     slug: "monetary-policy-without-commitment"
     authors: [halac, rogoff, yared]
-    lastmod: "2024-12-01"
-    status: "Revise and Resubmit"
+    lastmod: "2025-09-16"
+    status: "Resubmitted"
     journal: "American Economic Review"
 
   - title: "Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition"
