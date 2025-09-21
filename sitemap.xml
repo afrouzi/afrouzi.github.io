@@ -1,153 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+    
   
-
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/assets/main.css</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/sitemap.xml</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/assets/main.css</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/redirects.json</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/cv/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/sitemap.xml</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/tell-me-something-i-dont-already-know/working-paper/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/relative-price-changes-aggregate-supply-shocks/working-paper/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/redirects.json</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/endogenous-competition-and-cyclicality-of-markups/working-paper/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/strategic-inattention-inflation-dynamics-non-neutrality/working-paper/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/cv/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/message-or-messenger-immigration-beliefs/working-paper/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/overreaction-in-expectations/working-paper/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/abdh_inflation/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/workers-keep-up-with-inflation/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/monetary-policy-without-commitment/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/ahry_mpwc/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/concentration-market-power-misallocation/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/measured-beliefs-and-monetary-non-neutrality/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/adk_concentration/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/dynamic-rational-inattention-phillips-curve/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/inflation-gdp-dynamics-production-networks/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/afy_selection/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/inflation-preferences/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/tell-me-something-i-dont-already-know/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/draft_2021_04/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/relative-price-changes-aggregate-supply-shocks/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/changing-central-bank-pressures-and-inflation/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/ab_inflation_networks/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/endogenous-competition-and-cyclicality-of-markups/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/strategic-inattention-inflation-dynamics-non-neutrality/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/admps_preferences/</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/message-or-messenger-immigration-beliefs/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
+    
+      <url>
+        <loc>https://afrouzi.com/overreaction-in-expectations/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-    <url>
-      <loc>https://afrouzi.com/feed.xml</loc>
-      
-        <lastmod>2025-09-21T16:40:41+00:00</lastmod>
-      
-      <changefreq>monthly</changefreq>
-      <priority>0.3</priority>
-    </url>
+    
+      <url>
+        <loc>https://afrouzi.com/inflation-targeting-does-not-anchor-expectations/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
   
-
-
-
-</urlset>
+    
+      <url>
+        <loc>https://afrouzi.com/research-statement/</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://afrouzi.com/feed.xml</loc>
+        
+          <lastmod>2025-09-21T16:45:10+00:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+      </url>
+    
+  </urlset>

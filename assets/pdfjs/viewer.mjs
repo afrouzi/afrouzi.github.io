@@ -841,11 +841,11 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   scrollModeOnLoad: {
-    value: -1,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   spreadModeOnLoad: {
-    value: -1,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   textLayerMode: {
@@ -865,7 +865,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   cMapUrl: {
-    value: "../web/cmaps/",
+    value: "./cmaps/",
     kind: OptionKind.API
   },
   disableAutoFetch: {
@@ -901,7 +901,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   iccUrl: {
-    value: "../web/iccs/",
+    value: "./iccs/",
     kind: OptionKind.API
   },
   isEvalSupported: {
@@ -921,7 +921,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   standardFontDataUrl: {
-    value: "../web/standard_fonts/",
+    value: "./standard_fonts/",
     kind: OptionKind.API
   },
   useSystemFonts: {
@@ -934,7 +934,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   wasmUrl: {
-    value: "../web/wasm/",
+    value: "./wasm/",
     kind: OptionKind.API
   },
   workerPort: {
@@ -942,7 +942,7 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "../build/pdf.worker.mjs",
+    value: "./pdf.worker.mjs",
     kind: OptionKind.WORKER
   }
 };
@@ -952,7 +952,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "../build/pdf.sandbox.mjs",
+    value: "./pdf.sandbox.mjs",
     kind: OptionKind.VIEWER
   };
   defaultOptions.enableFakeMLManager = {
