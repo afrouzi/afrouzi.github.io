@@ -841,11 +841,11 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   scrollModeOnLoad: {
-    value: -1,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   spreadModeOnLoad: {
-    value: -1,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   textLayerMode: {
