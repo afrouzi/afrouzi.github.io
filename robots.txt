@@ -4,5 +4,14 @@ Allow: /
 # Sitemap
 Sitemap: https://afrouzi.com/sitemap.xml
 
-# Avoid indexing error pages
+# Allow all academic content
+Allow: /_files/
+
+# Crawl delay (optional - be respectful)
+Crawl-delay: 1
+
+# Block common bot paths (if any)
+Disallow: /assets/
+Disallow: /.git/
+Disallow: /dynamic_inattention.html
 Disallow: /404.html

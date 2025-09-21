@@ -136,20 +136,6 @@
                 if (searchInput) searchInput.blur();
             });
         }
-
-        // Prefill search from URL ?q= parameter
-        try {
-            const params = new URLSearchParams(window.location.search);
-            const q = params.get('q');
-            if (q && searchInput) {
-                searchInput.value = q;
-                handleSearch();
-                if (ribbonSearch) ribbonSearch.classList.add('open');
-                try { document.body.classList.add('search-open'); } catch (e) {}
-            }
-        } catch (e) {
-            // ignore URL parse errors
-        }
     }
 
     function handleSearch() {
