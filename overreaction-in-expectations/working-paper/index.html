@@ -32,5 +32,44 @@
 </head>
 <body>
 	<iframe class="viewer-frame" src="/assets/pdfjs/viewer.html?file=%2Faklmt_overreaction.pdf#pagemode=none" title="Overreaction in Expectations: Evidence and Theory — Working Paper Version" allow="fullscreen"></iframe>
+								<script>
+								(function(){
+									function isCombo(e, code){
+										const k=e.key||e.keyCode; const match=(k===code||(typeof k==='string'&&k.toLowerCase()===String.fromCharCode(code).toLowerCase()));
+										return match && (e.metaKey||e.ctrlKey);
+									}
+									function isSaveCombo(e){ return isCombo(e,83); }
+									function isFindCombo(e){ return isCombo(e,70); }
+									function withViewer(fn){
+										const iframe=document.querySelector('.viewer-frame');
+										if(!iframe||!iframe.contentWindow) return false;
+										try{ return fn(iframe.contentWindow)===true; }catch(_){ return false; }
+									}
+									function triggerDownload(){
+										return withViewer(w=>{
+											if(w.PDFViewerApplication?.download){ w.PDFViewerApplication.download(); return true; }
+											const btn=w.document.getElementById('downloadButton'); if(btn){ btn.click(); return true; }
+											return false;
+										});
+									}
+									function triggerFind(){
+										return withViewer(w=>{
+											if(w.PDFViewerApplication?.findBar?.open){ w.PDFViewerApplication.findBar.open();
+												const input=w.document.getElementById('findInput'); input?.focus(); input?.select(); return true; }
+											const btn=w.document.getElementById('viewFindButton'); if(btn){ btn.click(); return true; }
+											return false;
+										});
+									}
+									window.addEventListener('keydown', function(e){
+										if(isSaveCombo(e)){
+											if(triggerDownload()){ e.preventDefault(); e.stopPropagation(); }
+											return;
+										}
+										if(isFindCombo(e)){
+											if(triggerFind()){ e.preventDefault(); e.stopPropagation(); }
+										}
+									}, true);
+								})();
+								</script>
 </body>
 </html>

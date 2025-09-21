@@ -157,6 +157,29 @@ html {
   font-size: 1.35em;
   pointer-events: none; }
 
+.sleek-menu a[href="/cv/"].menu-icon-labeled,
+.sleek-menu a[href="/research-statement/"].menu-icon-labeled {
+  position: relative;
+  background: #fffdf2;
+  /* subtle, warmer than base */
+  border: 1px solid #f4e4c2;
+  /* aligns with paper card border */
+  box-shadow: 0 2px 8px rgba(127, 10, 32, 0.06); }
+
+.sleek-menu a[href="/cv/"].menu-icon-labeled:hover,
+.sleek-menu a[href="/research-statement/"].menu-icon-labeled:hover {
+  background: #fff9e6;
+  box-shadow: 0 3px 12px rgba(127, 10, 32, 0.08); }
+
+.sleek-menu a[href="/cv/"].menu-icon-labeled i,
+.sleek-menu a[href="/research-statement/"].menu-icon-labeled i {
+  color: inherit;
+  /* match label text color */ }
+
+.sleek-menu a[href="/cv/"].menu-icon-labeled::after,
+.sleek-menu a[href="/research-statement/"].menu-icon-labeled::after {
+  content: none; }
+
 .sidebar {
   position: fixed;
   top: 0;
