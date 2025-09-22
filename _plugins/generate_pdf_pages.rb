@@ -1,6 +1,7 @@
 require 'json'
 require 'uri'
 require 'date'
+require 'cgi'
 
 module Jekyll
 	class PDFPage < Page
@@ -25,6 +26,18 @@ module Jekyll
 			meta_authors = authors.join(', ')
 			meta_journal = (source_section == 'publications' && paper['journal']) ? paper['journal'] : nil
 			meta_lastmod = paper['lastmod']
+			# Abstract (from _data/papers.yml); used for SEO when present
+			raw_abstract = (paper['abstract'] || '').to_s.strip
+			abstract_text = raw_abstract.gsub(/\s+/, ' ')
+			# Build a concise description: prefer abstract, else fallback to title + authors (+ journal)
+			fallback_desc = "#{paper['title']} — #{meta_authors}#{meta_journal ? " — #{meta_journal}" : ''}"
+			meta_description = if abstract_text.empty?
+				fallback_desc
+			else
+				# Truncate abstract to ~300 chars to fit meta contexts
+				maxlen = 300
+				abstract_text.length > maxlen ? abstract_text[0...maxlen].rstrip + '…' : abstract_text
+			end
 
 
 			raw_file = paper['file'] ? paper['file'].to_s : nil
@@ -57,30 +70,54 @@ module Jekyll
 				end
 			end
 
-			description_text = "#{paper['title']} — #{meta_authors}#{meta_journal ? " — #{meta_journal}" : ''}"
 			site_title = site.config['title']
 
-			meta_tags = String.new
-			meta_tags << "<meta name=\"author\" content=\"#{meta_authors}\">\n"
-			meta_tags << "<meta name=\"journal\" content=\"#{meta_journal}\">\n" if meta_journal
-			meta_tags << "<meta name=\"dateModified\" content=\"#{meta_lastmod}\">\n" if meta_lastmod
+			# Prefer explicit year if present; else parse trailing (YYYY) from details
+			pub_year = nil
+			if paper['year']
+				pub_year = paper['year'].to_s[/\d{4}/]
+			elsif paper['details']
+				m = paper['details'].to_s.match(/\((\d{4})\)\s*$/)
+				pub_year = m[1] if m
+			end
 
-			seo_tags = String.new
+			# Canonical URL for this page (publications redirect to a search URL)
 			canonical_url = (source_section == 'publications') ? full_redirect : slug_url
-			seo_tags << "<link rel=\"canonical\" href=\"#{canonical_url}\">\n"
+
+			# Build a single ordered block of head tags (deduplicated)
+			head_tags = String.new
+			head_tags << "<link rel=\"canonical\" href=\"#{canonical_url}\">\n"
 			# For working papers, advertise the PDF as an alternate format
 			if source_section != 'publications' && full_pdf
-				seo_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
+				head_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
 			end
-			seo_tags << "<meta name=\"description\" content=\"#{description_text}\">\n"
-			seo_tags << "<meta property=\"og:title\" content=\"#{paper['title']}\">\n"
-			seo_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
-			seo_tags << "<meta property=\"og:type\" content=\"article\">\n"
-			seo_tags << "<meta property=\"og:url\" content=\"#{canonical_url}\">\n"
-			seo_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
-			seo_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
-			seo_tags << "<meta name=\"twitter:title\" content=\"#{paper['title']}\">\n"
-			seo_tags << "<meta name=\"twitter:description\" content=\"#{description_text}\">\n"
+			# Core description and attribution
+			head_tags << "<meta name=\"description\" content=\"#{CGI.escapeHTML(meta_description)}\">\n"
+			head_tags << "<meta name=\"author\" content=\"#{CGI.escapeHTML(meta_authors)}\">\n"
+			# Highwire citation tags (for academic indexers)
+			head_tags << "<meta name=\"citation_title\" content=\"#{CGI.escapeHTML(paper['title'].to_s)}\">\n"
+			authors.each { |a| head_tags << "<meta name=\"citation_author\" content=\"#{CGI.escapeHTML(a)}\">\n" }
+			head_tags << "<meta name=\"citation_journal_title\" content=\"#{CGI.escapeHTML(meta_journal)}\">\n" if meta_journal
+			if paper['doi']
+				doi_val = paper['doi'].to_s
+				head_tags << "<meta name=\"citation_doi\" content=\"#{CGI.escapeHTML(doi_val)}\">\n"
+			end
+			head_tags << "<meta name=\"citation_publication_date\" content=\"#{pub_year}\">\n" if pub_year
+			head_tags << "<meta name=\"citation_pdf_url\" content=\"#{CGI.escapeHTML(full_pdf)}\">\n" if full_pdf
+			head_tags << "<meta name=\"citation_abstract\" content=\"#{CGI.escapeHTML(abstract_text)}\">\n" unless abstract_text.empty?
+			# Open Graph
+			head_tags << "<meta property=\"og:title\" content=\"#{CGI.escapeHTML(paper['title'].to_s)}\">\n"
+			head_tags << "<meta property=\"og:description\" content=\"#{CGI.escapeHTML(meta_description)}\">\n"
+			head_tags << "<meta property=\"og:type\" content=\"article\">\n"
+			head_tags << "<meta property=\"og:url\" content=\"#{canonical_url}\">\n"
+			head_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
+			head_tags << "<meta property=\"article:published_time\" content=\"#{pub_year}-01-01\">\n" if pub_year
+			head_tags << "<meta property=\"article:modified_time\" content=\"#{meta_lastmod}\">\n" if meta_lastmod
+			head_tags << "<meta property=\"og:updated_time\" content=\"#{meta_lastmod}\">\n" if meta_lastmod
+			# Twitter
+			head_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
+			head_tags << "<meta name=\"twitter:title\" content=\"#{CGI.escapeHTML(paper['title'].to_s)}\">\n"
+			head_tags << "<meta name=\"twitter:description\" content=\"#{CGI.escapeHTML(meta_description)}\">\n"
 
 			jsonld = {
 				"@context" => "https://schema.org",
@@ -88,8 +125,14 @@ module Jekyll
 				"name" => paper['title'],
 				"author" => authors.map { |n| { "@type" => "Person", "name" => n } },
 				"url" => (source_section == 'publications') ? full_redirect : slug_url,
-				"isAccessibleForFree" => true
+				"isAccessibleForFree" => true,
+				"description" => meta_description
 			}
+			if pub_year
+				# Use Jan 1st as an approximate publication date when only year is known
+				jsonld["datePublished"] = sprintf("%s-01-01", pub_year)
+			end
+			jsonld["abstract"] = abstract_text unless abstract_text.empty?
 			if file_url && full_pdf
 				jsonld["encoding"] = {
 					"@type" => "MediaObject",
@@ -127,8 +170,7 @@ module Jekyll
 						<script src="https://kit.fontawesome.com/9800a0f763.js" crossorigin="anonymous"></script>
 						<meta http-equiv="refresh" content="0; url=#{redirect_path}">
 						<title>#{paper['title']}</title>
-						#{meta_tags}
-						#{seo_tags}
+						#{head_tags}
 						#{jsonld_script}
 						#{analytics}
 					</head>
@@ -154,8 +196,7 @@ module Jekyll
 							<meta charset="utf-8">
 							<meta name="viewport" content="width=device-width, initial-scale=1">
 							<title>#{paper['title']}</title>
-							#{meta_tags}
-							#{seo_tags}
+							#{head_tags}
 							#{jsonld_script}
 							#{analytics}
 							<style>html,body{height:100%;margin:0;background:#f6faef} .viewer-frame{position:fixed;inset:0;border:0;width:100%;height:100%}</style>
@@ -212,8 +253,7 @@ module Jekyll
 							<meta charset="utf-8">
 							<meta name="viewport" content="width=device-width, initial-scale=1">
 							<title>#{paper['title']}</title>
-							#{meta_tags}
-							#{seo_tags}
+							#{head_tags}
 							#{jsonld_script}
 							#{analytics}
 						</head>
