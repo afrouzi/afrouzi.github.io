@@ -6,6 +6,7 @@ working_papers:
     lastmod: "2025-09-05"
     status: "Resubmitted"
     journal: "Quarterly Journal of Economics"
+    abstract: "We develop a model that integrates modern theories of labor market flows with nominal wage rigidities to study the consequences of inflation on the labor market. Nominal wage stickiness incentivizes workers to engage in job-to-job transitions after an unexpected increase in the price level. Such dynamics lead to a rise in aggregate vacancies associating a seemingly tight labor market with lower real wages—two facts observed during the recent inflation period. The calibrated model jointly matches aggregate and cross-sectional trends in worker flows and wages during the 2021-2024 period. Using historical data, we show that prior periods of high inflation were also associated with increasing vacancies and upward shifts in the Beveridge curve. Our results suggest that policymakers and academics should be cautious about viewing the rise in the vacancy-to-unemployment rate as a sign of a tight labor market during inflationary periods without holistically looking at other labor market indicators."
 
   - title: "Monetary Policy without Commitment"
     file: "/ahry_mpwc.pdf"
@@ -14,6 +15,7 @@ working_papers:
     lastmod: "2025-09-16"
     status: "Resubmitted"
     journal: "American Economic Review"
+    abstract: "This paper studies the implications of central bank credibility for long-run inflation and inflation dynamics. We introduce central bank lack of commitment into a standard non-linear New Keynesian economy with sticky-price monopolistically competitive firms. Inflation is driven by the interaction of lack of commitment and the economic environment. We show that long-run inflation increases following an unanticipated permanent increase in the labor wedge or decrease in the elasticity of substitution across varieties. In the transition, inflation overshoots and then gradually declines. Quantitatively, inflation overshooting is persistent, and the welfare loss from lack of commitment relative to inflation targeting is large."
 
   - title: "Concentration, Market Power, and Misallocation: The Role of Endogenous Customer Acquisition"
     file: "/adk_concentration.pdf"
@@ -22,6 +24,7 @@ working_papers:
     lastmod: "2023-05-01"
     status: "Revise and Resubmit"
     journal: "Econometrica"
+    abstract: "This paper explores how different margins of market share are related to markups. Using merged microdata on producers and consumers, we document that a firm’s market share is mainly related to its number of customers, while its price-cost markup is associated only with its average sales per customer. We develop a new model that reflects this empirical evidence and the endogenous nature of customer acquisition. When calibrated, this model predicts a higher degree of markup dispersion, which suggests greater efficiency losses due to customer misallocation. An analysis of the efficient allocation in this model reveals that compared with the equilibrium, aggregate TFP and output are 10.8% and 14% higher, respectively."
 
   - title: "What Can Measured Beliefs Tell Us About Monetary Non-Neutrality?"
     file: "/afy_selection.pdf"
@@ -30,6 +33,7 @@ working_papers:
     lastmod: "2024-06-01"
     status: "Reject and Resubmit"
     journal: "American Economic Review"
+    abstract: "This paper studies how measured beliefs can be used to identify monetary non-neutrality. In a general equilibrium model with both nominal rigidities and endogenous information acquisition, we analytically characterize firms’ optimal dynamic information policies and how their beliefs affect monetary non-neutrality. We then show that data on the cross-sectional distributions of uncertainty and pricing durations are both necessary and sufficient to identify monetary non-neutrality. Finally, implementing our approach in New Zealand survey data, we find that informational frictions approximately double monetary non-neutrality and endogeneity of information is important: models with exogenous information would overstate monetary non-neutrality by approximately 50%."
 
   - title: "Dynamic Rational Inattention and the Phillips Curve"
     file: "/dynamic_inattention/draft_2021_04.pdf"
@@ -61,18 +65,21 @@ working_papers:
             url: "/DRIPs_slides.html"
           - label: "Live Jupyter Slides"
             url: "https://mybinder.org/v2/gh/afrouzi/DRIPs-slides/master?filepath=intro_slides.ipynb"
+    abstract: "We study and fully characterize the dynamics of belief distributions in linear-quadratic-Gaussian rational inattention models. Building on these results, we propose a novel solution method that is orders of magnitude faster than alternative methods and is efficient enough for quantitative work. As an application, we develop an attention-driven theory of pricing where the Phillips curve slope responds endogenously to the conduct of monetary policy. While more hawkish monetary policy flattens the Phillips curve, a more dovish monetary policy flattens it in the short run but leads to a steeper Phillips curve in the long run."
 
   - title: "Inflation and GDP Dynamics in Production Networks: A Sufficient Statistics Approach"
     file: "/ab_inflation_networks.pdf"
     slug: "inflation-gdp-dynamics-production-networks"
     authors: [bhattarai]
     lastmod: "2025-08-01"
+    abstract: "We derive closed-form solutions and sufficient statistics for inflation and GDP dynamics in multi-sector New Keynesian economies with arbitrary input-output linkages. Analytically, we show how (1) production linkages amplify inflation and GDP persistence in response to monetary and sectoral shocks and (2) monetary policies that stabilize price indices or the GDP gap affect shock propagation. Quantitatively, sectors with large input-output adjusted price stickiness have disproportionate effects relative to their GDP shares: the three sectors with the highest contribution to the persistence of aggregate inflation have GDP shares of around zero but explain 16% of monetary non-neutrality."
 
   - title: "Inflation Preferences"
     file: "/admps_preferences.pdf"
     slug: "inflation-preferences"
     authors: [dietrich, myrseth, priftis, schoenle]
     lastmod: "2025-04-01"
+    abstract: "Across two waves of a new nationally representative survey, we document three novel facts about preferred long-run inflation rates among US consumers. (1) The median consumer prefers a 0% annual inflation rate, well below the Federal Reserve’s 2% target. (2) Inflation preferences correlate with demographic, socioeconomic and psychographic characteristics, as well as with economic reasoning. (3) Using a Randomized Control Trial (RCT), we investigate which economic narratives—mainstream economic theories about the effect of inflation—have an effect on elicited inflation preferences and find that narratives about the eroding effects of inflation on wages or cash savings can lead to lower elicited preferences. A model of inflation preferences under competing narratives explains how elicited preferences can vary under different economic conditions and over time."
 
 publications:
   - title: "Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings"
@@ -89,6 +96,7 @@ publications:
             url: "https://doi.org/10.3982/ECTA22764"
           - label: "Working Paper Version"
             url: "/wetal_tellme.pdf"
+    abstract: "Using randomized control trials (RCTs) applied over time in different countries, we study whether the economic environment affects how agents learn from new information. We show that as inflation rose in advanced economies, both households and firms became more attentive and informed about publicly available news about inflation, leading them to respond less to exogenously provided information about inflation and monetary policy. We also study the effects of RCTs in countries where inflation has been consistently high (Uruguay) and low (New Zealand) as well as what happens when the same agents are repeatedly provided information in both low‐ and high‐inflation environments (Italy). Our results broadly support models in which inattention is an endogenous outcome that depends on the economic environment."
 
   - title: "Relative-Price Changes as Aggregate Supply Shocks Revisited: Theory and Evidence"
     slug: "relative-price-changes-aggregate-supply-shocks"
@@ -106,6 +114,7 @@ publications:
             url: "/abw_relative_prices.pdf"
           - label: "Online Appendix"
             url: "/abw_relative_prices_appendix.pdf"
+    abstract: "We provide theory and evidence that relative price shocks can cause aggregate inflation and act as aggregate supply shocks. Empirically, we show that exogenous positive energy price shocks have a positive impact not only on headline but also on U.S. core inflation while depressing U.S. real activity. In a two-sector monetary model with upstream and downstream sectors and heterogeneous price stickiness, we analytically characterize how upstream shocks propagate to prices. Using panel IV local projections, we show that the responsiveness of sectoral PCE prices to energy price shocks is in line with model predictions. Motivated by post-COVID inflation in the U.S., a model experiment shows that a one-time relative price shock generates persistent movements in headline and core inflation similar to those observed in the data, even in the absence of aggregate slack. The model also emphasizes that monetary policy stance plays an important role in propagation of such shocks."
 
   - title: "Changing Central Bank Pressures and Inflation"
     slug: "changing-central-bank-pressures-and-inflation"
@@ -120,6 +129,7 @@ publications:
             url: "https://www.brookings.edu/wp-content/uploads/2024/11/16937-BPEA-BPEA-SP24_WEB-Afrouzi-et-al.pdf"
           - label: "VoxEU Column"
             url: "https://cepr.org/voxeu/columns/changing-central-bank-pressures-and-inflation"
+    abstract: "We introduce a simple long-run aggregate demand and supply framework for evaluating long-run inflation. The framework illustrates how exogenous economic and political economy factors generate pressures that, in the presence of central bank discretion, can have an impact on long-run inflation as well as transitions between steady states. We use the analysis to provide a fresh perspective on the forces that drove global inflation downward over the past four decades. We argue that for inflation to remain low and stable in the future, political economy factors, such as strengthened central bank independence or more credible public debt policy, would need to offset the global economic pressures now pushing average long-run inflation upward."
 
   - title: "Endogenous Firm Competition and Cyclicality of Markups"
     slug: "endogenous-competition-and-cyclicality-of-markups"
@@ -137,6 +147,7 @@ publications:
             url: "/ac_markup_cyclicality/ac_markups.pdf"
           - label: "Online Appendix"
             url: "/ac_markup_cyclicality/ac_online_appendix.pdf"
+    abstract: "We show that the cyclicality of output growth is a sufficient predictor for the cyclicality of markups in models that micro-found variable markups through dynamic trade-offs. We use data on markups from the U.S. as well as survey data on firms’ expectations from New Zealand to test the predictions of these models and find evidence in favor of their mechanisms. Finally, we study the implications of these mechanisms for cyclicality of markups in a calibrated general equilibrium model. In particular, we find that the degree of hump-shaped response in output is crucial for the direction of aggregate markup cyclicality."
 
   - title: "Strategic Inattention, Inflation Dynamics, and the Non-Neutrality of Money"
     slug: "strategic-inattention-inflation-dynamics-non-neutrality"
@@ -153,6 +164,7 @@ publications:
             url: "/strategic_inattention.pdf"
           - label: "Online Appendix"
             url: "/strategic_inattention_appendix.pdf"
+    abstract: "This paper studies how competition affects firms’ expectations in a new dynamic general equilibrium model with rational inattention and oligopolistic competition where firms acquire information about their competitors’ beliefs. In the model, firms with fewer competitors are less attentive to aggregate variables—a novel prediction supported by survey evidence. A calibrated version of the model matches the relationship between firms’ numbers of competitors and their uncertainty about aggregate inflation as a nontargeted moment. A quantitative exercise reveals that firms’ strategic inattention to aggregates significantly amplifies monetary nonneutrality and shifts output response disproportionately toward less competitive oligopolies by distorting relative prices."
 
   - title: "Is it the Message or the Messenger? Examining Movement in Immigration Beliefs"
     slug: "message-or-messenger-immigration-beliefs"
@@ -170,6 +182,7 @@ publications:
             url: "/aaw_persuasion.pdf"
           - label: "Supplemental Materials"
             url: "/aaw_persuasion_supplemental.pdf"
+    abstract: "How do political leaders affect constituents’ beliefs? Is it rhetoric, identity, or the interaction of the two that matters? Using a large-scale experiment about immigration beliefs, we decompose the relative importance of partisan messages versus leader sources. Participants listen to anti-immigrant and pro-immigrant speeches from both Presidents Obama and Trump. These treatments are benchmarked to identical speeches recorded by an actor to control for message content, and to nonideological presidential speeches to control for leader priming. We find that political leaders influence beliefs beyond the content of their messages when leaders deliver unanticipated messages to individuals in their own party."
 
   - title: "Overreaction in Expectations: Evidence and Theory"
     slug: "overreaction-in-expectations"
@@ -189,6 +202,7 @@ publications:
             url: "/aklmt_overreaction_appendix.pdf"
           - label: "Experimental Interface"
             url: "https://github.com/forecast-research/interface"
+    abstract: "We investigate biases in expectations across different settings through a large-scale randomized experiment where participants forecast stable stochastic processes. The experiment allows us to control forecasters’ information sets as well as the data-generating process, so we can cleanly measure biases in beliefs. We report three facts. First, forecasts display significant overreaction to the most recent observation. Second, overreaction is stronger for less persistent processes. Third, overreaction is also stronger for longer forecast horizons. We develop a tractable model of expectations formation with costly processing of past information, which closely fits the empirical facts. We also perform additional experiments to test the mechanism of the model."
 
   - title: "Inflation Targeting Does Not Anchor Inflation Expectations: Evidence from Firms in New Zealand"
     slug: "inflation-targeting-does-not-anchor-expectations"
@@ -209,6 +223,7 @@ publications:
             url: "http://m.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11511461"
           - label: "Week"
             url: "http://theweek.com/speedreads/576720/americans-know-nothing-about-money-because-theyre-busy-googling-puppies"
+    abstract: "Using a new survey of firm managers, we investigate whether inflation expectations in New Zealand are anchored or not. In spite of 25 years of inflation targeting by the Reserve Bank of New Zealand, firm managers display little anchoring of such expectations. We document this finding along a number of dimensions. Managers are unaware of the identities of central bankers or of central banks’ objectives, and they are generally poorly informed about recent inflation dynamics. Their forecasts of future inflation reflect high levels of uncertainty and are extremely dispersed, and they are volatile along both short-run and long-run horizons. Similar results can be found for the United States using currently available surveys."
 
 work_in_progress:
   - title: "The Welfare Cost of Inflation in Production Networks"
