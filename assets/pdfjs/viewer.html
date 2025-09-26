@@ -23,7 +23,8 @@ See https://github.com/adobe-type-tools/cmap-resources
 <html dir="ltr" mozdisallowselectionprint>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Prevent browser from scaling the whole page on pinch; we'll handle pinch to zoom inside the PDF canvas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="google" content="notranslate">
     <title>PDF.js viewer</title>
 
@@ -784,5 +785,59 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     </div> <!-- outerContainer -->
     <div id="printContainer"></div>
+  <script>
+  // Lightweight pinch-to-zoom handler for mobile: maps two-finger pinch to PDF scale
+  (function(){
+    if(!('ontouchstart' in window)) return; // Only mobile/touch
+    // Wait until PDFViewerApplication is ready (pagesloaded) before trusting currentScale
+    const container = document.getElementById('viewerContainer');
+    if(!container) return;
+    let pinchSession = null;
+    const MIN_SCALE = 0.25;
+    const MAX_SCALE = 5.0;
+    function distance(e){
+      const t1 = e.touches[0], t2 = e.touches[1];
+      if(!t1 || !t2) return 0;
+      const dx = t2.clientX - t1.clientX;
+      const dy = t2.clientY - t1.clientY;
+      return Math.hypot(dx, dy);
+    }
+    function startPinch(e){
+      if(e.touches.length !== 2) return;
+      const dist = distance(e);
+      if(dist === 0) return;
+      const currentScale = (window.PDFViewerApplication && window.PDFViewerApplication.pdfViewer && window.PDFViewerApplication.pdfViewer.currentScale) || 1;
+      pinchSession = { startDist: dist, startScale: currentScale };
+    }
+    function movePinch(e){
+      if(!pinchSession || e.touches.length !== 2) return;
+      // Prevent page-level pinch zoom / scroll bounce
+      e.preventDefault();
+      const dist = distance(e);
+      if(dist === 0 || pinchSession.startDist === 0) return;
+      const ratio = dist / pinchSession.startDist;
+      let target = pinchSession.startScale * ratio;
+      if(!isFinite(target)) return;
+      if(target < MIN_SCALE) target = MIN_SCALE;
+      else if(target > MAX_SCALE) target = MAX_SCALE;
+      const viewer = window.PDFViewerApplication && window.PDFViewerApplication.pdfViewer;
+      if(viewer && Math.abs(viewer.currentScale - target) > 0.001){
+        // Use currentScale (numeric) rather than currentScaleValue so we stay in continuous zoom
+        viewer.currentScale = target;
+      }
+    }
+    function endPinch(e){
+      if(!pinchSession) return;
+      if(e.touches.length < 2){
+        pinchSession = null;
+      }
+    }
+    // Passive must be false for touchmove to allow preventDefault()
+    container.addEventListener('touchstart', startPinch, {passive:true});
+    container.addEventListener('touchmove', movePinch, {passive:false});
+    container.addEventListener('touchend', endPinch, {passive:true});
+    container.addEventListener('touchcancel', endPinch, {passive:true});
+  })();
+  </script>
   </body>
 </html>

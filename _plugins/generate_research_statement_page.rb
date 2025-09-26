@@ -21,20 +21,22 @@ module Jekyll
       full_pdf = site_url.chomp('/') + file_url
       homepage_url = site_url.chomp('/') + baseurl + '/'
 
-      # SEO
-      description_text = 'Research Statement — Hassan Afrouzi'
-      site_title = site.config['title']
-      seo_tags = String.new
-      seo_tags << "<link rel=\"canonical\" href=\"#{slug_url}\">\n"
-      seo_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
-      seo_tags << "<meta property=\"og:title\" content=\"Research Statement\">\n"
-      seo_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
-      seo_tags << "<meta property=\"og:type\" content=\"article\">\n"
-      seo_tags << "<meta property=\"og:url\" content=\"#{slug_url}\">\n"
-      seo_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
-      seo_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
-      seo_tags << "<meta name=\"twitter:title\" content=\"Research Statement\">\n"
-      seo_tags << "<meta name=\"twitter:description\" content=\"#{description_text}\">\n"
+  # SEO / social tags unified
+  description_text = 'Research Statement — Hassan Afrouzi'
+  site_title = site.config['title']
+  head_tags = String.new
+  head_tags << "<link rel=\"canonical\" href=\"#{slug_url}\">\n"
+  head_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
+  head_tags << "<meta name=\"description\" content=\"#{description_text}\">\n"
+  head_tags << "<meta name=\"author\" content=\"Hassan Afrouzi\">\n"
+  head_tags << "<meta property=\"og:title\" content=\"Research Statement\">\n"
+  head_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
+  head_tags << "<meta property=\"og:type\" content=\"article\">\n"
+  head_tags << "<meta property=\"og:url\" content=\"#{slug_url}\">\n"
+  head_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
+  head_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
+  head_tags << "<meta name=\"twitter:title\" content=\"Research Statement\">\n"
+  head_tags << "<meta name=\"twitter:description\" content=\"#{description_text}\">\n"
 
       # JSON-LD as a simple CreativeWork
       jsonld = {
@@ -65,16 +67,16 @@ module Jekyll
         <html lang="en">
         <head>
           <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
           <title>Research Statement</title>
-          <meta name="description" content="#{description_text}">
-          #{seo_tags}
+          #{head_tags}
           #{jsonld_script}
           #{analytics}
           <style>html,body{height:100%;margin:0;background:#f6faef} .viewer-frame{position:fixed;inset:0;border:0;width:100%;height:100%}</style>
         </head>
         <body>
           <iframe class="viewer-frame" src="#{viewer_src}" title="Research Statement" allow="fullscreen"></iframe>
+          <!-- Pinch zoom handled in embedded viewer -->
           <script>
           (function(){
             function isCombo(e, code){

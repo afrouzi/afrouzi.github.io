@@ -34,20 +34,22 @@ module Jekyll
   full_pdf = site_url.chomp('/') + file_url
   homepage_url = site_url.chomp('/') + baseurl + '/'
 
-      # SEO and social tags
-      site_title = site.config['title']
-      description_text = "Curriculum Vitae — #{person_name}"
-  seo_tags = String.new
-  seo_tags << "<link rel=\"canonical\" href=\"#{slug_url}\">\n"
-  seo_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
-  seo_tags << "<meta property=\"og:title\" content=\"Curriculum Vitae\">\n"
-  seo_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
-  seo_tags << "<meta property=\"og:type\" content=\"article\">\n"
-  seo_tags << "<meta property=\"og:url\" content=\"#{slug_url}\">\n"
-  seo_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
-  seo_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
-  seo_tags << "<meta name=\"twitter:title\" content=\"Curriculum Vitae\">\n"
-  seo_tags << "<meta name=\"twitter:description\" content=\"#{description_text}\">\n"
+    # Unified SEO / social tags
+    site_title = site.config['title']
+    description_text = "Curriculum Vitae — #{person_name}"
+    head_tags = String.new
+    head_tags << "<link rel=\"canonical\" href=\"#{slug_url}\">\n"
+    head_tags << "<link rel=\"alternate\" type=\"application/pdf\" href=\"#{full_pdf}\">\n"
+    head_tags << "<meta name=\"description\" content=\"#{description_text}\">\n"
+    head_tags << "<meta name=\"author\" content=\"#{person_name}\">\n"
+    head_tags << "<meta property=\"og:title\" content=\"Curriculum Vitae\">\n"
+    head_tags << "<meta property=\"og:description\" content=\"#{description_text}\">\n"
+    head_tags << "<meta property=\"og:type\" content=\"article\">\n"
+    head_tags << "<meta property=\"og:url\" content=\"#{slug_url}\">\n"
+    head_tags << "<meta property=\"og:site_name\" content=\"#{site_title}\">\n" if site_title
+    head_tags << "<meta name=\"twitter:card\" content=\"summary\">\n"
+    head_tags << "<meta name=\"twitter:title\" content=\"Curriculum Vitae\">\n"
+    head_tags << "<meta name=\"twitter:description\" content=\"#{description_text}\">\n"
 
       # Additional Person JSON-LD (like in head) for stronger entity linking
   # compass and person_name already defined above
@@ -86,16 +88,16 @@ module Jekyll
         <html lang="en">
         <head>
           <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
           <title>Curriculum Vitae — #{person_name}</title>
-          <meta name="description" content="Academic CV for #{person_name}">
-          #{seo_tags}
+          #{head_tags}
           #{person_jsonld_script}
           #{analytics}
           <style>html,body{height:100%;margin:0;background:#f6faef} .viewer-frame{position:fixed;inset:0;border:0;width:100%;height:100%}</style>
         </head>
         <body>
           <iframe class="viewer-frame" src="#{viewer_src}" title="Curriculum Vitae — #{person_name}" allow="fullscreen"></iframe>
+          <!-- Pinch zoom handled inside viewer iframe; disable page-level zoom -->
           <script>
           (function(){
             function isCombo(e, code){
