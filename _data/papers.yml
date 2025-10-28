@@ -4,7 +4,7 @@ working_papers:
     slug: "workers-keep-up-with-inflation"
     authors: [blanco, drenik, hurst]
     lastmod: "2025-09-05"
-    status: "Resubmitted"
+    status: "Conditionally Accepted"
     journal: "Quarterly Journal of Economics"
     abstract: "We develop a model that integrates modern theories of labor market flows with nominal wage rigidities to study the consequences of inflation on the labor market. Nominal wage stickiness incentivizes workers to engage in job-to-job transitions after an unexpected increase in the price level. Such dynamics lead to a rise in aggregate vacancies associating a seemingly tight labor market with lower real wages—two facts observed during the recent inflation period. The calibrated model jointly matches aggregate and cross-sectional trends in worker flows and wages during the 2021-2024 period. Using historical data, we show that prior periods of high inflation were also associated with increasing vacancies and upward shifts in the Beveridge curve. Our results suggest that policymakers and academics should be cautious about viewing the rise in the vacancy-to-unemployment rate as a sign of a tight labor market during inflationary periods without holistically looking at other labor market indicators."
 
@@ -13,7 +13,7 @@ working_papers:
     slug: "monetary-policy-without-commitment"
     authors: [halac, rogoff, yared]
     lastmod: "2025-09-16"
-    status: "Resubmitted"
+    status: "Revised and Resubmitted"
     journal: "American Economic Review"
     abstract: "This paper studies the implications of central bank credibility for long-run inflation and inflation dynamics. We introduce central bank lack of commitment into a standard non-linear New Keynesian economy with sticky-price monopolistically competitive firms. Inflation is driven by the interaction of lack of commitment and the economic environment. We show that long-run inflation increases following an unanticipated permanent increase in the labor wedge or decrease in the elasticity of substitution across varieties. In the transition, inflation overshoots and then gradually declines. Quantitatively, inflation overshooting is persistent, and the welfare loss from lack of commitment relative to inflation targeting is large."
 
