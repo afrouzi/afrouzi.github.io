@@ -1,12 +1,4 @@
 working_papers:
-  - title: "A Theory of How Workers Keep Up with Inflation"
-    file: "/abdh_inflation.pdf"
-    slug: "workers-keep-up-with-inflation"
-    authors: [blanco, drenik, hurst]
-    lastmod: "2025-09-05"
-    status: "Conditionally Accepted"
-    journal: "Quarterly Journal of Economics"
-    abstract: "We develop a model that integrates modern theories of labor market flows with nominal wage rigidities to study the consequences of inflation on the labor market. Nominal wage stickiness incentivizes workers to engage in job-to-job transitions after an unexpected increase in the price level. Such dynamics lead to a rise in aggregate vacancies associating a seemingly tight labor market with lower real wages—two facts observed during the recent inflation period. The calibrated model jointly matches aggregate and cross-sectional trends in worker flows and wages during the 2021-2024 period. Using historical data, we show that prior periods of high inflation were also associated with increasing vacancies and upward shifts in the Beveridge curve. Our results suggest that policymakers and academics should be cautious about viewing the rise in the vacancy-to-unemployment rate as a sign of a tight labor market during inflationary periods without holistically looking at other labor market indicators."
 
   - title: "Monetary Policy without Commitment"
     file: "/ahry_mpwc.pdf"
@@ -82,6 +74,20 @@ working_papers:
     abstract: "Across two waves of a new nationally representative survey, we document three novel facts about preferred long-run inflation rates among US consumers. (1) The median consumer prefers a 0% annual inflation rate, well below the Federal Reserve’s 2% target. (2) Inflation preferences correlate with demographic, socioeconomic and psychographic characteristics, as well as with economic reasoning. (3) Using a Randomized Control Trial (RCT), we investigate which economic narratives—mainstream economic theories about the effect of inflation—have an effect on elicited inflation preferences and find that narratives about the eroding effects of inflation on wages or cash savings can lead to lower elicited preferences. A model of inflation preferences under competing narratives explains how elicited preferences can vary under different economic conditions and over time."
 
 publications:
+  - title: "A Theory of How Workers Keep Up with Inflation"
+    slug: "workers-keep-up-with-inflation"
+    url: "/abdh_inflation.pdf"
+    authors: [blanco, drenik, hurst]
+    lastmod: "2025-11-12"
+    details: "Accepted"
+    journal: "Quarterly Journal of Economics"
+    extra_links:
+      - note: ""
+        links:
+          - label: "Working Paper Version"
+            url: "/abdh_inflation.pdf"
+    abstract: "We develop a model that integrates modern theories of labor market flows with nominal wage rigidities to study the consequences of inflation on the labor market. Nominal wage stickiness incentivizes workers to engage in job-to-job transitions after an unexpected increase in the price level. Such dynamics lead to a rise in aggregate vacancies associating a seemingly tight labor market with lower real wages—two facts observed during the recent inflation period. The calibrated model jointly matches aggregate and cross-sectional trends in worker flows and wages during the 2021-2024 period. Using historical data, we show that prior periods of high inflation were also associated with increasing vacancies and upward shifts in the Beveridge curve. Our results suggest that policymakers and academics should be cautious about viewing the rise in the vacancy-to-unemployment rate as a sign of a tight labor market during inflationary periods without holistically looking at other labor market indicators."
+
   - title: "Tell Me Something I Don't Already Know: Learning in Low and High-Inflation Settings"
     slug: "tell-me-something-i-dont-already-know"
     url: "https://doi.org/10.3982/ECTA22764"
