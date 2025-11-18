@@ -14,9 +14,9 @@ working_papers:
     slug: "concentration-market-power-misallocation"
     authors: [drenik, kim]
     lastmod: "2025-09-30"
-    status: "Revise and Resubmit"
+    status: "Revised and Resubmitted"
     journal: "Econometrica"
-    abstract: "This paper explores how different margins of market share are related to markups. Using merged microdata on producers and consumers, we document that a firm’s market share is mainly related to its number of customers, while its price-cost markup is associated only with its average sales per customer. We develop a new model that reflects this empirical evidence and the endogenous nature of customer acquisition. When calibrated, this model predicts a higher degree of markup dispersion, which suggests greater efficiency losses due to customer misallocation. An analysis of the efficient allocation in this model reveals that compared with the equilibrium, aggregate TFP and output are 10.8% and 14% higher, respectively."
+    abstract: "This paper explores how different margins of market share are related to markups. Using merged microdata on producers and consumers, we document that a firm’s market share is mainly related to its number of customers, while its price-cost markup is associated only with its average sales per customer. We develop a new model that reflects this empirical evidence and the endogenous nature of customer acquisition. When calibrated, this model predicts a higher degree of markup dispersion, which suggests greater efficiency losses due to customer misallocation. An analysis of the efficient allocation in this model reveals that compared with the equilibrium, aggregate TFP and output are 12.2% and 25.5% higher, respectively."
     extra_links:
     - note: ""
       links:
