@@ -9,6 +9,96 @@
   <link rel="apple-touch-icon" href="{{ site.baseurl }}{{ site.compass.logo }}"/>
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" />
 
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.compass.description }}{% endif %}"/>
+  <meta name="author" content="{{ site.compass.author }}">
+  <meta name="theme-color" content="#f6faef" id="meta-theme-color">
+
+  <script>
+  (function() {
+    var storageKey = 'afrouzi-theme';
+    var docEl = document.documentElement;
+    var metaTheme = document.getElementById('meta-theme-color');
+    var colorSchemeQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+    function readStoredPreference() {
+      try {
+        return localStorage.getItem(storageKey);
+      } catch (err) {
+        return null;
+      }
+    }
+
+    function storePreference(value) {
+      try {
+        localStorage.setItem(storageKey, value);
+      } catch (err) {
+        /* ignore */
+      }
+    }
+
+    function systemPreference() {
+      return colorSchemeQuery && colorSchemeQuery.matches ? 'dark' : 'light';
+    }
+
+    function preferredTheme() {
+      var stored = readStoredPreference();
+      if (stored === 'dark' || stored === 'light') {
+        return stored;
+      }
+      return systemPreference();
+    }
+
+    function emitThemeChange(theme) {
+      try {
+        window.dispatchEvent(new CustomEvent('afrouzi-theme-change', { detail: { theme: theme } }));
+      } catch (err) {
+        /* ignore */
+      }
+    }
+
+    function applyTheme(theme) {
+      docEl.setAttribute('data-theme', theme);
+      docEl.style.colorScheme = theme === 'dark' ? 'dark' : 'light';
+      if (metaTheme) {
+        metaTheme.setAttribute('content', theme === 'dark' ? '#030712' : '#f6faef');
+      }
+      emitThemeChange(theme);
+    }
+
+    if (readStoredPreference() === null) {
+      storePreference('system');
+    }
+
+    var startingTheme = preferredTheme();
+    applyTheme(startingTheme);
+
+    window.__setPreferredTheme = function(theme) {
+      if (theme !== 'dark' && theme !== 'light') return;
+      var system = systemPreference();
+      if (theme === system) {
+        storePreference('system');
+      } else {
+        storePreference(theme);
+      }
+      applyTheme(theme);
+    };
+
+    if (colorSchemeQuery && typeof colorSchemeQuery.addEventListener === 'function') {
+      colorSchemeQuery.addEventListener('change', function(event) {
+        var stored = readStoredPreference();
+        if (stored === 'dark' || stored === 'light') {
+          return; // respect explicit manual override until user resets
+        }
+        var nextTheme = event.matches ? 'dark' : 'light';
+        storePreference('system');
+        applyTheme(nextTheme);
+      });
+    }
+  })();
+  </script>
+
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/normalize.css?v={{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css?v={{ site.time | date: '%s' }}">
   <script src="https://kit.fontawesome.com/9800a0f763.js" crossorigin="anonymous"></script>
@@ -16,11 +106,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.compass.description }}{% endif %}"/>
-  <meta name="author" content="{{ site.compass.author }}">
 
   <!-- Open Graph tags -->
   <meta property="og:type" content="website"/>
@@ -73,8 +158,6 @@
   {% if site.compass.include_analytics %}
   {% include analytics.html %}
   {% endif %}
-
-  <meta name="theme-color" content="#f6faef">
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {

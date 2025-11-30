@@ -296,6 +296,32 @@ See https://github.com/adobe-type-tools/cmap-resources
 
                 <div id="editorModeSeparator" class="verticalToolbarSeparator"></div>
 
+                <div id="invertModeControl" class="toolbarHorizontalGroup" role="group" aria-label="Toggle inverted colors">
+                  <button id="invertToggle" class="invert-toggle" type="button" aria-pressed="false">
+                    <span class="invert-toggle-icon invert-toggle-icon--sun" aria-hidden="true">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <line x1="12" y1="2" x2="12" y2="4"></line>
+                        <line x1="12" y1="20" x2="12" y2="22"></line>
+                        <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+                        <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+                        <line x1="2" y1="12" x2="4" y2="12"></line>
+                        <line x1="20" y1="12" x2="22" y2="12"></line>
+                        <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+                        <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+                      </svg>
+                    </span>
+                    <span class="invert-toggle-track" aria-hidden="true">
+                      <span class="invert-toggle-thumb"></span>
+                    </span>
+                    <span class="invert-toggle-icon invert-toggle-icon--moon" aria-hidden="true">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+
                 <div class="toolbarHorizontalGroup hiddenMediumView">
                   <button id="printButton" class="toolbarButton" type="button" tabindex="0" data-l10n-id="pdfjs-print-button">
                     <span data-l10n-id="pdfjs-print-button-label"></span>
@@ -785,6 +811,47 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     </div> <!-- outerContainer -->
     <div id="printContainer"></div>
+  <script>
+  (function(){
+    const toggle = document.getElementById('invertToggle');
+    const viewer = document.getElementById('viewerContainer');
+    if (!toggle || !viewer) {
+      return;
+    }
+    const STORAGE_KEY = 'pdfjs-invert-mode';
+
+    function isActive(){
+      return viewer.classList.contains('pdf-invert-active');
+    }
+
+    function apply(state, opts){
+      const enable = Boolean(state);
+      viewer.classList.toggle('pdf-invert-active', enable);
+      viewer.style.setProperty('--pdf-invert-filter', enable ? 'invert(0.9) hue-rotate(180deg)' : 'invert(0)');
+      toggle.classList.toggle('invert-toggle--dark', enable);
+      toggle.setAttribute('aria-pressed', String(enable));
+      if (!opts || !opts.skipStore){
+        try {
+          localStorage.setItem(STORAGE_KEY, enable ? 'dark' : 'light');
+        } catch (err) {
+          /* ignore */
+        }
+      }
+    }
+
+    let saved = null;
+    try {
+      saved = localStorage.getItem(STORAGE_KEY);
+    } catch (err) {
+      saved = null;
+    }
+    apply(saved === 'dark', { skipStore: true });
+
+    toggle.addEventListener('click', function(){
+      apply(!isActive());
+    });
+  })();
+  </script>
   <script>
   // Lightweight pinch-to-zoom handler for mobile: maps two-finger pinch to PDF scale
   (function(){

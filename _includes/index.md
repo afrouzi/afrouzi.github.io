@@ -10,10 +10,19 @@
             {% unless forloop.last %}<span class="ribbon-sep">|</span>{% endunless %}
         {% endfor %}
     </div>
-    <div class="ribbon-search">
-        <div class="search-container">
-            <input type="text" id="paper-search" placeholder="Search papers..." aria-label="Search papers" inputmode="search" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false">
-            <button id="clear-search" class="clear-btn" aria-label="Clear search" role="button" type="button" style="display: none;">×</button>
+    <div class="ribbon-utilities">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon theme-toggle-icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+            <span class="theme-toggle-track" aria-hidden="true">
+                <span class="theme-toggle-thumb"></span>
+            </span>
+            <span class="theme-toggle-icon theme-toggle-icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+        </button>
+        <div class="ribbon-search">
+            <div class="search-container">
+                <input type="text" id="paper-search" placeholder="Search papers..." aria-label="Search papers" inputmode="search" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false">
+                <button id="clear-search" class="clear-btn" aria-label="Clear search" role="button" type="button" style="display: none;">×</button>
+            </div>
         </div>
     </div>
 </div>
