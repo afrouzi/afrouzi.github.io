@@ -1,36 +1,37 @@
 /* Minimal, modern tweaks to make key controls pop */
 :root{
-  --btn-bg: #1a73e8;
-  --btn-bg-hover: #1557b0;
-  --btn-shadow: 0 4px 10px rgba(26,115,232,.35);
-  --badge-bg: #0b57d0;
+	--btn-bg: #1a73e8;
+	--btn-bg-hover: #1557b0;
+	--btn-shadow: 0 4px 10px rgba(26,115,232,.35);
+	--badge-bg: #0b57d0;
+	--pdf-invert-filter: invert(0);
 }
 
 /* Soften the toolbar background and add subtle blur */
 #toolbarContainer{
-  background: rgba(255,255,255,.82);
-  backdrop-filter: saturate(1.2) blur(6px);
-  -webkit-backdrop-filter: saturate(1.2) blur(6px);
-  box-shadow: 0 1px 0 rgba(0,0,0,.06);
+	background: rgba(255,255,255,.82);
+	backdrop-filter: saturate(1.2) blur(6px);
+	-webkit-backdrop-filter: saturate(1.2) blur(6px);
+	box-shadow: 0 1px 0 rgba(0,0,0,.06);
 }
 
 /* Make the primary actions (download/print) stand out */
 #downloadButton, #printButton{
-  position: relative;
-  background: var(--btn-bg) !important;
-  color: #fff !important;
-  border-radius: 10px;
-  box-shadow: var(--btn-shadow);
-  transition: transform .08s ease, box-shadow .2s ease, background .2s ease;
+	position: relative;
+	background: var(--btn-bg) !important;
+	color: #fff !important;
+	border-radius: 10px;
+	box-shadow: var(--btn-shadow);
+	transition: transform .08s ease, box-shadow .2s ease, background .2s ease;
 }
 #downloadButton:hover, #printButton:hover{
-  background: var(--btn-bg-hover) !important;
-  transform: translateY(-1px);
-  box-shadow: 0 8px 16px rgba(26,115,232,.38);
+	background: var(--btn-bg-hover) !important;
+	transform: translateY(-1px);
+	box-shadow: 0 8px 16px rgba(26,115,232,.38);
 }
 #downloadButton:active, #printButton:active{
-  transform: translateY(0);
-  box-shadow: var(--btn-shadow);
+	transform: translateY(0);
+	box-shadow: var(--btn-shadow);
 }
 
 /* Make the download icon and label more legible */
@@ -38,7 +39,7 @@
 
 /* Elevate the secondary toolbar toggle to be more discoverable */
 #secondaryToolbarToggleButton{
-  border-radius: 10px;
+	border-radius: 10px;
 }
 #secondaryToolbarToggleButton:hover{ box-shadow: 0 4px 10px rgba(0,0,0,.08); }
 
@@ -47,8 +48,8 @@
 
 /* Find bar tweaks */
 #findbar{
-  border-radius: 12px;
-  box-shadow: 0 10px 24px rgba(0,0,0,.12);
+	border-radius: 12px;
+	box-shadow: 0 10px 24px rgba(0,0,0,.12);
 }
 #findInput{ border-radius: 8px; }
 
@@ -58,50 +59,126 @@
 
 /* Zoom controls grouped with soft pill */
 #toolbarViewerMiddle .toolbarHorizontalGroup{
-  background: rgba(0,0,0,.04);
-  border-radius: 999px;
-  padding: 2px 6px;
+	background: rgba(0,0,0,.04);
+	border-radius: 999px;
+	padding: 2px 6px;
 }
 #zoomInButton, #zoomOutButton{ border-radius: 999px; }
 
 /* Small badge on Download to draw attention */
 #downloadButton::after{
-  content: "Save";
-  position: absolute;
-  top: -1px; right: -15px;
-  background: var(--badge-bg);
-  color:#fff; font-size: 10px; font-weight: 700;
-  padding: 2px 6px; border-radius: 999px;
-  box-shadow: 0 2px 6px rgba(11,87,208,.35);
+	content: "Save";
+	position: absolute;
+	top: -1px; right: -15px;
+	background: var(--badge-bg);
+	color:#fff; font-size: 10px; font-weight: 700;
+	padding: 2px 6px; border-radius: 999px;
+	box-shadow: 0 2px 6px rgba(11,87,208,.35);
+}
+
+/* Invert toggle control */
+#invertModeControl{
+	align-items: center;
+	gap: 0.35em;
+	padding: 0.1em 0.6em;
+	border-radius: 999px;
+	background: rgba(0,0,0,0.04);
+}
+.invert-toggle{
+	border: none;
+	background: transparent;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35em;
+	cursor: pointer;
+	padding: 0;
+}
+.invert-toggle:focus-visible{
+	outline: 2px solid rgba(26,115,232,0.6);
+	outline-offset: 4px;
+}
+.invert-toggle-icon{
+	width: 1.2em;
+	height: 1.2em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #475569;
+	transition: color 0.2s ease;
+}
+.invert-toggle-icon--sun{ color: #f59e0b; }
+.invert-toggle-icon--moon{ color: #94a3b8; }
+.invert-toggle-track{
+	position: relative;
+	width: 2.9em;
+	height: 1.2em;
+	border-radius: 999px;
+	background: linear-gradient(120deg, rgba(15,23,42,0.12), rgba(15,23,42,0.05));
+	box-shadow: inset 0 0 0 1px rgba(15,23,42,0.08);
+	overflow: hidden;
+}
+.invert-toggle-thumb{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 1.15em;
+	height: 1.15em;
+	border-radius: 50%;
+	background: #7f0a20;
+	box-shadow: 0 2px 8px rgba(127,10,32,0.25);
+	transform: translate3d(0, -50%, 0);
+	transition: transform 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+.invert-toggle--dark .invert-toggle-thumb{
+	transform: translate3d(1.75em, -50%, 0);
+	background: #fbbf24;
+	box-shadow: 0 6px 16px rgba(0,0,0,0.32);
+}
+
+#viewerContainer{
+	--pdf-invert-filter: invert(0);
+	transition: background 0.2s ease;
+}
+#viewerContainer.pdf-invert-active{
+	background: #050608;
+}
+#viewerContainer .page canvas,
+#viewerContainer .textLayer,
+#viewerContainer .annotationLayer,
+#viewerContainer .xfaLayer{
+	filter: var(--pdf-invert-filter, invert(0));
 }
 
 /* Respect dark mode */
 @media (prefers-color-scheme: dark){
-  #toolbarContainer{ background: rgba(22,22,22,.72); box-shadow: 0 1px 0 rgba(255,255,255,.06); }
-  #zoomInButton, #zoomOutButton{ background: rgba(255,255,255,.06); }
+	#toolbarContainer{ background: rgba(22,22,22,.72); box-shadow: 0 1px 0 rgba(255,255,255,.06); }
+	#zoomInButton, #zoomOutButton{ background: rgba(255,255,255,.06); }
+	#invertModeControl{ background: rgba(255,255,255,0.08); }
+	.invert-toggle-icon--moon{ color: #cbd5f5; }
 }
 
 /* Mobile: neutralize custom overrides to prevent layout distortion */
 @media (max-width: 640px){
-  #toolbarContainer{
-    background: initial !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    box-shadow: none !important;
-  }
-  #toolbarViewerMiddle .toolbarHorizontalGroup{
-    background: transparent !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
-  }
-  #downloadButton, #printButton{
-    background: initial !important;
-    color: inherit !important;
-    border-radius: 4px !important;
-    box-shadow: none !important;
-    transform: none !important;
-  }
-  #downloadButton::after{ display: none !important; }
-  .toolbarButton{ height: auto; min-width: auto; }
-  #findbar{ box-shadow: none !important; border-radius: 8px !important; }
+	#toolbarContainer{
+		background: initial !important;
+		backdrop-filter: none !important;
+		-webkit-backdrop-filter: none !important;
+		box-shadow: none !important;
+	}
+	#toolbarViewerMiddle .toolbarHorizontalGroup{
+		background: transparent !important;
+		border-radius: 0 !important;
+		padding: 0 !important;
+	}
+	#downloadButton, #printButton{
+		background: initial !important;
+		color: inherit !important;
+		border-radius: 4px !important;
+		box-shadow: none !important;
+		transform: none !important;
+	}
+	#downloadButton::after{ display: none !important; }
+	.toolbarButton{ height: auto; min-width: auto; }
+	#findbar{ box-shadow: none !important; border-radius: 8px !important; }
+	#invertModeControl{ display: none; }
 }

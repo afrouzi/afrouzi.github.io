@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
   <head>
   
   <meta charset="utf-8">
@@ -9,18 +9,103 @@
   <link rel="apple-touch-icon" href="/images/afrouzi_2.jpg"/>
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://afrouzi.com/favicon.ico" />
 
-  <link rel="stylesheet" href="/assets/normalize.css?v=1763434537">
-  <link rel="stylesheet" href="/assets/main.css?v=1763434537">
+  <link rel="canonical" href="https://afrouzi.com/">
+
+  <meta name="description" content="Hassan Afrouzi is an Associate Professor of Economics (without tenure) at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition."/>
+  <meta name="author" content="Hassan Afrouzi">
+  <meta name="theme-color" content="#f6faef" id="meta-theme-color">
+
+  <script>
+  (function() {
+    var storageKey = 'afrouzi-theme';
+    var docEl = document.documentElement;
+    var metaTheme = document.getElementById('meta-theme-color');
+    var colorSchemeQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+    function readStoredPreference() {
+      try {
+        return localStorage.getItem(storageKey);
+      } catch (err) {
+        return null;
+      }
+    }
+
+    function storePreference(value) {
+      try {
+        localStorage.setItem(storageKey, value);
+      } catch (err) {
+        /* ignore */
+      }
+    }
+
+    function systemPreference() {
+      return colorSchemeQuery && colorSchemeQuery.matches ? 'dark' : 'light';
+    }
+
+    function preferredTheme() {
+      var stored = readStoredPreference();
+      if (stored === 'dark' || stored === 'light') {
+        return stored;
+      }
+      return systemPreference();
+    }
+
+    function emitThemeChange(theme) {
+      try {
+        window.dispatchEvent(new CustomEvent('afrouzi-theme-change', { detail: { theme: theme } }));
+      } catch (err) {
+        /* ignore */
+      }
+    }
+
+    function applyTheme(theme) {
+      docEl.setAttribute('data-theme', theme);
+      docEl.style.colorScheme = theme === 'dark' ? 'dark' : 'light';
+      if (metaTheme) {
+        metaTheme.setAttribute('content', theme === 'dark' ? '#030712' : '#f6faef');
+      }
+      emitThemeChange(theme);
+    }
+
+    if (readStoredPreference() === null) {
+      storePreference('system');
+    }
+
+    var startingTheme = preferredTheme();
+    applyTheme(startingTheme);
+
+    window.__setPreferredTheme = function(theme) {
+      if (theme !== 'dark' && theme !== 'light') return;
+      var system = systemPreference();
+      if (theme === system) {
+        storePreference('system');
+      } else {
+        storePreference(theme);
+      }
+      applyTheme(theme);
+    };
+
+    if (colorSchemeQuery && typeof colorSchemeQuery.addEventListener === 'function') {
+      colorSchemeQuery.addEventListener('change', function(event) {
+        var stored = readStoredPreference();
+        if (stored === 'dark' || stored === 'light') {
+          return; // respect explicit manual override until user resets
+        }
+        var nextTheme = event.matches ? 'dark' : 'light';
+        storePreference('system');
+        applyTheme(nextTheme);
+      });
+    }
+  })();
+  </script>
+
+  <link rel="stylesheet" href="/assets/normalize.css?v=1764537227">
+  <link rel="stylesheet" href="/assets/main.css?v=1764537227">
   <script src="https://kit.fontawesome.com/9800a0f763.js" crossorigin="anonymous"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-
-  <link rel="canonical" href="https://afrouzi.com/">
-
-  <meta name="description" content="Hassan Afrouzi is an Associate Professor of Economics (without tenure) at Columbia University and a Faculty Research Fellow at the National Bureau of Economic Research (NBER). His research focuses on the macroeconomic implications of imperfect information and imperfect competition."/>
-  <meta name="author" content="Hassan Afrouzi">
 
   <!-- Open Graph tags -->
   <meta property="og:type" content="website"/>
@@ -70,8 +155,6 @@
 	gtag('config', 'G-KSY67G8M6K');
 	</script>
   
-
-  <meta name="theme-color" content="#f6faef">
 
   <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -149,10 +232,19 @@
             
         
     </div>
-    <div class="ribbon-search">
-        <div class="search-container">
-            <input type="text" id="paper-search" placeholder="Search papers..." aria-label="Search papers" inputmode="search" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" />
-            <button id="clear-search" class="clear-btn" aria-label="Clear search" role="button" type="button" style="display: none;">×</button>
+    <div class="ribbon-utilities">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+            <span class="theme-toggle-icon theme-toggle-icon--sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
+            <span class="theme-toggle-track" aria-hidden="true">
+                <span class="theme-toggle-thumb"></span>
+            </span>
+            <span class="theme-toggle-icon theme-toggle-icon--moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+        </button>
+        <div class="ribbon-search">
+            <div class="search-container">
+                <input type="text" id="paper-search" placeholder="Search papers..." aria-label="Search papers" inputmode="search" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" />
+                <button id="clear-search" class="clear-btn" aria-label="Clear search" role="button" type="button" style="display: none;">×</button>
+            </div>
         </div>
     </div>
 </div>
@@ -551,6 +643,7 @@
 <script src="/js/search.js"></script>
 <script src="/js/sticky-ribbon-spacer.js"></script>
 <script src="/js/sticky-ribbon-scrollspy.js"></script>
+<script src="/js/theme-toggle.js"></script>
 
   </body>
 </html>
